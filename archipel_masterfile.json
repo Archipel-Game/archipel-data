@@ -114,8 +114,7 @@
 
 
 
-  "sensationDetails": [
-[
+  "sensationData": [
   {
     "sensationID": "blue_hi_hibernating",
     "title": "Hibernating",
@@ -2814,7 +2813,7 @@
     "warning": "N/A"
   },
   {
-    "sensationID": "yellow_med_lockedIn",
+    "sensationID": "yellow_med_lockedin",
     "title": "Locked-In",
     "emotion": "Happy",
     "intensityID": "yellow_intensity_medium",
