@@ -38,7 +38,7 @@
   { "x": 1, "y": -5, "label": "Slowing", "sensationID": "blue_hi_slowing", "intensityID": "blue_intensity_high" },
   { "x": 2, "y": -5, "label": "Grounded", "sensationID": "blue_hi_grounded", "intensityID": "blue_intensity_high" },
   { "x": 3, "y": -5, "label": "Quiet", "sensationID": "blue_hi_quiet", "intensityID": "green_intensity_high" },
-  blue "x": 4, "y": -5, "label": "Warm", "sensationID": "blue_hi_warm", "intensityID": "blue_intensity_high" },
+  { "x": 4, "y": -5, "label": "Warm", "sensationID": "blue_hi_warm", "intensityID": "blue_intensity_high" },
   { "x": 5, "y": -5, "label": "Still", "sensationID": "blue_hi_still", "intensityID": "blue_intensity_high" },
   { "x": 1, "y": -4, "label": "Loose", "sensationID": "blue_hi_loose", "intensityID": "blue_intensity_high" },
   { "x": 2, "y": -4, "label": "Steady", "sensationID": "blue_hi_steady", "intensityID": "blue_intensity_high" },
@@ -130,7 +130,7 @@
       "goal": "You feel heavy and trapped in an internal void. Goal: Pull OUT.",
       "body": "Sound Waves. Play activating music and let the vibrations fill the room.",
       "mind": "External Focus. Name 3 objects in the room and whisper their shapes.",
-      "social": "Digital Ping. Text a safe person a single emoji (🐻 or 🧊) to acknowledge the outside world."
+      "social": "Digital Ping. Text a safe person a single emoji to acknowledge the outside world."
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
@@ -159,7 +159,7 @@
       "goal": "You feel heavy, numb, and trapped inside an internal void. Goal: Pull OUT.",
       "body": "Auditory Spark. Put on an activating piece of music and let the sound fill the room.",
       "mind": "Shape Naming. Name 3 objects in the room and whisper what shape they are.",
-      "social": "Text a safe person a single emoji (🐻, 🧊) just to ping the outside world."
+      "social": "Text a safe person a single emoji just to ping the outside world."
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
@@ -797,7 +797,7 @@
       "goal": "You feel 'slow' and heavy internally. Goal: Rhythmic Pulse.",
       "body": "Tap your fingers on your lap to the rhythm of a song you like.",
       "mind": "Count your steps if you move, or count your breaths if you stay still.",
-      "social": "Text a friend a 'slow' animal emoji (🐢, 🦥) to acknowledge your current pace."
+      "social": "Text a friend a 'slow' animal emoji to acknowledge your current pace."
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
@@ -1145,7 +1145,7 @@
       "goal": "You feel like you're 'fuming' internally. Goal: Cool the Core.",
       "body": "The Pucker Breath. Breathe in through your nose and exhale through very small, pursed lips as if blowing through a straw. Make the exhale twice as long as the inhale.",
       "mind": "Label the Spark. Identify one specific thing 'fuming' you. Say: '[X] is the spark, but I am the one holding the match.'",
-      "social": "Text a friend a 'fire extinguisher' emoji 🧯. A quick signal that you're 'hot' and need space."
+      "social": "Text a friend a 'fire extinguisher' emoji. A quick signal that you're 'hot' and need space."
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
@@ -1232,7 +1232,7 @@
       "goal": "The 'hum' feels anxious internally. Goal: Rhythmic Grounding.",
       "body": "The Butterfly Hug. Cross your arms over your chest and slowly tap your shoulders, alternating left and right, like a slow metronome.",
       "mind": "The Internal Hum. Hum a song with a very steady, slow beat. Feel the vibration in your throat.",
-      "social": "Text a friend a 'bee' emoji 🐝. A quick acknowledgement of your 'buzzing' energy."
+      "social": "Text a friend a 'bee' emoji. A quick acknowledgement of your 'buzzing' energy."
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
@@ -1406,7 +1406,7 @@
       "goal": "You feel 'sharp' and irritable inside. Goal: Smoothing the Flow.",
       "body": "The Hand-Slide. Use one hand to firmly and slowly stroke down the opposite arm, from shoulder to fingertips. Repeat 3 times.",
       "mind": "Label the Poke. Identify the one thing that started the prickliness. Say: 'That was the poke, this is my reaction.'",
-      "social": "Text a friend a 'hedgehog' emoji 🦔 to signal your current 'spiky' mood."
+      "social": "Text a friend a 'hedgehog' emoji to signal your current 'spiky' mood."
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
@@ -1435,7 +1435,7 @@
       "goal": "You feel an internal 'ick' or agitation. Goal: Physical Clearance.",
       "body": "The Hand Shake. Shake your hands vigorously as if trying to flick water off your fingertips for 15 seconds.",
       "mind": "Label the Boundary. Say silently: 'I don't like this, and that is a valid piece of information.'",
-      "social": "Text an emoji that represents your exit (🏃, 🚪) to a safe person to acknowledge your boundary."
+      "social": "Text an emoji that represents your exit to a safe person to acknowledge your boundary."
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
@@ -1551,7 +1551,7 @@
       "goal": "You feel the 'knot' internally. Goal: Direct Release.",
       "body": "The Shoulder Drop. Inhale and pull your shoulders to your ears, then exhale and let them 'drop' like weights.",
       "mind": "The 'Half-Smile'. Try to soften only the corners of your mouth. Notice if that changes the tension in your jaw.",
-      "social": "Text a 'sigh' emoji 💨 to someone who understands your current frustration."
+      "social": "Text a 'sigh' emoji to someone who understands your current frustration."
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
@@ -1841,7 +1841,7 @@
       "goal": "You feel soft and pliable internally. Goal: Fluid Awareness.",
       "body": "Gently roll your wrists or ankles in slow circles. Feel the ease of the movement.",
       "mind": "Imagine your body is made of water, flowing into whatever shape you are currently sitting in.",
-      "social": "Send a 'calm' or 'wave' emoji 🌊 to someone just to share the vibe."
+      "social": "Send a 'calm' or 'wave' emoji to someone just to share the vibe."
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
@@ -2247,7 +2247,7 @@
       "goal": "You feel an internal 'glide'. Goal: Micro-Flow.",
       "body": "Move your head in a slow, smooth figure-eight pattern. Feel the fluid motion of your neck.",
       "mind": "Imagine your day as a river. See yourself floating safely and easily toward your goals.",
-      "social": "Share a 'smooth' or 'wave' emoji 🌊 to signal your flexible state."
+      "social": "Share a 'smooth' or 'wave' emoji to signal your flexible state."
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
@@ -2334,7 +2334,7 @@
       "goal": "You feel 'charged' with internal ideas. Goal: Neural Channeling.",
       "body": "Rub your hands together fast until they are hot, then pull them apart and feel the 'static' between them.",
       "mind": "The 'Idea Dump'. Write down every single 'electric' thought you have for 2 minutes. Don't filter.",
-      "social": "Text a 'spark' emoji ⚡ to someone who shares your creative wavelength."
+      "social": "Text a 'spark' emoji to someone who shares your creative wavelength."
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
@@ -2914,7 +2914,7 @@
       "goal": "You feel a fun internal 'spring'. Goal: Inner Rhythm.",
       "body": "Gently bounce your knees or heels while sitting. Feel the rhythmic pulse of your energy.",
       "mind": "The 'Joy-Jump'. Imagine yourself doing something fun and notice the 'bounce' it gives your mood.",
-      "social": "Text a friend a 'bouncy' or funny emoji (🐰, 🦘) to share the playful vibe."
+      "social": "Text a friend a 'bouncy' or funny emoji to share the playful vibe."
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
@@ -3066,7 +3066,7 @@
       "goal": "The environment feels like it's closing in. Goal: Define the Edges.",
       "body": "Clench your fists as tight as you can for 3 seconds, then release. Feel the blood return to your fingers.",
       "mind": "Object Naming. Find three hard, unmoving objects in the room and whisper their names.",
-      "social": "Text a 'shield' emoji 🛡️ to a safe person to signal you are holding heavy weight."
+      "social": "Text a 'shield' emoji to a safe person to signal you are holding heavy weight."
     },
     "warning": "THE THAW WARNING: Leaving the Purple Zone can feel scary."
   },
@@ -3182,7 +3182,7 @@
       "goal": "The air in the room feels 'thin' or tight. Goal: External Volume.",
       "body": "Look at the furthest corner of the room. Acknowledge that there is a lot of space out there, even if you don't feel it yet.",
       "mind": "Count the number of open spaces in the room (doorways, window panes, gaps).",
-      "social": "Text a 'cloud' emoji ☁️ to a safe person to signal you need more 'air' or space."
+      "social": "Text a 'cloud' emoji to a safe person to signal you need more 'air' or space."
     },
     "warning": "THE THAW WARNING: Leaving the Purple Zone can feel scary."
   },
