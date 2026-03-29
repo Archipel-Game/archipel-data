@@ -91,7 +91,7 @@
   { "x": 4, "y": 1, "label": "Bouncy", "sensationID": "yellow_lo_bouncy", "intensityID": "yellow_intensity_low" },
   { "x": 5, "y": 1, "label": "Vibrant", "sensationID": "yellow_lo_vibrant", "intensityID": "yellow_intensity_low" },
   { "x": 1, "y": 2, "label": "Engaged", "sensationID": "yellow_med_engaged", "intensityID": "yellow_intensity_medium" },
-  { "x": 2, "y": 2, "label": "Locked-In", "sensationID": "yellow_med_lockedin", "intensityID": "yellow_intensity_medium" },
+  { "x": 2, "y": 2, "label": "Locked-In", "sensationID": "yellow_med_lockedIn", "intensityID": "yellow_intensity_medium" },
   { "x": 3, "y": 2, "label": "Glowing", "sensationID": "yellow_med_glowing", "intensityID": "yellow_intensity_medium" },
   { "x": 4, "y": 2, "label": "Elevated", "sensationID": "yellow_med_elevated", "intensityID": "yellow_intensity_medium" },
   { "x": 5, "y": 2, "label": "Tingling", "sensationID": "yellow_med_tingling", "intensityID": "yellow_intensity_medium" },
@@ -111,9 +111,6 @@
   { "x": 4, "y": 5, "label": "Electric", "sensationID": "yellow_hi_electric", "intensityID": "yellow_intensity_high" },
   { "x": 5, "y": 5, "label": "Soaring", "sensationID": "yellow_hi_soaring", "intensityID": "yellow_intensity_high" }
   ],
-
-
-
   "sensationData": [
   {
     "sensationID": "blue_hi_hibernating",
@@ -2813,7 +2810,7 @@
     "warning": "N/A"
   },
   {
-    "sensationID": "yellow_med_lockedin",
+    "sensationID": "yellow_med_lockedIn",
     "title": "Locked-In",
     "emotion": "Happy",
     "intensityID": "yellow_intensity_medium",
@@ -3306,7 +3303,6 @@
     "warning": "THE THAW WARNING: Leaving the Purple Zone can feel scary."
   }
   ],
-
   "intensityTheory": [
   {
     "intensityID": "purple_intensity_high",
