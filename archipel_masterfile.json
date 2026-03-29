@@ -896,7 +896,7 @@
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
   },
   {
-    "sensationID": "red_hi_overload",
+    "sensationID": "red_hi_overloaded",
     "title": "Overload",
     "emotion": "Stressed",
     "intensityID": "red_intensity_high",
@@ -3536,7 +3536,7 @@
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
   },
   {
-    "intensityID": "green_intensity_deep",
+    "intensityID": "green_intensity_high",
     "zoneName": "Deep-Intensity Green (Ventral Vagal Restoration)",
     "sensations": "Slowing, Grounded, Quiet, Warm, Still, Loose, Steady, Stable, Settled, Light",
     "emotions": "Sleepy, Complacent, Tranquil, Cozy, Serene, Mellow, Thoughtful, Peaceful, Comfortable, Carefree",
