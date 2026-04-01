@@ -121,7 +121,7 @@
     "noMatch": {
       "biologicalState": "We only get stuck if our state doesn't match our demands.",
       "goalMatch": "REGULATE (Brake, Ignite, or Discharge)",
-      "infoMatch": "The mismatch is acting as an active barrier. Shift your physiology using one of the Levers to change your state."
+      "infoMatch": "The mismatch is acting as an active barrier. Shift your physiology using one of the tools to change your state."
     }
   }
   ],
