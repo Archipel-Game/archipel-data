@@ -111,6 +111,20 @@
   { "x": 2, "y": -1, "label": "Fluid", "sensationID": "green_lo_fluid", "intensityID": "green_intensity_low" },
   { "x": 1, "y": -1, "label": "Secure", "sensationID": "green_lo_secure", "intensityID": "green_intensity_low" }
   ],
+    "matchData": [
+  {
+    "yesMatch": {
+      "biologicalState": "Your smoke detector is accurate. Your energy matches the demand.",
+      "goalMatch": "UTILIZE & STEER",
+      "infoMatch": "Your state matches the demand, simply use the energy."
+    },
+    "noMatch": {
+      "biologicalState": "We only get stuck if our state doesn't match our demands.",
+      "goalMatch": "REGULATE (Brake, Ignite, or Discharge)",
+      "infoMatch": "The mismatch is acting as an active barrier. Shift your physiology using one of the Levers to change your state."
+    }
+  }
+  ],
   "sensationData": [
   {
     "sensationID": "blue_hi_hibernating",
