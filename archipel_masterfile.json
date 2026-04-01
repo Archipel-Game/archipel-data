@@ -3306,7 +3306,7 @@
   "intensityTheory": [
   {
     "intensityID": "purple_intensity_high",
-    "zoneName": "The Hidden Zone (The Freeze / Trap)",
+    "zoneName": "Tired but Wired (The Freeze / The Trap)",
     "sensations": "Shaking, Gridlocked, Seized, Rigid, Constricted, Compressed, Locked, Static, Buried, Paralyzed",
     "emotions": "Terrified, Trapped, Fragmented, Invisible, Numb, Dissociated",
     "thinkingBrain": "OFFLINE",
@@ -3314,24 +3314,24 @@
       "energy": "-5 to +5 (Gas & Brake)",
       "safety": "-6 (Frightened)"
     },
-    "validation": "It makes sense that you feel locked and terrified. You cannot 'calm down' from a freeze, and you cannot 'think' your way out of it. Your system is doing exactly what it was designed to do to survive a worst-case scenario.",
-    "blueprint": "You have stepped into the ultimate biological trap. Your system perceives a threat so massive and inescapable that it has pressed the gas pedal (Red adrenaline) and the emergency brake (Blue shutdown) to the floor at the exact same time.",
-    "physicalSensation": "You are a deer in the headlights. Externally, you look completely still, stiff, or spaced out, but internally, your heart is pounding and your muscles are braced with high-voltage energy. It is the sensation of being 'tired but wired'.",
+    "validation": "It makes sense that you feel terrified. Your system is doing exactly what it was designed to do to survive a worst-case scenario.",
+    "blueprint": "You have stepped into the biological trap. Your system perceives an inescapable threat so that it has pressed the gas pedal (Red) and the emergency brake (Blue) at the exact same time.",
+    "physicalSensation": "Externally, you look completely still, or spaced out, but internally, your heart is pounding and your muscles are braced. It is the sensation of being 'tired but wired'.",
     "metaphor": "An engine revving at 7,000 RPM while the wheels are locked in concrete, or a high-pressure pipe with all the valves welded shut.",
-    "theImpulse": "To completely freeze, stop breathing, disconnect from your body, or submit.",
-    "superpower": "The ultimate pain-killer. Your nervous system brilliantly immobilized you so you would not draw the attention of a predator, while simultaneously flooding you with endorphins so you won't feel the pain of an inescapable attack.",
+    "theImpulse": "To completely freeze, stop breathing, or disconnect from your body.",
+    "superpower": "The ultimate pain-killer. Your nervous system immobilized you so you would not draw the attention of a predator, while simultaneously flooding you with endorphins so you won't feel the pain of an inescapable attack.",
     "generalGoal": "Sensory ignition. Micro-sparks only. Discharge the Lock. Do not try to relax or use logic. You must mechanically burn off the chemical lock to release the brake.",
     "pathA": {
       "title": "Path A: Stuck Inside",
       "goal": "Your body is locked in high muscular tension, fighting its own internal adrenaline dump. Goal: Physical Discharge.",
-      "body": "The Shake. Stand up (or stay seated) and violently shake your hands, arms, legs, and torso for 60 seconds. (Animals do this naturally after a threat passes).",
+      "body": "The Shake. Stand up (or stay seated) and vigorously shake your hands, arms, legs, and torso for 60 seconds. (Animals do this naturally after a threat passes).",
       "mind": "The Exhale Hum. Take a deep breath and make a low, deep, vibrating 'Vooooo' or humming sound until you are completely out of air.",
       "social": "Silent Connection. Look at a photo of a trusted person or pet. Acknowledge their existence without needing anything from you right now."
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
       "goal": "You are the 'deer in headlights,' terrified and frozen by an external threat. Goal: Auditory Orienting.",
-      "body": "Cut the Visual. Close your eyes completely or cover them with your hands.",
+      "body": "Cut the Visual. Close your eyes or cover them with your hands.",
       "mind": "Sound Anchoring. With your eyes closed, focus 100% of your attention on finding one safe, rhythmic sound in the room.",
       "social": "The Lighthouse. If you are with someone in the Purple Zone: Do not demand eye contact. Sit quietly beside them."
     },
