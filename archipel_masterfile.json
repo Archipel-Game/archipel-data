@@ -1986,16 +1986,58 @@
     "pathA": {
       "title": "Path A: Stuck Inside",
       "goal": "You are consumed by internal heat and a pounding heart. Goal: Cool the Engine.",
-      "body": "Physiological Sigh. Take two sharp inhales through the nose, followed by one long, slow exhale through the mouth. Repeat 5 times.",
-      "mind": "Panoramic Vision. Stop fixating on one point. Look up and soften your gaze to take in the widest possible view of the room.",
-      "social": "The Boundary Declaration. If safe, say out loud: 'I am running too hot to talk. I am stepping away for 5 minutes to reset.'"
+      "body": {
+        "text": "The Physiological Sigh. Take two sharp inhales through the nose, followed by one long, slow exhale through the mouth. Repeat 5 times.",
+        "pillar": ["regulation"],
+        "type": "instant",
+        "channel": "interoceptive-respiratory",
+        "effort": 1,
+        "physioTip": "Best for: Rapidly offloading CO2 and activating the vagus nerve to mechanically lower the heart rate in seconds."
+      },
+      "mind": {
+        "text": "Panoramic Vision. Stop fixating on one point. Look up and soften your gaze to take in the widest possible view of the room.",
+        "pillar": ["mindset", "environment"],
+        "type": "instant",
+        "channel": "visual-vestibular",
+        "effort": 1,
+        "physioTip": "Best for: Shifting from 'threat-tunnel vision' to peripheral vision, which sends a direct hardware signal to the brainstem to down-regulate."
+      },
+      "social": {
+        "text": "The Boundary Declaration. If safe, say out loud: 'I am running too hot to talk. I am stepping away for 5 minutes to reset.'",
+        "pillar": ["connection"],
+        "type": "instant",
+        "channel": "relational-auditory",
+        "effort": 1,
+        "physioTip": "Best for: Exercising social agency to prevent a relationship 'collision' while in a high-arousal state."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
       "goal": "You are hyper-fixated on the trigger. Goal: Break the Lock.",
-      "body": "Wall Push. Place both hands flat against a wall and push with 100% of your strength for 10 seconds. Feel the resistance in your muscles.",
-      "mind": "Neutral Scanning. Find and name 5 blue objects in the room. Focus only on the color, not the objects themselves.",
-      "social": "The Vent Valve. Ask a safe person: 'I have massive energy. Just listen to me vent for 60 seconds without trying to fix it.'"
+      "body": {
+        "text": "The Isometric Wall Push. Place both hands flat against a wall and push with 100% of your strength for 10 seconds. Release and breathe.",
+        "pillar": ["movement"],
+        "type": "instant",
+        "channel": "proprioceptive",
+        "effort": 3,
+        "physioTip": "Best for: Discharging aggressive motor energy into a neutral, immovable object to simulate a 'fight' completion without destruction."
+      },
+      "mind": {
+        "text": "Neutral Scanning. Find and name 5 blue objects in the room. Focus only on the color, not the objects themselves.",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "visual",
+        "effort": 1,
+        "physioTip": "Best for: Forcing the prefrontal cortex back online by engaging in a cold, analytical categorization task."
+      },
+      "social": {
+        "text": "The Energy Vent. Ask a safe person: 'I have massive energy right now. Can I just shake it out or vent while you stay near?'",
+        "pillar": ["connection"],
+        "type": "instant",
+        "channel": "relational",
+        "effort": 1,
+        "physioTip": "Best for: Utilizing co-regulation to anchor the explosive energy without needing to 'fix' the trigger immediately."
+      }
     },
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
   },
@@ -2015,16 +2057,58 @@
     "pathA": {
       "title": "Path A: Stuck Inside",
       "goal": "You are drowning in your own internal sensations. Goal: Grounding the Pulse.",
-      "body": "Stomp your feet. Feel the impact of your soles hitting the ground. Rhythmic, steady, solid.",
-      "mind": "The 5-4-3-2-1 Game. Name 5 things you see, 4 you can touch, 3 you hear, 2 you smell, 1 you taste.",
-      "social": "Hand-to-Chest. Place one hand on your forehead and one on your chest. Feel the 'container' of your own touch."
+      "body": {
+        "text": "The Rhythmic Stomp. Stomp your feet firmly on the ground. Feel the impact travel through your bones. Left, Right, Left, Right.",
+        "pillar": ["movement", "environment"],
+        "type": "instant",
+        "channel": "proprioceptive",
+        "effort": 2,
+        "physioTip": "Best for: Using high-intensity bone conduction to provide an undeniable physical anchor when internal sensations feel 'borderless'."
+      },
+      "mind": {
+        "text": "5-4-3-2-1 Sensory Scan. Name 5 things you see, 4 you can touch, 3 you hear, 2 you smell, 1 you taste.",
+        "pillar": ["mindset", "environment"],
+        "type": "instant",
+        "channel": "visual-tactile-auditory",
+        "effort": 1,
+        "physioTip": "Best for: Forcing the brain to cycle through different sensory channels, which disrupts the 'panic loop' and re-engages the prefrontal cortex."
+      },
+      "social": {
+        "text": "The Bi-Polar Containment. Place one hand firmly on your forehead and the other on your chest. Feel the 'container' of your own touch.",
+        "pillar": ["connection", "regulation"],
+        "type": "instant",
+        "channel": "tactile-proprioceptive",
+        "effort": 1,
+        "physioTip": "Best for: Providing a physical sense of 'closure' and boundary to the upper torso and head during high-arousal flooding."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
       "goal": "The world feels loud, chaotic, and 'too much'. Goal: Narrowing the Focus.",
-      "body": "Cup your hands around your eyes like goggles to limit your peripheral vision. Focus only on what is right in front of you.",
-      "mind": "Focus on a single, repetitive sound in the room—a clock ticking or a fan humming.",
-      "social": "Mirroring. Look at a safe person and try to match their slow, steady breathing pattern."
+      "body": {
+        "text": "Tunnel Vision Control. Cup your hands around your eyes like goggles to block peripheral vision. Focus only on one small spot in front of you.",
+        "pillar": ["environment"],
+        "type": "instant",
+        "channel": "visual",
+        "effort": 1,
+        "physioTip": "Best for: Reducing the 'visual tax' on the brain by manually limiting incoming data, allowing the system to process one thing at a time."
+      },
+      "mind": {
+        "text": "The Sound Anchor. Focus on a single, repetitive sound in the room—a clock ticking, a fan humming, or your own breath.",
+        "pillar": ["environment", "mindset"],
+        "type": "instant",
+        "channel": "auditory",
+        "effort": 1,
+        "physioTip": "Best for: Using a rhythmic, predictable auditory signal to synchronize a racing, chaotic internal tempo."
+      },
+      "social": {
+        "text": "Co-Regulated Mirroring. Look at a safe person and try to match their slow, steady breathing pattern.",
+        "pillar": ["connection"],
+        "type": "instant",
+        "channel": "relational-visual",
+        "effort": 1,
+        "physioTip": "Best for: Utilizing 'mirror neurons' to outsource your regulation to a stable external nervous system."
+      }
     },
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
   },
@@ -2044,16 +2128,58 @@
     "pathA": {
       "title": "Path A: Stuck Inside",
       "goal": "Your mind is a racing loop of 'must-dos'. Goal: Externalizing the List.",
-      "body": "Stand up and shake your arms and legs vigorously for 30 seconds. Imagine shaking the 'stress' off your skin.",
-      "mind": "Brain Dump. Write down the 3 most urgent things on a piece of paper, then put the pen down.",
-      "social": "Declare the Limit. Tell a safe person: 'I am at my limit. I need 10 minutes of silence to process.'"
+      "body": {
+        "text": "The Tremor Discharge. Stand up and shake your arms and legs vigorously for 30 seconds. Imagine shaking the 'static' off your skin.",
+        "pillar": ["movement"],
+        "type": "instant",
+        "channel": "proprioceptive-vestibular",
+        "effort": 2,
+        "physioTip": "Best for: Using neurogenic-style shaking to discharge excessive sympathetic charge and reset muscle spindles."
+      },
+      "mind": {
+        "text": "The Top 3 Triage. Write down exactly 3 urgent tasks on a scrap of paper, then physically put the pen in another room.",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "visual",
+        "effort": 1,
+        "physioTip": "Best for: Forcing the brain to prioritize and stop the 'infinite loop' of cognitive processing."
+      },
+      "social": {
+        "text": "Declare the Limit. Tell a safe person: 'I am at my limit. I need 10 minutes of silence to process.'",
+        "pillar": ["connection"],
+        "type": "instant",
+        "channel": "relational-auditory",
+        "effort": 1,
+        "physioTip": "Best for: Using verbal boundary setting to reduce the 'social tax' while in high-arousal overload."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
       "goal": "The environment feels like a checklist of demands. Goal: Creating a Sanctuary.",
-      "body": "Put on noise-canceling headphones or earplugs to shut out the auditory 'noise'.",
-      "mind": "Focus entirely on the feeling of your feet inside your shoes for one minute.",
-      "social": "Ask for a 'No-Ask Zone'. Tell those around you that you cannot answer any questions for the next hour."
+      "body": {
+        "text": "Auditory Shielding. Put on noise-canceling headphones or earplugs to shut out the environmental 'noise'.",
+        "pillar": ["environment"],
+        "type": "instant",
+        "channel": "auditory",
+        "effort": 1,
+        "physioTip": "Best for: Reducing the total amount of incoming data to allow the brain's 'switchboard' to cool down."
+      },
+      "mind": {
+        "text": "The Foot-to-Floor Anchor. Focus entirely on the sensation of your feet inside your shoes and the pressure of the floor for one minute.",
+        "pillar": ["mindset", "regulation"],
+        "type": "instant",
+        "channel": "proprioceptive-tactile",
+        "effort": 1,
+        "physioTip": "Best for: Moving focus from the high-speed 'head' energy to the stable, low-speed 'base' of the body."
+      },
+      "social": {
+        "text": "The Question Embargo. Explicitly tell those around you: 'I am on a no-ask zone for the next hour. No questions unless it's an emergency.'",
+        "pillar": ["connection"],
+        "type": "instant",
+        "channel": "relational",
+        "effort": 1,
+        "physioTip": "Best for: Proactively stopping incoming social demands to prevent a high-arousal 'snap' or meltdown."
+      }
     },
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
   },
@@ -2073,16 +2199,58 @@
     "pathA": {
       "title": "Path A: Stuck Inside",
       "goal": "The 'buzz' is making you feel anxious internally. Goal: Directing the Spark.",
-      "body": "Do 20 jumping jacks or a quick set of push-ups. Give that 'twitch' a job to do.",
-      "mind": "Count the rhythm of your own tapping. 1-2-3-4, 1-2-3-4.",
-      "social": "Hum a fast, rhythmic tune. Let the vibration of the humming match the vibration in your body."
+      "body": {
+        "text": "The Burst Discharge. Perform 20 jumping jacks or a quick set of push-ups. Give that 'twitch' a high-intensity job to do.",
+        "pillar": ["movement"],
+        "type": "instant",
+        "channel": "proprioceptive",
+        "effort": 3,
+        "physioTip": "Best for: Providing a rapid metabolic 'sink' for excess adrenaline, utilizing large muscle groups to burn off the sympathetic surge."
+      },
+      "mind": {
+        "text": "Rhythmic Counting. Tap a steady beat on your lap and count out loud: 1-2-3-4, 1-2-3-4.",
+        "pillar": ["mindset", "regulation"],
+        "type": "instant",
+        "channel": "auditory-proprioceptive",
+        "effort": 1,
+        "physioTip": "Best for: Using the prefrontal cortex to impose a structure on chaotic motor energy, shifting from 'twitch' to 'intentional rhythm'."
+      },
+      "social": {
+        "text": "The Percussive Hum. Hum a fast, rhythmic tune with enough volume to feel your chest vibrate. Let it match your internal speed.",
+        "pillar": ["connection", "regulation"],
+        "type": "instant",
+        "channel": "auditory-vibrational",
+        "effort": 1,
+        "physioTip": "Best for: Using vocal cord vibration to stimulate the auricular branch of the vagus nerve while venting motor energy."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
       "goal": "The world feels too slow or annoying. Goal: Synchronizing with the room.",
-      "body": "Find a physical rhythm in the environment (like a clock ticking) and try to match your tapping to it, then gradually slow it down.",
-      "mind": "Focus on a single, repetitive visual task, like sorting coins or arranging pens.",
-      "social": "Text a friend a funny, high-energy GIF to 'send' some of that jittery energy away."
+      "body": {
+        "text": "Entrainment Braking. Match your finger tapping to an external rhythm (like a clock), then gradually and consciously slow the tap down over 30 seconds.",
+        "pillar": ["regulation", "environment"],
+        "type": "instant",
+        "channel": "auditory-proprioceptive",
+        "effort": 1,
+        "physioTip": "Best for: Utilizing 'entrainment' to manually down-shift the nervous system's internal clock by anchoring it to an external pace."
+      },
+      "mind": {
+        "text": "Micro-Sorting. Focus on a single, repetitive manual task: sort coins by size, arrange pens by color, or stack some cards.",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "visual-tactile",
+        "effort": 1,
+        "physioTip": "Best for: Channeling 'jittery' fine motor energy into an analytical, low-stakes task to re-engage the 'Task Positive Network'."
+      },
+      "social": {
+        "text": "The GIF Dispatch. Text a friend a high-energy or funny GIF. Use the digital interaction to 'export' the jittery spark.",
+        "pillar": ["connection"],
+        "type": "instant",
+        "channel": "relational-visual",
+        "effort": 1,
+        "physioTip": "Best for: Converting unchanneled physical energy into a brief social 'ping,' reducing the internal pressure of the 'Live Wire'."
+      }
     },
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
   },
@@ -2102,16 +2270,58 @@
     "pathA": {
       "title": "Path A: Stuck Inside",
       "goal": "The internal 'spike' feels overwhelming. Goal: Slow Exhale.",
-      "body": "The Long Exhale. Inhale for 3 seconds, then exhale through pursed lips for a count of 8. Repeat 3 times.",
-      "mind": "Name the Fact. Say out loud: 'That was a surprise, and I am safe right now.'",
-      "social": "The Hand-on-Belly. Place your hand on your stomach and wait until you can feel it move with your breath again."
+      "body": {
+        "text": "The Resistance Exhale. Inhale for 3 seconds, then exhale through pursed lips (like blowing through a straw) for a count of 8.",
+        "pillar": ["regulation"],
+        "type": "instant",
+        "channel": "respiratory-interoceptive",
+        "effort": 1,
+        "physioTip": "Best for: Creating positive end-expiratory pressure (PEEP) to mechanically stimulate the vagus nerve and slow the heart rate spike."
+      },
+      "mind": {
+        "text": "The Fact Check. Say out loud: 'That was a surprise, and I am safe right now.'",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "auditory",
+        "effort": 1,
+        "physioTip": "Best for: Using language to override the survival brain's alarm and re-orient the prefrontal cortex to current safety."
+      },
+      "social": {
+        "text": "Diaphragm Anchor. Place your hand on your belly and wait until you can feel it move with your breath again.",
+        "pillar": ["connection", "regulation"],
+        "type": "instant",
+        "channel": "tactile-interoceptive",
+        "effort": 1,
+        "physioTip": "Best for: Re-establishing a connection with the 'midline' of the body after a shocking stimulus has 'ejected' focus to the periphery."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
       "goal": "The environment feels startling or sharp. Goal: Re-orienting to Safety.",
-      "body": "Look slowly to the left and slowly to the right. Take in the full 180° view of your surroundings.",
-      "mind": "Identify 3 things in the room that have NOT changed in the last minute.",
-      "social": "Reach out and touch a solid object (a desk, a wall). Feel its coldness and stability."
+      "body": {
+        "text": "The Panoramic Scan. Look slowly to the far left and then slowly to the far right. Take in the full 180-degree view.",
+        "pillar": ["environment"],
+        "type": "instant",
+        "channel": "visual-vestibular",
+        "effort": 1,
+        "physioTip": "Best for: Activating the neck's proprioceptors and the vestibular system to signal the brain that the environment is clear of immediate threats."
+      },
+      "mind": {
+        "text": "Constant Hunt. Identify 3 things in the room that have NOT changed in the last minute (e.g., the floor, the window, the chair).",
+        "pillar": ["mindset", "environment"],
+        "type": "instant",
+        "channel": "visual",
+        "effort": 1,
+        "physioTip": "Best for: Providing a 'temporal anchor' to stabilize a brain that feels like it’s been hit by a sudden change."
+      },
+      "social": {
+        "text": "The Solid Tether. Reach out and touch a solid, immovable object (a desk, a wall). Notice the temperature and the resistance.",
+        "pillar": ["environment"],
+        "type": "instant",
+        "channel": "tactile",
+        "effort": 1,
+        "physioTip": "Best for: Outsourcing your sense of 'solidness' to the physical environment when your internal foundation feels shaky."
+      }
     },
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
   },
@@ -2131,16 +2341,58 @@
     "pathA": {
       "title": "Path A: Stuck Inside",
       "goal": "The fire is consuming you from within. Goal: Cool the Core.",
-      "body": "The Sitali Breath. Curl your tongue and inhale through it like a straw (or inhale through pursed lips). Feel the cool air on your tongue.",
-      "mind": "Visualize a blue, cool mist entering your lungs with every inhale.",
-      "social": "Text a trusted person: 'Running hot. Need a moment of cool silence.'"
+      "body": {
+        "text": "Sitali Cooling. Curl your tongue (or purse lips) and inhale slowly as if through a straw. Feel the cold air on your tongue; exhale through the nose.",
+        "pillar": ["regulation"],
+        "type": "instant",
+        "channel": "tactile-respiratory",
+        "effort": 1,
+        "physioTip": "Best for: Utilizing the moisture on the tongue to create evaporative cooling, which sends an immediate 'temperature drop' signal to the brain."
+      },
+      "mind": {
+        "text": "The Blue Mist. Visualize a blue, cool mist entering your lungs with every inhale, neutralizing the heat in your chest.",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "visual-interoceptive",
+        "effort": 1,
+        "physioTip": "Best for: Using color-association imagery to prime the nervous system for down-regulation and thermal settling."
+      },
+      "social": {
+        "text": "Thermal Alert. Text a trusted person: 'Running hot. Need a moment of cool silence.'",
+        "pillar": ["connection"],
+        "type": "instant",
+        "channel": "relational-visual",
+        "effort": 1,
+        "physioTip": "Best for: Labeling the internal state to prevent social friction while giving yourself permission to disengage."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
       "goal": "The environment feels like it's adding fuel to your fire. Goal: External Cooling.",
-      "body": "Run cold water over your wrists for 60 seconds. Focus on the temperature change.",
-      "mind": "Find one object in the room that looks 'cold' (a metal leg, a glass window) and look at it steadily.",
-      "social": "Step away into a cooler room or out into the fresh air to change the 'thermal' environment."
+      "body": {
+        "text": "The Radial Cooling. Run cold water over your wrists for 60 seconds. Focus entirely on the temperature change.",
+        "pillar": ["environment", "regulation"],
+        "type": "instant",
+        "channel": "tactile-thermal",
+        "effort": 1,
+        "physioTip": "Best for: Cooling the blood at a high-circulation point (the radial artery) to help lower the core systemic temperature."
+      },
+      "mind": {
+        "text": "Thermal Scan. Find one object in the room that looks 'cold' (a metal leg, a glass window) and look at it steadily.",
+        "pillar": ["mindset", "environment"],
+        "type": "instant",
+        "channel": "visual",
+        "effort": 1,
+        "physioTip": "Best for: Utilizing 'visual-thermal' cues to shift the brain's focus away from 'hot' emotional triggers."
+      },
+      "social": {
+        "text": "The Thermal Pivot. Step away into a cooler room or out into the fresh air to change your immediate 'thermal' environment.",
+        "pillar": ["environment"],
+        "type": "instant",
+        "channel": "proprioceptive-thermal",
+        "effort": 1,
+        "physioTip": "Best for: Using a change in environmental temperature to force the body's homeostatic sensors to pivot toward cooling."
+      }
     },
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
   },
@@ -2160,16 +2412,58 @@
     "pathA": {
       "title": "Path A: Stuck Inside",
       "goal": "The pressure is shaking you from the inside. Goal: The Valve Release.",
-      "body": "The 'Vooooo' Sound. Inhale deeply and make a low, vibrating sound on the exhale until you are completely empty.",
-      "mind": "Imagine a pressure valve on top of your head slowly opening and letting out a steady stream of steam.",
-      "social": "Identify the 'Why'. Say out loud: 'I am furious because [X] mattered to me.'"
+      "body": {
+        "text": "Vagal Toning (VOO). Inhale deeply and make a low, vibrating 'Vooooo' sound on the exhale until your lungs are completely empty.",
+        "pillar": ["regulation"],
+        "type": "instant",
+        "channel": "auditory-vibrational",
+        "effort": 1,
+        "physioTip": "Best for: Using sound vibration to stimulate the vagus nerve and provide a mechanical 'vent' for high sympathetic pressure."
+      },
+      "mind": {
+        "text": "The Steam Valve. Imagine a pressure valve on top of your head slowly opening, letting out a steady, safe stream of steam.",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "visual",
+        "effort": 1,
+        "physioTip": "Best for: Using visualization to facilitate a 'top-down' release of the psychological pressure that fuels the physical surge."
+      },
+      "social": {
+        "text": "The Core 'Why'. Say out loud: 'I am furious because [X] mattered to me.'",
+        "pillar": ["connection", "mindset"],
+        "type": "instant",
+        "channel": "auditory-relational",
+        "effort": 1,
+        "physioTip": "Best for: Labeling the values behind the anger to move from 'reactive boiling' to 'principled conviction'."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
       "goal": "Everything feels like a trigger. Goal: Rhythmic Pacing.",
-      "body": "Pace the room with heavy, rhythmic steps. Count each step: 1, 2, 3, 4.",
-      "mind": "Look at a clock with a second hand and match your finger-tapping to the steady 'tick'.",
-      "social": "Ask a safe person for a 'High-Five'—the physical impact helps discharge the boiling point."
+      "body": {
+        "text": "The Weighted Pace. Pace the room with heavy, rhythmic steps. Count each step firmly: 1, 2, 3, 4.",
+        "pillar": ["movement"],
+        "type": "instant",
+        "channel": "proprioceptive-vestibular",
+        "effort": 2,
+        "physioTip": "Best for: Using rhythmic bone-loading (stomping) to provide the brain with 'completion' data for the fight-or-flight impulse."
+      },
+      "mind": {
+        "text": "Temporal Locking. Look at a clock with a second hand and match your finger-tapping to the steady 'tick'.",
+        "pillar": ["mindset", "environment"],
+        "type": "instant",
+        "channel": "visual-auditory",
+        "effort": 1,
+        "physioTip": "Best for: Outsourcing your internal 'tempo' to a steady external source to slow down a racing heart and mind."
+      },
+      "social": {
+        "text": "Impact Discharge. Ask a safe person for a firm High-Five. Focus on the physical 'slap' and the resistance of their hand.",
+        "pillar": ["connection"],
+        "type": "instant",
+        "channel": "tactile-proprioceptive",
+        "effort": 2,
+        "physioTip": "Best for: Using a brief, high-intensity tactile impact to discharge motor energy in a safe, socially connected way."
+      }
     },
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
   },
@@ -2189,16 +2483,58 @@
     "pathA": {
       "title": "Path A: Stuck Inside",
       "goal": "You are a prisoner inside your own tension. Goal: Contract to Expand.",
-      "body": "Squeeze every muscle in your body even tighter for 5 seconds, then drop everything at once. Feel the 'echo' of the release.",
-      "mind": "Search for the 'Center of the Knot'. Where is the tightest point? Just observe it.",
-      "social": "Visualize yourself 'un-armoring' in a safe room, piece by piece."
+      "body": {
+        "text": "The Full-Body Flush (PIR). Squeeze every muscle in your body even tighter (fists, jaw, toes) for 5 seconds, then drop everything at once on a long exhale.",
+        "pillar": ["movement", "regulation"],
+        "type": "instant",
+        "channel": "proprioceptive",
+        "effort": 3,
+        "physioTip": "Best for: Utilizing Post-Isometric Relaxation to bypass the brain's 'guarding' reflex and force a systemic muscular release."
+      },
+      "mind": {
+        "text": "The Knot Search. Locate the absolute center of the tension in your body. Observe it as a physical object without trying to change it.",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "interoceptive",
+        "effort": 1,
+        "physioTip": "Best for: Shifting from 'being' the tension to 'observing' the tension, which re-engages the prefrontal cortex."
+      },
+      "social": {
+        "text": "The Un-Armoring. Visualize yourself stepping out of a heavy suit of armor in a perfectly safe room, piece by piece.",
+        "pillar": ["connection", "mindset"],
+        "type": "instant",
+        "channel": "visual-relational",
+        "effort": 1,
+        "physioTip": "Best for: Using symbolic imagery to signal to the nervous system that the 'siege' is over and protection is no longer required."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
       "goal": "The world feels like a physical threat. Goal: Finding the Soft Spots.",
-      "body": "Gently massage the hinges of your jaw with your fingertips. Soften the tongue.",
-      "mind": "Find one object in the room that is 'pliable' or 'soft' (a cushion, a curtain).",
-      "social": "If safe, ask a partner for a very firm, steady hand-squeeze. Match their pressure."
+      "body": {
+        "text": "TMJ Release. Gently massage the hinges of your jaw with your fingertips. Drop your tongue away from the roof of your mouth.",
+        "pillar": ["regulation"],
+        "type": "instant",
+        "channel": "tactile-proprioceptive",
+        "effort": 1,
+        "physioTip": "Best for: Deactivating the 'clench' at the primary cranial trigger point, which helps lower overall sympathetic tone."
+      },
+      "mind": {
+        "text": "Pliability Scan. Find and name three objects in the room that are 'soft' or 'flexible' (e.g., a pillow, a plant, a sweater).",
+        "pillar": ["mindset", "environment"],
+        "type": "instant",
+        "channel": "visual",
+        "effort": 1,
+        "physioTip": "Best for: Priming the brain with visual cues of 'softness' to counteract the internal 'rigidity' bias."
+      },
+      "social": {
+        "text": "Pressure Matching. Ask a safe person for a very firm, steady hand-squeeze. Match their pressure exactly for 5 seconds, then release together.",
+        "pillar": ["connection"],
+        "type": "instant",
+        "channel": "proprioceptive-relational",
+        "effort": 2,
+        "physioTip": "Best for: Using co-regulated resistance to satisfy the body's urge to 'hold on' while connecting to a safe external anchor."
+      }
     },
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
   },
@@ -2218,16 +2554,58 @@
     "pathA": {
       "title": "Path A: Stuck Inside",
       "goal": "Your internal structure is under strain. Goal: Vertical Grounding.",
-      "body": "Place your hands on a table and push down. Feel your spine grow tall, then slowly soften the elbows.",
-      "mind": "The 'Safe Container'. Imagine yourself inside a solid, transparent dome where you are untouchable.",
-      "social": "Text a friend: 'In bracing mode. Just checking in for a safety ping.'"
+      "body": {
+        "text": "The Spinal Unload. Place your hands on a table and push down firmly to let your spine grow tall, then slowly soften your elbows and notice if your shoulders drop.",
+        "pillar": ["movement", "environment"],
+        "type": "instant",
+        "channel": "proprioceptive",
+        "effort": 2,
+        "physioTip": "Best for: Using 'closed-chain' resistance to re-align the vertebrae and then testing the system's ability to yield as the muscular 'bracing' is removed."
+      },
+      "mind": {
+        "text": "The Safe Container. Imagine yourself inside a solid, transparent dome where you are physically untouchable and safe from impact.",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "visual",
+        "effort": 1,
+        "physioTip": "Best for: Providing a symbolic visual boundary to reduce the 'startle' reflex and the need for constant muscular armor."
+      },
+      "social": {
+        "text": "The Safety Ping. Text a trusted person: 'In bracing mode right now. Just sending a safety ping to stay connected.'",
+        "pillar": ["connection"],
+        "type": "instant",
+        "channel": "relational-visual",
+        "effort": 1,
+        "physioTip": "Best for: Outsourcing a sense of safety to a social tether, which can lower the 'guarding' response in the nervous system."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
       "goal": "The environment feels unpredictable. Goal: Testing the Ground.",
-      "body": "Shift your weight from your left foot to your right foot. Feel the ground support you every time.",
-      "mind": "Find three horizontal lines in the room. Notice how they are steady and unmoving.",
-      "social": "Lean your back against a solid wall. Let the wall 'take' the bracing energy from your spine."
+      "body": {
+        "text": "The Lateral Shift. Shift your weight slowly from your left foot to your right foot. Feel the floor's resistance with every shift.",
+        "pillar": ["movement", "regulation"],
+        "type": "instant",
+        "channel": "vestibular-proprioceptive",
+        "effort": 1,
+        "physioTip": "Best for: Unlocking the knees and engaging the vestibular system to prove that the ground is stable and supportive."
+      },
+      "mind": {
+        "text": "The Horizontal Scan. Find three horizontal lines in the room (shelves, floorboards, window frames). Notice how steady and unmoving they are.",
+        "pillar": ["mindset", "environment"],
+        "type": "instant",
+        "channel": "visual",
+        "effort": 1,
+        "physioTip": "Best for: Using the 'visual horizon' to stabilize the brain's sense of spatial orientation and reduce high-arousal scanning."
+      },
+      "social": {
+        "text": "Wall Surrender. Lean your back fully against a solid wall. Imagine the wall 'taking' the bracing energy from your spine and carrying your weight.",
+        "pillar": ["environment", "regulation"],
+        "type": "instant",
+        "channel": "proprioceptive-tactile",
+        "effort": 1,
+        "physioTip": "Best for: Utilizing a large-surface tactile contact to provide the nervous system with undeniable proof of external support."
+      }
     },
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
   },
@@ -2247,16 +2625,58 @@
     "pathA": {
       "title": "Path A: Stuck Inside",
       "goal": "Your internal thoughts are a blur. Goal: The Anchor Breath.",
-      "body": "The 4-7-8 Breath. Inhale for 4, hold for 7, exhale for 8. The long exhale is the 'Brake'.",
-      "mind": "Focus on your own pulse in your wrist. Count it silently for 30 seconds.",
-      "social": "If with a safe person, ask them to talk very slowly about a mundane topic."
+      "body": {
+        "text": "The Parasympathetic Brake (4-7-8). Inhale for 4, hold for 7, exhale through pursed lips for 8. The long exhale is your system's manual brake.",
+        "pillar": ["regulation"],
+        "type": "instant",
+        "channel": "respiratory-interoceptive",
+        "effort": 1,
+        "physioTip": "Best for: Mechanically stimulating the vagus nerve and increasing CO2 levels to rapidly lower the heart rate and calm the brainstem."
+      },
+      "mind": {
+        "text": "The Pulse Sync. Find your pulse at your wrist or neck. Count it silently for 30 seconds, focusing only on the steady rhythm.",
+        "pillar": ["mindset", "regulation"],
+        "type": "instant",
+        "channel": "interoceptive",
+        "effort": 1,
+        "physioTip": "Best for: Using interoception to provide a concrete, biological 'metronome' for a racing mind to latch onto."
+      },
+      "social": {
+        "text": "Slow-Talk Request. If with a safe person, ask them to talk very slowly about a mundane topic (like a recipe or their commute).",
+        "pillar": ["connection"],
+        "type": "instant",
+        "channel": "relational-auditory",
+        "effort": 1,
+        "physioTip": "Best for: Utilizing 'social entrainment'—using someone else's slower vocal rhythm to down-regulate your own internal speed."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
       "goal": "The world looks like a blur. Goal: Slow-Motion Orienting.",
-      "body": "Move your head to look around the room as if you were moving through honey—extremely slow.",
-      "mind": "Pick one object and describe its color in extreme detail: 'It's not just blue, it's a matte, dusty navy...'",
-      "social": "Place your hands flat on a surface and feel the temperature. Stay there until the racing slows."
+      "body": {
+        "text": "Honey-Motion Orienting. Rotate your head to look around the room as if you were moving through deep, thick honey—extremely slow.",
+        "pillar": ["movement", "environment"],
+        "type": "instant",
+        "channel": "vestibular-proprioceptive",
+        "effort": 1,
+        "physioTip": "Best for: Using slow-motion cervical rotation to 'reset' the vestibular-ocular reflex and reduce visual 'blur'."
+      },
+      "mind": {
+        "text": "High-Definition Description. Pick one object and describe its color/texture in extreme detail: 'It is a matte, dusty navy with a slight metallic sheen.'",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "visual",
+        "effort": 1,
+        "physioTip": "Best for: Forcing the brain to switch from 'scanning' (fast) to 'inspecting' (slow), clearing the cognitive fog."
+      },
+      "social": {
+        "text": "Thermal Grounding. Place your hands flat on a cool, solid surface. Stay there and notice the exact temperature until the racing slows.",
+        "pillar": ["environment"],
+        "type": "instant",
+        "channel": "tactile-thermal",
+        "effort": 1,
+        "physioTip": "Best for: Using constant thermal and tactile data to 'ground' the excess sympathetic energy into a stable physical object."
+      }
     },
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
   },
@@ -2276,16 +2696,58 @@
     "pathA": {
       "title": "Path A: Stuck Inside",
       "goal": "You feel like you're 'fuming' internally. Goal: Cool the Core.",
-      "body": "The Pucker Breath. Breathe in through your nose and exhale through very small, pursed lips as if blowing through a straw. Make the exhale twice as long as the inhale.",
-      "mind": "Label the Spark. Identify one specific thing 'fuming' you. Say: '[X] is the spark, but I am the one holding the match.'",
-      "social": "Text a friend a 'fire extinguisher' emoji 🧯. A quick signal that you're 'hot' and need space."
+      "body": {
+        "text": "The Resistance Exhale. Inhale through your nose and exhale through very small, pursed lips (like a straw). Make the exhale twice as long as the inhale.",
+        "pillar": ["regulation"],
+        "type": "instant",
+        "channel": "respiratory-interoceptive",
+        "effort": 1,
+        "physioTip": "Best for: Using positive expiratory pressure to stimulate the vagus nerve and mechanically override the 'fuming' sympathetic surge."
+      },
+      "mind": {
+        "text": "Label the Spark. Identify one specific thing 'fuming' you. Say: '[X] is the spark, but I am the one holding the match.'",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "auditory-relational",
+        "effort": 1,
+        "physioTip": "Best for: Creating 'cognitive distance' by labeling the trigger, which shifts the brain from reactive amygdala mode to analytical prefrontal mode."
+      },
+      "social": {
+        "text": "The Extinguisher Signal. Text a safe friend a 'fire extinguisher' emoji 🧯. A quick signal that you are 'running hot' and need space.",
+        "pillar": ["connection"],
+        "type": "instant",
+        "channel": "relational-visual",
+        "effort": 1,
+        "physioTip": "Best for: Establishing a social boundary with zero verbal tax, preventing 'explosive' interactions while feeling volatile."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
       "goal": "The world feels irritating and abrasive. Goal: Softening the Edges.",
-      "body": "Splash cool water on your face or the back of your neck. Focus on the temperature shift.",
-      "mind": "The 3-3-3 Rule. Name 3 things you see, 3 things you hear, and move 3 parts of your body (fingers, toes, shoulders).",
-      "social": "Step away. Physically move to a different room or step outside to change the sensory input."
+      "body": {
+        "text": "The Vagal Splash. Splash cool water on your face, eyes, or the back of your neck. Focus entirely on the temperature shift.",
+        "pillar": ["regulation", "environment"],
+        "type": "instant",
+        "channel": "tactile-thermal",
+        "effort": 1,
+        "physioTip": "Best for: Triggering the 'Mammalian Dive Reflex' via the trigeminal nerve to rapidly lower heart rate and systemic arousal."
+      },
+      "mind": {
+        "text": "The 3-3-3 Grounding. Name 3 things you see, 3 things you hear, and move 3 small parts of your body (fingers, toes, tongue).",
+        "pillar": ["mindset", "movement"],
+        "type": "instant",
+        "channel": "visual-auditory-proprioceptive",
+        "effort": 1,
+        "physioTip": "Best for: Forcing the brain to cycle through multiple sensory channels to interrupt the hyper-fixated 'threat scan' of volatility."
+      },
+      "social": {
+        "text": "The Sensory Pivot. Physically move to a different room or step outside. Change the lighting or the air temperature.",
+        "pillar": ["environment"],
+        "type": "instant",
+        "channel": "proprioceptive-thermal",
+        "effort": 1,
+        "physioTip": "Best for: Using a total change in sensory environment to 'reset' the orienting response and lower environmental irritability."
+      }
     },
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
   },
@@ -2305,16 +2767,58 @@
     "pathA": {
       "title": "Path A: Stuck Inside",
       "goal": "The shaking feels scary from the inside. Goal: Safe Vibration.",
-      "body": "The Lean. Stand against a wall and push with your hands. Let the shaking happen while feeling the solid support of the wall.",
-      "mind": "The Frequency Match. Make a low 'Vooooo' sound. Try to match the vibration of your voice to the vibration in your body.",
-      "social": "Visualize a safe person or pet sitting right next to you, simply watching the shaking with calm eyes."
+      "body": {
+        "text": "The Supported Discharge. Lean against a wall and push with your hands. Allow the shaking to continue while focusing on the solid, unmoving support of the wall.",
+        "pillar": ["movement", "environment"],
+        "type": "instant",
+        "channel": "proprioceptive-vestibular",
+        "effort": 1,
+        "physioTip": "Best for: Providing an external 'unmoving' reference point so the brain feels safe enough to allow the neurogenic tremor to complete its discharge cycle."
+      },
+      "mind": {
+        "text": "Frequency Matching (VOO). Make a low, vibrating 'Vooooo' sound. Try to match the vibration of your voice to the tremor in your chest or jaw.",
+        "pillar": ["regulation"],
+        "type": "instant",
+        "channel": "auditory-vibrational",
+        "effort": 1,
+        "physioTip": "Best for: Harmonizing the internal 'fright' vibration with an intentional vocal vibration, which signals the brain that the movement is 'organized' and safe."
+      },
+      "social": {
+        "text": "The Calm Witness. Visualize a safe person or pet sitting right next to you, simply watching the shaking with calm, steady, and non-judgmental eyes.",
+        "pillar": ["connection"],
+        "type": "instant",
+        "channel": "relational-visual",
+        "effort": 1,
+        "physioTip": "Best for: Reducing the 'shame' or 'panic' often triggered by involuntary shaking through the internal imagery of safe co-regulation."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
       "goal": "You feel detached from the trembling. Goal: Re-entry.",
-      "body": "Wrap yourself tightly in a blanket or give yourself a very firm 'self-hug' (hands on opposite shoulders) to feel your physical boundaries.",
-      "mind": "Count the rhythm of the tremors for 10 seconds. Is it fast or slow?",
-      "social": "Ask a safe person to just sit with you and hold a steady, unmoving hand on your shoulder."
+      "body": {
+        "text": "Somatic Containment. Wrap yourself tightly in a blanket or give yourself a very firm 'self-hug' (hands crossing to opposite shoulders).",
+        "pillar": ["regulation"],
+        "type": "instant",
+        "channel": "proprioceptive-tactile",
+        "effort": 1,
+        "physioTip": "Best for: Using deep pressure to define the body's 'envelope,' helping the brain re-tether to the physical self during a high-arousal fright response."
+      },
+      "mind": {
+        "text": "Tremor Tracking. Observe the rhythm of the tremors for 10 seconds. Is it fast, slow, or inconsistent? Notice where the epicenter is.",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "interoceptive",
+        "effort": 1,
+        "physioTip": "Best for: Shifting from a state of 'being shaken' to a state of 'observing movement,' which moves the brain from the brainstem back to the prefrontal cortex."
+      },
+      "social": {
+        "text": "The Steady Anchor. Ask a safe person to just sit with you and place a steady, unmoving hand firmly on your shoulder or upper back.",
+        "pillar": ["connection"],
+        "type": "instant",
+        "channel": "relational-tactile",
+        "effort": 1,
+        "physioTip": "Best for: Using an external human anchor to provide a 'still' point of reference, which helps the nervous system feel supported enough to finish the discharge."
+      }
     },
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
   },
@@ -2334,16 +2838,58 @@
     "pathA": {
       "title": "Path A: Stuck Inside",
       "goal": "The pressure feels like it's building in your head. Goal: Mechanical Venting.",
-      "body": "The Jaw Release. Open your mouth wide as if yawning, then gently massage the hinges of your jaw.",
-      "mind": "The Balloon Visualization. Imagine the pressure is a balloon. Every exhale through your mouth lets a little bit of air out of the nozzle.",
-      "social": "Write down the one thing you are most angry about on a piece of paper and shred it."
+      "body": {
+        "text": "The Jaw Release. Open your mouth wide as if yawning, then gently massage the masseter muscles (the hinges of your jaw).",
+        "pillar": ["movement", "regulation"],
+        "type": "instant",
+        "channel": "tactile-proprioceptive",
+        "effort": 1,
+        "physioTip": "Best for: Deactivating the primary 'bracing' point of the skull to lower the perceived pressure in the head and neck."
+      },
+      "mind": {
+        "text": "The Balloon Nozzle. Imagine the pressure is a balloon. With every exhale through your mouth, visualize a steady stream of air escaping the nozzle.",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "visual-interoceptive",
+        "effort": 1,
+        "physioTip": "Best for: Using visualization to facilitate a slow, controlled release of sympathetic energy without triggering a crash."
+      },
+      "social": {
+        "text": "The Vocal Hiss. Take a deep breath and exhale through your teeth with a long, steady 'Ssssss' sound until empty.",
+        "pillar": ["regulation"],
+        "type": "instant",
+        "channel": "auditory-respiratory",
+        "effort": 1,
+        "physioTip": "Best for: Providing an auditory and physical 'vent' that mimics the release of a pressure valve, helping to settle the heart rate."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
       "goal": "The environment feels like it's 'pressing' on you. Goal: Creating Space.",
-      "body": "The Hand-Wall-Push. Place your hands on a wall and push with 50% strength. Feel the energy travel from your chest, through your arms, and into the wall.",
-      "mind": "The Horizon Scan. Look as far away as possible—out a window or down a long hallway—to expand your sense of space.",
-      "social": "State a Boundary. Say out loud: 'I have a lot of energy right now. I'm going to take a 5-minute walk to vent.'"
+      "body": {
+        "text": "The 50% Load. Place your hands flat on a wall and push with 50% of your strength. Feel the energy travel from your chest into the wall.",
+        "pillar": ["movement"],
+        "type": "instant",
+        "channel": "proprioceptive",
+        "effort": 2,
+        "physioTip": "Best for: Using sub-maximal isometric resistance to 'drain' excess motor energy into an immovable object, creating a sense of boundary."
+      },
+      "mind": {
+        "text": "The Horizon Scan. Look as far away as possible—out a window or down a long hallway—to expand your sense of spatial boundaries.",
+        "pillar": ["environment"],
+        "type": "instant",
+        "channel": "visual-vestibular",
+        "effort": 1,
+        "physioTip": "Best for: Breaking the 'tunnel vision' of anger by expanding the visual field, which sends a safety signal to the superior colliculus."
+      },
+      "social": {
+        "text": "The Boundary Declaration. State out loud: 'I have a lot of energy right now. I am going to take a 5-minute walk to vent.'",
+        "pillar": ["connection"],
+        "type": "instant",
+        "channel": "relational-auditory",
+        "effort": 1,
+        "physioTip": "Best for: Exercising social agency to create physical distance before the 'pressure' leads to a reactive snap."
+      }
     },
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
   },
@@ -2363,16 +2909,58 @@
     "pathA": {
       "title": "Path A: Stuck Inside",
       "goal": "The 'hum' feels anxious internally. Goal: Rhythmic Grounding.",
-      "body": "The Butterfly Hug. Cross your arms over your chest and slowly tap your shoulders, alternating left and right, like a slow metronome.",
-      "mind": "The Internal Hum. Hum a song with a very steady, slow beat. Feel the vibration in your throat.",
-      "social": "Text a friend a 'bee' emoji 🐝. A quick acknowledgement of your 'buzzing' energy."
+      "body": {
+        "text": "The Butterfly Hug. Cross your arms over your chest and slowly tap your shoulders, alternating left and right, like a slow metronome.",
+        "pillar": ["regulation"],
+        "type": "instant",
+        "channel": "proprioceptive-tactile",
+        "effort": 1,
+        "physioTip": "Best for: Using bilateral alternating stimulation to organize high-frequency sympathetic 'noise' into a coherent, rhythmic signal."
+      },
+      "mind": {
+        "text": "The Internal Hum. Hum a steady, low note. Focus on the physical vibration in your throat and chest rather than the sound.",
+        "pillar": ["regulation"],
+        "type": "instant",
+        "channel": "auditory-vibrational",
+        "effort": 1,
+        "physioTip": "Best for: Stimulating the laryngeal branch of the vagus nerve to provide an internal 'anchor' for the vibrating sensation."
+      },
+      "social": {
+        "text": "The Buzz Ping. Text a friend a 'bee' emoji 🐝. A quick, low-tax acknowledgement of your current 'buzzing' energy.",
+        "pillar": ["connection"],
+        "type": "instant",
+        "channel": "relational-visual",
+        "effort": 1,
+        "physioTip": "Best for: Externalizing the internal state to reduce the 'social masking' tax, which often adds fuel to nervous vibration."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
       "goal": "The world feels a bit blurry or too fast. Goal: Visual Anchoring.",
-      "body": "Find a physical rhythm in the room (a clock ticking, a fan spinning) and tap your finger to it.",
-      "mind": "Pick one object and describe its texture in your head using 5 different words.",
-      "social": "Ask a safe person to tell you a short, boring story about their day. Focus on the tone of their voice."
+      "body": {
+        "text": "External Entrainment. Find a physical rhythm in the room (clock, fan) and tap your finger to it. Once synchronized, gradually slow your tap.",
+        "pillar": ["regulation", "environment"],
+        "type": "instant",
+        "channel": "auditory-proprioceptive",
+        "effort": 1,
+        "physioTip": "Best for: Utilizing 'motor entrainment' to manually down-shift the nervous system's internal frequency by tethering it to a slower external pace."
+      },
+      "mind": {
+        "text": "Texture Labeling. Pick one object and describe its texture in your head using 5 specific sensory words (e.g., grain, grit, cool, weave, slick).",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "visual",
+        "effort": 1,
+        "physioTip": "Best for: Engaging the associative cortex to shift from high-speed 'scanning' to slow-speed 'evaluation,' clearing the nervous blur."
+      },
+      "social": {
+        "text": "Prosody Focus. Ask a safe person to tell a boring story. Focus entirely on the melodic 'rise and fall' of their voice rather than the words.",
+        "pillar": ["connection"],
+        "type": "instant",
+        "channel": "relational-auditory",
+        "effort": 1,
+        "physioTip": "Best for: Utilizing vocal prosody to signal the social engagement system that the environment is safe, lowering systemic arousal."
+      }
     },
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
   },
@@ -2392,16 +2980,58 @@
     "pathA": {
       "title": "Path A: Stuck Inside",
       "goal": "You feel an internal 'itch' to move. Goal: Purposeful Motion.",
-      "body": "The 10-Second Shake. Shake your hands and feet vigorously for 10 seconds, then stop and feel the 'tingle'.",
-      "mind": "The List-Maker. Write down 3 tiny tasks you can do in under 2 minutes (e.g., 'water the plant').",
-      "social": "Do a quick 'micro-task' for someone else (e.g., 'put their cup in the sink')."
+      "body": {
+        "text": "The Extremity Shake. Shake your hands and feet vigorously for 10 seconds, then stop abruptly and feel the 'tingle' of the blood return.",
+        "pillar": ["movement"],
+        "type": "instant",
+        "channel": "proprioceptive-tactile",
+        "effort": 2,
+        "physioTip": "Best for: Discharging minor sympathetic build-up by stimulating the distal mechanoreceptors and resetting the muscle spindles."
+      },
+      "mind": {
+        "text": "The 2-Minute Triage. Identify 3 tiny tasks you can do in under 2 minutes (e.g., water a plant, clear a dish) and do ONE now.",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "visual-executive",
+        "effort": 1,
+        "physioTip": "Best for: Channeling restless motor energy into a 'completion loop,' which provides a small dopamine hit and settles the system."
+      },
+      "social": {
+        "text": "The Micro-Service. Complete one tiny physical task that benefits your environment or someone else (e.g., tidying a shared space).",
+        "pillar": ["connection"],
+        "type": "instant",
+        "channel": "relational-proprioceptive",
+        "effort": 1,
+        "physioTip": "Best for: Using the 'tend-and-befriend' circuit to shift away from jittery sympathetic arousal toward social regulation."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
       "goal": "Everything feels like a distraction. Goal: Tactile Focus.",
-      "body": "Find a 'fidget' object—a pen to click, a stone to rub, or a piece of paper to fold.",
-      "mind": "Focus on the feeling of your clothes against your skin as you move. Is it soft? Rough?",
-      "social": "Play a quick 'game' with someone nearby, like 'I Spy' or a thumb-war."
+      "body": {
+        "text": "Object Manipulation. Find a 'fidget' object—a pen to click, a stone to rub, or fabric to fold. Focus on the resistance of the object.",
+        "pillar": ["environment"],
+        "type": "instant",
+        "channel": "tactile-proprioceptive",
+        "effort": 1,
+        "physioTip": "Best for: Providing a continuous sensory-motor loop that occupies the 'excess' motor drive, allowing the brain to focus on other tasks."
+      },
+      "mind": {
+        "text": "The Texture Map. Focus on the feeling of your clothes against your skin as you move. Is the texture rough, smooth, or heavy?",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "tactile-interoceptive",
+        "effort": 1,
+        "physioTip": "Best for: Shifting from outward-focused distraction to inward-focused tactile grounding to 'anchor' the restlessness."
+      },
+      "social": {
+        "text": "The Resistance Game. If with someone, engage in a quick thumb-war or a brief 'palm-push' match. Feel the counter-pressure.",
+        "pillar": ["connection"],
+        "type": "instant",
+        "channel": "proprioceptive-relational",
+        "effort": 2,
+        "physioTip": "Best for: Using high-contrast physical resistance with another person to rapidly discharge restless energy through co-regulation."
+      }
     },
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
   },
@@ -2421,16 +3051,58 @@
     "pathA": {
       "title": "Path A: Stuck Inside",
       "goal": "The internal 'thump' is making you feel more anxious. Goal: The Brake Breath.",
-      "body": "Extended Exhale. Inhale for 4 seconds, then exhale through your mouth as if through a straw for 8 seconds. Repeat 5 times.",
-      "mind": "Mental Counting. Count backward from 100 by 7s. This forces the brain to leave the emotional loop and engage logic.",
-      "social": "Hand-to-Chest. Place a firm hand over your heart. Say: 'I hear you, heart. Thank you for the energy.'"
+      "body": {
+        "text": "The Baroreceptor Reset. Inhale for 4 seconds, then exhale through pursed lips (like a straw) for a full 8 seconds. Repeat 5 times.",
+        "pillar": ["regulation"],
+        "type": "instant",
+        "channel": "respiratory-interoceptive",
+        "effort": 1,
+        "physioTip": "Best for: Using PEEP (Positive End-Expiratory Pressure) to stimulate the baroreceptors and the vagus nerve, mechanically forcing a decrease in heart rate."
+      },
+      "mind": {
+        "text": "Serial 7s. Count backward from 100 by subtracting 7 each time (100, 93, 86...). Focus entirely on the math.",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "cognitive",
+        "effort": 1,
+        "physioTip": "Best for: Forcing the brain to exit the 'limbic hijack' by engaging the prefrontal cortex in a high-load analytical task."
+      },
+      "social": {
+        "text": "The Heart Acknowledgment. Place a firm hand over your heart. Say out loud: 'I hear you, heart. Thank you for the energy. We are safe.'",
+        "pillar": ["connection", "regulation"],
+        "type": "instant",
+        "channel": "tactile-auditory",
+        "effort": 1,
+        "physioTip": "Best for: Using 'self-compassion' cues and vocalization to reduce the fear-response to internal sensations (interoceptive exposure)."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
       "goal": "The environment feels too loud or fast for your heartbeat. Goal: Sensory Matching.",
-      "body": "Tap a slow, steady beat on your thigh with your hand. Focus on matching the tap to the speed you *want* your heart to be.",
-      "mind": "The Grounding Scan. Find 5 square objects in the room and trace their corners with your eyes.",
-      "social": "Safe Rhythm. If with a safe person, listen to the steady rhythm of their voice or a slow piece of music."
+      "body": {
+        "text": "Rhythmic Entrainment. Tap a slow, steady beat on your thigh. Focus on the sensation of your hand hitting your leg, creating a new, slower rhythm.",
+        "pillar": ["movement", "regulation"],
+        "type": "instant",
+        "channel": "proprioceptive-tactile",
+        "effort": 1,
+        "physioTip": "Best for: Using 'motor-pacing' to provide the brain with a competing, intentional rhythm that overrides the involuntary pounding of the heart."
+      },
+      "mind": {
+        "text": "Square Tracing. Find 5 square or rectangular objects in the room and slowly trace their four corners with your eyes.",
+        "pillar": ["mindset", "environment"],
+        "type": "instant",
+        "channel": "visual",
+        "effort": 1,
+        "physioTip": "Best for: Engaging the ocular muscles in a structured, geometric pattern to settle the visual field and reduce scanning-related anxiety."
+      },
+      "social": {
+        "text": "Prosody Anchor. If with a safe person, focus entirely on the low, steady 'hum' or rhythm of their voice rather than their words.",
+        "pillar": ["connection"],
+        "type": "instant",
+        "channel": "relational-auditory",
+        "effort": 1,
+        "physioTip": "Best for: Utilizing external co-regulation to synchronize your internal tempo with a stable social signal."
+      }
     },
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
   },
