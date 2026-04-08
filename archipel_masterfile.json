@@ -142,19 +142,49 @@
     "pathA": {
       "title": "Path A: Stuck Inside",
       "goal": "You feel heavy and trapped in an internal void. Goal: Pull OUT.",
-      "body": "Sound Waves. Play activating music and let the vibrations fill the room.",
-      "mind": "External Focus. Name 3 objects in the room and whisper their shapes.",
-      "social": "Digital Ping. Text a safe person a single emoji (🐻 or 🧊) to acknowledge the outside world."
+      "body": {
+        "text": "Sound Waves. Play activating music and let the vibrations fill the room.",
+        "pillar": "environment", 
+        "type": "instant",
+        "physioTip": "Best for: Using external vibrations to jumpstart a system that feels 'unplugged'."
+      },
+      "mind": {
+        "text": "External Focus. Name 3 objects in the room and whisper their shapes.",
+        "pillar": "mindset", 
+        "type": "instant",
+        "physioTip": "Best for: Shifting from internal rumination to objective exteroception."
+      },
+      "social": {
+        "text": "Digital Ping. Text a safe person a single emoji to acknowledge the outside world.",
+        "pillar": "connection", 
+        "type": "instant",
+        "physioTip": "Best for: Creating a low-energy bridge back to co-regulation without overwhelm."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
       "goal": "You are spaced out and disconnected from the room. Goal: Pull IN.",
-      "body": "Sensory Shock. Splash cold water on your face or feel the floor supporting your weight.",
-      "mind": "Boundary Tracing. Mentally state: 'My feet end at the floor. My back ends at the chair.'",
-      "social": "Internal Anchor. Place a hand over your heart and recall the feeling of a safe hug."
-    },
-    "warning": "THE THAW WARNING: Leaving the Blue Zone can feel scary."
+            "body": {
+        "text": "Sensory Shock. Splash cold water on your face or feel the floor supporting your weight.",
+        "pillar": "environment", 
+        "type": "instant",
+        "physioTip": "Best for: A thermal or tactile 'reset' to bring the nervous system back into the present."
+      },
+      "mind": {
+        "text": "Boundary Tracing. Mentally state: 'My feet end at the floor. My back ends at the chair.'",
+        "pillar": "mindset", 
+        "type": "instant",
+        "physioTip": "Best for: Establishing the physical container of the body when feeling 'thin' or 'faded'."
+      },
+      "social": {
+        "text": "Internal Anchor. Place a hand over your heart and recall the feeling of a safe hug.",
+        "pillar": "connection", 
+        "type": "instant",
+        "physioTip": "Best for: Using somatic memory to activate self-soothing when alone."
+    }
   },
+  "warning": "THE THAW WARNING: Leaving the Blue Zone can feel scary."
+},
   {
     "sensationID": "blue_hi_immobilized",
     "title": "Immobilized",
