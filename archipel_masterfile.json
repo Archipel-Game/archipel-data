@@ -5329,16 +5329,58 @@
     "pathA": {
       "title": "Path A: Stuck Inside",
       "goal": "You are trapped in the internal gridlock. Goal: Tiny Motor Spark.",
-      "body": "Wiggle just your right pinky finger for 10 seconds. Focus entirely on that one movement.",
-      "mind": "Silently name the day of the week and the current month three times.",
-      "social": "Imagine the face of a person who makes you feel seen. Hold their image for 5 seconds."
+      "body": {
+        "text": "The Pinky Pulse. Focus entirely on your right pinky finger. Try to wiggle it just one millimetre. Repeat 5 times.",
+        "pillar": ["movement"],
+        "type": "instant",
+        "channel": "proprioceptive-motor",
+        "effort": 1,
+        "physioTip": "Best for: Initiating 'micro-mobilization' by recruiting the smallest motor units, proving to the brain that the 'lockdown' is not total."
+      },
+      "mind": {
+        "text": "The Time Anchor. Silently name the current day of the week, the month, and the year. Repeat them three times.",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "cognitive",
+        "effort": 1,
+        "physioTip": "Best for: Re-engaging the prefrontal cortex with objective temporal data to break the 'timeless' feeling of the freeze response."
+      },
+      "social": {
+        "text": "Shadow Edge Trace. Find one shadow on the wall. Slowly trace its edges with your eyes. Notice where the light meets the dark.",
+        "pillar": ["environment"],
+        "type": "instant",
+        "channel": "visual",
+        "effort": 1,
+        "physioTip": "Best for: Using neutral visual tracking to pull the gaze out of a 'fixed stare' without requiring the stress of social interaction."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
       "goal": "The world feels like a dangerous, frozen photograph. Goal: Sensory Thaw.",
-      "body": "Slowly blink your eyes three times, noticing the feeling of your eyelids closing.",
-      "mind": "Locate one shadow in the room and trace its edges with your eyes.",
-      "social": "If safe, lean your shoulder against a wall and feel the solid pressure."
+      "body": {
+        "text": "The Conscious Blink. Slowly close your eyes, feel the skin of your eyelids touch, and slowly open them. Repeat 3 times.",
+        "pillar": ["regulation", "movement"],
+        "type": "instant",
+        "channel": "tactile-visual",
+        "effort": 1,
+        "physioTip": "Best for: Breaking the 'frozen gaze' of a high-arousal freeze by re-introducing the most basic rhythmic motor action of the face."
+      },
+      "mind": {
+        "text": "The Weight Shift. Notice the exact point where your body is touching the chair or the floor. Is it heavy or light? Just observe for 5 seconds.",
+        "pillar": ["mindset", "regulation"],
+        "type": "instant",
+        "channel": "interoceptive-proprioceptive",
+        "effort": 1,
+        "physioTip": "Best for: Re-establishing a connection to the 'midline' and gravity, which signals the dorsal system that it is supported."
+      },
+      "social": {
+        "text": "Wall Support. If you can, lean one shoulder or your back against a solid wall. Feel the pressure of the wall 'holding' your frame.",
+        "pillar": ["environment", "connection"],
+        "type": "instant",
+        "channel": "proprioceptive-tactile",
+        "effort": 1,
+        "physioTip": "Best for: Outsourcing the need for 'bracing' to the environment, providing the tactile data of a solid boundary while in a vulnerable state."
+      }
     },
     "warning": "THE THAW WARNING: Leaving the Purple Zone can feel scary."
   },
@@ -5357,17 +5399,59 @@
     "generalGoal": "Space-making. Finding one cubic inch of room.",
     "pathA": {
       "title": "Path A: Stuck Inside",
-      "goal": "You feel crushed by internal heaviness. Goal: Expand the Container.",
-      "body": "Place your hands on your ribs. Inhale slowly and try to push your hands out just one millimeter.",
-      "mind": "The Sky Anchor. Imagine the ceiling or sky above you lifting by ten feet. Breathe into that new space.",
-      "social": "Recall a safe person placing a warm, gentle hand on your back to help share the load."
+      "goal": "You feel crushed by internal heaviness. Goal: Pull OUT.",
+      "body": {
+        "text": "Object Naming. Locate 3 hard, unmoving objects in the room (a desk, a door, a heavy lamp). Say their names out loud in a low whisper.",
+        "pillar": ["mindset", "environment"],
+        "type": "instant",
+        "channel": "auditory-visual",
+        "effort": 1,
+        "physioTip": "Best for: Using language to label 'unmoving' external reality, which proves to the brain that the environment is stable even if the self feels crushed."
+      },
+      "mind": {
+        "text": "Hard Surface Trace. Find a straight, hard edge in the room (like a shelf or window frame). Trace the line with your eyes from start to finish.",
+        "pillar": ["environment"],
+        "type": "instant",
+        "channel": "visual",
+        "effort": 1,
+        "physioTip": "Best for: Breaking the 'compressive' mental loop by tethering the visual system to the structural geometry of the room."
+      },
+      "social": {
+        "text": "The Shield Signal. Text a 'shield' emoji 🛡️ to a safe person. It signals that you are holding a heavy weight and currently need a protected perimeter.",
+        "pillar": ["connection"],
+        "type": "instant",
+        "channel": "relational-visual",
+        "effort": 1,
+        "physioTip": "Best for: Externalizing the 'oppressed' feeling into a social tether, which reduces the internal 'masking' pressure."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
-      "goal": "The environment feels like it's closing in. Goal: Define the Edges.",
-      "body": "Clench your fists as tight as you can for 3 seconds, then release. Feel the blood return to your fingers.",
-      "mind": "Object Naming. Find three hard, unmoving objects in the room and whisper their names.",
-      "social": "Text a 'shield' emoji 🛡️ to a safe person to signal you are holding heavy weight."
+      "goal": "The environment feels like it's closing in. Goal: Pull IN.",
+      "body": {
+        "text": "Micro-Rib Expansion. Place your hands on the sides of your ribcage. Take a shallow breath and try to push your ribs against your palms by just 1 millimeter.",
+        "pillar": ["movement", "regulation"],
+        "type": "instant",
+        "channel": "proprioceptive-respiratory",
+        "effort": 1,
+        "physioTip": "Best for: Initiating 'space-making' in the thoracic container. Small movements signal the brain that the 'squeeze' can be resisted from within."
+      },
+      "mind": {
+        "text": "The Sky Anchor. Close your eyes for 3 seconds. Imagine the ceiling or the sky above you lifting by 10 feet. Breathe into that new, imagined height.",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "visual-interoceptive",
+        "effort": 1,
+        "physioTip": "Best for: Using ideokinesis to counteract the 'sinking' sensation, providing the neurological 'illusion' of space to a cramped nervous system."
+      },
+      "social": {
+        "text": "The Fist Flash. Clench your fists as tight as you can for 3 seconds, then suddenly spread your fingers wide. Feel the blood rushing back into your skin.",
+        "pillar": ["movement", "regulation"],
+        "type": "instant",
+        "channel": "proprioceptive-tactile",
+        "effort": 1,
+        "physioTip": "Best for: Reclaiming the body's 'edges' and motor agency. The rush of blood (vasodilation) provides a visceral 'I am here' signal."
+      }
     },
     "warning": "THE THAW WARNING: Leaving the Purple Zone can feel scary."
   },
@@ -5386,17 +5470,59 @@
     "generalGoal": "Tuning the dial. Finding one clear frequency.",
     "pathA": {
       "title": "Path A: Stuck Inside",
-      "goal": "You feel fuzzy and fragmented internally. Goal: Vocal Tuning.",
-      "body": "Make a low, long 'Mmmmmm' sound. Feel the vibration in your lips and chest.",
-      "mind": "Focus on the rhythm of your own heartbeat. Don't judge it; just listen to the 'thump-thump'.",
-      "social": "Recall one song you know the lyrics to. Hum the very first line."
+      "goal": "You feel fuzzy and fragmented internally. Goal: Pull OUT.",
+      "body": {
+        "text": "The Tactile Dial. Pick up a small object with a distinct texture (a stone, a coin, or a pen). Roll it slowly between your palms, focusing entirely on the sensation against your skin.",
+        "pillar": ["environment", "movement"],
+        "type": "instant",
+        "channel": "tactile-proprioceptive",
+        "effort": 1,
+        "physioTip": "Best for: Using high-contrast tactile feedback to 'tune' the brain's processing away from internal static and toward a specific external coordinate."
+      },
+      "mind": {
+        "text": "The Detail Hunt. Find the smallest piece of text in your view (on a book spine, a label, or a screen). Try to read the letters one by one silently.",
+        "pillar": ["mindset", "environment"],
+        "type": "instant",
+        "channel": "visual",
+        "effort": 1,
+        "physioTip": "Best for: Forcing the foveal visual system to engage in high-detail discrimination, which manually 'sharpens' the neural picture and re-engages the prefrontal cortex."
+      },
+      "social": {
+        "text": "Distance Listening. Close your eyes for 5 seconds. Search for the furthest possible sound you can hear *outside* the room (a car, a bird, the wind).",
+        "pillar": ["environment"],
+        "type": "instant",
+        "channel": "auditory",
+        "effort": 1,
+        "physioTip": "Best for: Using the 'orienting reflex' to expand the auditory field, pulling the focus out of the 'head-buzz' and into the wider environment."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
-      "goal": "The world looks like a blurry, buzzing mess. Goal: Sharp Focus.",
-      "body": "Pick up a small object with a distinct texture (a stone, a pen, a coin) and roll it between your palms.",
-      "mind": "The Detail Hunt. Find the smallest text in the room (on a book spine or label) and try to read it.",
-      "social": "Focus on the furthest sound you can hear outside the building (a car, a bird)."
+      "goal": "The world looks like a blurry, buzzing mess. Goal: Pull IN.",
+      "body": {
+        "text": "The Humming Reset. Take a shallow breath and make a long, low 'Mmmmmm' sound. Focus entirely on the vibration in your lips, teeth, and chest.",
+        "pillar": ["regulation"],
+        "type": "instant",
+        "channel": "auditory-vibrational",
+        "effort": 1,
+        "physioTip": "Best for: Using internal resonance to stimulate the vagus nerve and provide an undeniable internal 'frequency' for a fragmented brain to latch onto."
+      },
+      "mind": {
+        "text": "The Heartbeat Metronome. Place two fingers on your pulse (wrist or neck). Don't try to change it; just count the 'thump-thump' for 10 seconds.",
+        "pillar": ["mindset", "regulation"],
+        "type": "instant",
+        "channel": "interoceptive-tactile",
+        "effort": 1,
+        "physioTip": "Best for: Providing a concrete biological rhythm to anchor a 'pixelated' consciousness back into the reality of the physical body."
+      },
+      "social": {
+        "text": "The Lyric Anchor. Recall the first line of a song you know perfectly. Hum that one line silently to yourself while feeling the air leave your nose.",
+        "pillar": ["connection", "mindset"],
+        "type": "instant",
+        "channel": "auditory-relational",
+        "effort": 1,
+        "physioTip": "Best for: Utilizing familiar auditory memory to create a sense of internal 'order' and sequence, helping the 'static' brain find a coherent narrative."
+      }
     },
     "warning": "THE THAW WARNING: Leaving the Purple Zone can feel scary."
   },
@@ -5415,17 +5541,59 @@
     "generalGoal": "Testing the hinges. Micro-softening.",
     "pathA": {
       "title": "Path A: Stuck Inside",
-      "goal": "You are a prisoner of your own tension. Goal: Internal Lubrication.",
-      "body": "Stick out your tongue as far as it will go, then bring it back in. Repeat 3 times to unlock the throat.",
-      "mind": "Imagine a warm oil being poured over your shoulders, slowly melting the 'lock'.",
-      "social": "Visualize a safe person handing you a key. You don't have to use it yet, just hold it."
+      "goal": "You are a prisoner of your own tension. Goal: Pull OUT.",
+      "body": {
+        "text": "The Open Search. Identify 3 'open' or 'unlocked' things in the room (e.g., an open door, a gap between books on a shelf, an empty cup, or a window).",
+        "pillar": ["environment", "mindset"],
+        "type": "instant",
+        "channel": "visual",
+        "effort": 1,
+        "physioTip": "Best for: Priming the brain with visual data of 'openness' and 'passageways' to counteract the internal neurological lockdown."
+      },
+      "mind": {
+        "text": "The Safety Gap. If with someone, ask them to sit exactly 3 feet away from you. Focus entirely on the empty space (the gap) between you and them.",
+        "pillar": ["connection", "environment"],
+        "type": "instant",
+        "channel": "relational-spatial",
+        "effort": 1,
+        "physioTip": "Best for: Utilizing 'proxemics' to prove to the nervous system that you have a clear perimeter and an exit, which reduces the need for rigid bracing."
+      },
+      "social": {
+        "text": "The Perimeter Scan. Slowly move your eyes to find the nearest exit (a door or window). Trace the frame of that exit once with your eyes.",
+        "pillar": ["environment"],
+        "type": "instant",
+        "channel": "visual-vestibular",
+        "effort": 1,
+        "physioTip": "Best for: Engaging the 'orienting response' toward an exit, which signals the brain that movement is possible, even if it isn't happening yet."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
-      "goal": "The world feels like a cage. Goal: Testing the Perimeter.",
-      "body": "Gently push your tongue against the inside of your teeth. Feel the boundary of your mouth.",
-      "mind": "Find one 'open' thing in the room (an open door, a gap between books, a cup).",
-      "social": "If safe, ask a person or pet to sit near you but *not* touch you. Feel the safety of the gap."
+      "goal": "The world feels like a cage. Goal: Pull IN.",
+      "body": {
+        "text": "The Tongue Unlock. Stick your tongue out as far as possible toward your chin, hold for 1 second, then relax it back. Repeat 3 times.",
+        "pillar": ["movement", "regulation"],
+        "type": "instant",
+        "channel": "proprioceptive-motor",
+        "effort": 1,
+        "physioTip": "Best for: Utilizing the hypoglossal nerve to 'unlock' the floor of the mouth and the throat, which are the primary 'anchors' of the rigid freeze state."
+      },
+      "mind": {
+        "text": "Internal Lubrication. Visualize a warm, golden oil being poured over your shoulders and jaw. Imagine it slowly seeping into the 'hinges' of your joints.",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "visual-thermal",
+        "effort": 1,
+        "physioTip": "Best for: Using 'ideokinesis' to facilitate a top-down release of muscle spindles by providing the brain with a 'sliding' rather than 'locking' mental model."
+      },
+      "social": {
+        "text": "Dental Boundary. Gently press the tip of your tongue against the back of your front teeth. Feel the hard, certain boundary of your own mouth.",
+        "pillar": ["regulation"],
+        "type": "instant",
+        "channel": "tactile-proprioceptive",
+        "effort": 1,
+        "physioTip": "Best for: Establishing a tactile 'Self-boundary' at the midline, helping a spaced-out system re-occupy the 'vault' of the body safely."
+      }
     },
     "warning": "THE THAW WARNING: Leaving the Purple Zone can feel scary."
   },
@@ -5444,17 +5612,59 @@
     "generalGoal": "Releasing the spring—one coil at a time.",
     "pathA": {
       "title": "Path A: Stuck Inside",
-      "goal": "You feel 'packed in' and stifled. Goal: Micro-Exhale.",
-      "body": "Exhale through your nose with a soft 'hiss' sound, as long as you can. Feel the pressure drop slightly.",
-      "mind": "Imagine your internal 'point' of energy getting just a tiny bit wider, like a ripple in a pond.",
-      "social": "Say one word out loud. Any word. Just to feel the air leave your throat."
+      "goal": "You feel 'packed in' and stifled. Goal: Pull OUT.",
+      "body": {
+        "text": "The Length Trace. Place your hands on your hips and slowly slide them down your thighs all the way to your knees. Feel the literal length of your legs.",
+        "pillar": ["movement", "environment"],
+        "type": "instant",
+        "channel": "proprioceptive-tactile",
+        "effort": 1,
+        "physioTip": "Best for: Using long-range tactile feedback to prove to the brain that the 'container' is larger than the 'compressed' internal feeling suggests."
+      },
+      "mind": {
+        "text": "The Room Count. Look at the furthest wall. Mentally count how many normal steps it would take for you to walk from where you are to that wall.",
+        "pillar": ["mindset", "environment"],
+        "type": "instant",
+        "channel": "visual-cognitive",
+        "effort": 1,
+        "physioTip": "Best for: Shifting from 'internal density' to 'external spatial navigation', which requires the brain to process distance and room volume."
+      },
+      "social": {
+        "text": "The Window Expansion. Look at a window or door. Acknowledge the vast, uncompressed space that exists outside these specific walls. Just notice it.",
+        "pillar": ["environment"],
+        "type": "instant",
+        "channel": "visual",
+        "effort": 1,
+        "physioTip": "Best for: Breaking the 'claustrophobic' freeze by tethering the visual system to a much larger environmental horizon."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
-      "goal": "The world feels too small for you. Goal: Expanding the Room.",
-      "body": "Place your hands on your thighs and slowly slide them toward your knees, feeling the length of your legs.",
-      "mind": "Count how many steps it would take to walk to the other side of the room.",
-      "social": "Look at a window and acknowledge the vast space that exists outside the walls."
+      "goal": "The world feels too small/cramped. Goal: Pull IN.",
+      "body": {
+        "text": "The Nasal Hiss. Take a tiny inhale through your nose, then exhale through your nose with a soft, slow 'hiss' sound. Feel the internal pressure drop 1%.",
+        "pillar": ["regulation"],
+        "type": "instant",
+        "channel": "respiratory-auditory",
+        "effort": 1,
+        "physioTip": "Best for: Utilizing nasal resistance to slowly offload pressure from the thoracic cavity without the 'exposure' of an open-mouth breath."
+      },
+      "mind": {
+        "text": "The Ripple Expansion. Imagine the 'point' of energy in your chest getting just a tiny bit wider, like a single ripple moving outward in a calm pond.",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "visual-interoceptive",
+        "effort": 1,
+        "physioTip": "Best for: Using ideokinesis to facilitate a 'micro-thaw' of the fascial retraction, signaling the core that it is safe to expand by millimeters."
+      },
+      "social": {
+        "text": "The Vocal Anchor. Say one single word out loud. Any word (e.g., 'Stone', 'Blue', 'Now'). Just feel the air and vibration leave your throat.",
+        "pillar": ["regulation", "connection"],
+        "type": "instant",
+        "channel": "auditory-vibrational",
+        "effort": 1,
+        "physioTip": "Best for: Re-engaging the laryngeal nerves to break the 'stifled' silence of the freeze, reclaiming the midline voice."
+      }
     },
     "warning": "THE THAW WARNING: Leaving the Purple Zone can feel scary."
   },
@@ -5473,17 +5683,59 @@
     "generalGoal": "Micro-expansion. Finding one thin straw of air.",
     "pathA": {
       "title": "Path A: Stuck Inside",
-      "goal": "You feel an internal 'clamping' down. Goal: Soften the Throat.",
-      "body": "Gently flutter your lips (like a horse 'brrr') for 3 seconds. This vibrates the vagus nerve in the throat to break the constriction.",
-      "mind": "Visualize your lungs as two balloons that are allowed to expand just one millimeter wider.",
-      "social": "Imagine a safe person whispering: 'You are allowed to breathe now.'"
+      "goal": "You feel an internal 'clamping' down. Goal: Pull OUT.",
+      "body": {
+        "text": "Corner Expansion. Find the furthest corner of the room from where you are sitting. Look at it steadily and acknowledge the vast volume of air that exists between you and that corner.",
+        "pillar": ["environment", "mindset"],
+        "type": "instant",
+        "channel": "visual-spatial",
+        "effort": 1,
+        "physioTip": "Best for: Using visual-spatial data to counteract the 'airlock' sensation, proving to the brain that the environment is expansive even if the chest feels tight."
+      },
+      "mind": {
+        "text": "Space Counting. Look around the room and count exactly 5 'openings' or 'gaps' (e.g., a doorway, the space between chair legs, an open window, a gap between books).",
+        "pillar": ["mindset", "environment"],
+        "type": "instant",
+        "channel": "visual-cognitive",
+        "effort": 1,
+        "physioTip": "Best for: Shifting from 'internal constriction' to 'external permeability,' which requires the brain to process pathways and exits."
+      },
+      "social": {
+        "text": "The Cloud Signal. Text a 'cloud' emoji ☁️ to a safe person. It signals that you are feeling 'breathless' or tight and need a quiet, spacious social perimeter.",
+        "pillar": ["connection"],
+        "type": "instant",
+        "channel": "relational-visual",
+        "effort": 1,
+        "physioTip": "Best for: Externalizing the feeling of constriction into a low-stakes social tether, reducing the metabolic cost of trying to 'act normal'."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
-      "goal": "The air in the room feels 'thin' or tight. Goal: External Volume.",
-      "body": "Look at the furthest corner of the room. Acknowledge that there is a lot of space out there, even if you don't feel it yet.",
-      "mind": "Count the number of open spaces in the room (doorways, window panes, gaps).",
-      "social": "Text a 'cloud' emoji ☁️ to a safe person to signal you need more 'air' or space."
+      "goal": "The air in the room feels 'thin' or tight. Goal: Pull IN.",
+      "body": {
+        "text": "The Lip Flutter. Gently press your lips together and exhale just enough to make them vibrate (like a horse 'brrr') for 2 seconds. Focus on the tickle in your lips.",
+        "pillar": ["regulation", "movement"],
+        "type": "instant",
+        "channel": "proprioceptive-vibrational",
+        "effort": 1,
+        "physioTip": "Best for: Sending a vibration through the laryngeal and pharyngeal branches of the vagus nerve, which can mechanically 'un-stick' the constriction in the throat."
+      },
+      "mind": {
+        "text": "Balloon Ribs. Visualize your lungs as two soft, colorful balloons. As you take a tiny inhale, imagine them expanding just one millimeter wider into the space of your chest.",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "visual-interoceptive",
+        "effort": 1,
+        "physioTip": "Best for: Using ideokinesis to gently re-introduce movement to the intercostal muscles without triggering the 'startle-brace' of a deep breath."
+      },
+      "social": {
+        "text": "Internal Permission. Close your eyes for 3 seconds. Say silently to your own lungs: 'It is okay to take up space. You are allowed to breathe right now.'",
+        "pillar": ["connection", "regulation"],
+        "type": "instant",
+        "channel": "cognitive-interoceptive",
+        "effort": 1,
+        "physioTip": "Best for: Utilizing 'self-directed' prosody to lower the defensive tone of the respiratory muscles, pulling awareness back into the safety of the breath."
+      }
     },
     "warning": "THE THAW WARNING: Leaving the Purple Zone can feel scary."
   },
@@ -5502,17 +5754,59 @@
     "generalGoal": "Testing the hinges. Gentle oscillation.",
     "pathA": {
       "title": "Path A: Stuck Inside",
-      "goal": "You feel 'bolted' internally. Goal: Joint Lubrication.",
-      "body": "Slowly roll just your wrists in a tiny circle. If they are locked, just imagine them moving in a circle.",
-      "mind": "Think of the word 'Pliable'. Let the word repeat like a soft mantra.",
-      "social": "Visualize yourself 'un-armoring' in a warm, safe room, piece by piece."
+      "goal": "You feel 'bolted' internally. Goal: Pull OUT.",
+      "body": {
+        "text": "Tactile Softness. Find the softest texture within reach (clothing, hair, or a cushion). Touch it with only your fingertips. Focus entirely on the 'give' of the material.",
+        "pillar": ["environment"],
+        "type": "instant",
+        "channel": "tactile",
+        "effort": 1,
+        "physioTip": "Best for: Providing the brain with 'low-resistance' tactile data to counteract the internal feeling of being 'hard as stone', pulling awareness into the room's softer edges."
+      },
+      "mind": {
+        "text": "Motion Observation. Find one thing in the room that is currently moving (a clock hand, a leaf outside, the flicker of a light). Watch it for 10 seconds.",
+        "pillar": ["mindset", "environment"],
+        "type": "instant",
+        "channel": "visual",
+        "effort": 1,
+        "physioTip": "Best for: Re-syncing the visual system with external rhythm and 'flow,' which proves to the brain that the world is moving even if the self is frozen."
+      },
+      "social": {
+        "text": "The Safety Gap. If with someone, ask them to sit nearby but *not* touch you. Focus on the empty, safe space (the buffer) between you and them.",
+        "pillar": ["connection", "environment"],
+        "type": "instant",
+        "channel": "relational-spatial",
+        "effort": 1,
+        "physioTip": "Best for: Establishing a clear perimeter. Knowing there is a 'gap' reduces the need for defensive armoring and allows the social engagement system to peek out."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
-      "goal": "The world feels like a physical wall. Goal: Tactile Softness.",
-      "body": "Find the softest thing near you (clothing, hair, a cushion) and touch it with just your fingertips.",
-      "mind": "Identify one object in the room that is currently moving (a clock hand, a leaf outside).",
-      "social": "If safe, ask a person or pet to sit nearby without touching you. Feel the safety of the gap."
+      "goal": "The world feels like a physical wall. Goal: Pull IN.",
+      "body": {
+        "text": "The Wrist Ripple. Focus on your wrists. Try to move them in the smallest possible circle—just a millimeter. If they feel fused, simply *imagine* the circle moving inside the joint.",
+        "pillar": ["movement"],
+        "type": "instant",
+        "channel": "proprioceptive-motor",
+        "effort": 1,
+        "physioTip": "Best for: Re-introducing the concept of 'oscillation' to a rigid system. Even imagined movement can start to inhibit the tonic muscle-spindle firing from within."
+      },
+      "mind": {
+        "text": "The Pliable Mantra. Repeat the word 'Pliable' slowly in your mind. Imagine the word itself is soft and flexible, bending around the edges of your thoughts.",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "cognitive-auditory",
+        "effort": 1,
+        "physioTip": "Best for: Using semantic priming to shift the brain's 'motor-model' from 'Rigid/Hard' to 'Flexible/Soft', encouraging a top-down release of the armoring."
+      },
+      "social": {
+        "text": "Un-Armoring Visualization. Close your eyes for 5 seconds. Imagine yourself standing in a warm, safe room, slowly un-clasping a heavy suit of armor, piece by piece.",
+        "pillar": ["mindset", "regulation"],
+        "type": "instant",
+        "channel": "visual-thermal",
+        "effort": 1,
+        "physioTip": "Best for: Using mental imagery to facilitate a systemic release of the 'bracing' reflex by providing a narrative of safety and shedding weight."
+      }
     },
     "warning": "THE THAW WARNING: Leaving the Purple Zone can feel scary."
   },
@@ -5531,17 +5825,59 @@
     "generalGoal": "Manual override. One rhythmic 'ping'.",
     "pathA": {
       "title": "Path A: Stuck Inside",
-      "goal": "Your internal engine is 'stalled' and hot. Goal: Rhythmic Reset.",
-      "body": "Tap your own chest gently in a 1-2, 1-2 heartbeat rhythm for 15 seconds.",
-      "mind": "State one fact about the present: 'I am in [Location]. The time is [Time].'",
-      "social": "Imagine a safe person saying your name in a very calm, steady voice."
+      "goal": "Your internal engine is 'stalled' and hot. Goal: Pull OUT.",
+      "body": {
+        "text": "The Visual Refresh. Blink your eyes as rapidly as you can for 5 seconds. This forces the visual cortex to 're-map' the room and stop the fixed-stare shock.",
+        "pillar": ["regulation", "movement"],
+        "type": "instant",
+        "channel": "visual-motor",
+        "effort": 1,
+        "physioTip": "Best for: Breaking the 'dinner-plate' eye stare of high-arousal shock by manually cycling the eyelid reflex and refreshing retinal data."
+      },
+      "mind": {
+        "text": "Neutral Fixation. Find one object that is completely neutral—neither good nor bad (e.g., a plain floor tile, a chair leg, a blank wall). Look at it for 10 seconds.",
+        "pillar": ["mindset", "environment"],
+        "type": "instant",
+        "channel": "visual",
+        "effort": 1,
+        "physioTip": "Best for: Giving the 'Aghast' brain a low-arousal target to process, preventing the visual system from continuing to scan for the source of the shock."
+      },
+      "social": {
+        "text": "The Cold Sink. Reach out and touch a solid, cold surface (like a metal table leg or a stone wall). Focus entirely on the temperature transfer.",
+        "pillar": ["environment", "regulation"],
+        "type": "instant",
+        "channel": "tactile-thermal",
+        "effort": 1,
+        "physioTip": "Best for: Using thermal contrast to ground the 'vibrating' energy of shock into an unmoving external anchor."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
-      "goal": "The world feels like a startling 'flash'. Goal: Visual Grounding.",
-      "body": "Blink your eyes rapidly 5 times. This forces the visual system to 'refresh' the data feed.",
-      "mind": "Find one object that is completely neutral—neither good nor bad—and stare at it for 10 seconds.",
-      "social": "Reach out and touch a solid, cold surface (like a table leg) to 'ground' the shock."
+      "goal": "The world feels like a startling 'flash'. Goal: Pull IN.",
+      "body": {
+        "text": "The Manual Heartbeat. Gently tap your own chest or thigh in a slow, steady 1-2, 1-2 rhythm. Focus on the physical 'ping' of your finger hitting your body.",
+        "pillar": ["movement", "regulation"],
+        "type": "instant",
+        "channel": "proprioceptive-tactile",
+        "effort": 1,
+        "physioTip": "Best for: Re-introducing an intentional rhythm to a 'stalled' system, signaling the brain that it is safe to return to a sequential, rhythmic state."
+      },
+      "mind": {
+        "text": "Temporal Anchoring. State one fact about the present moment out loud: 'I am in [Location]. The year is [Year].' Hear the sound of your own voice.",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "cognitive-auditory",
+        "effort": 1,
+        "physioTip": "Best for: Using the prefrontal cortex to 'timestamp' reality, which breaks the frozen 'out-of-time' feeling of a high-intensity freeze response."
+      },
+      "social": {
+        "text": "Vocal Visualization. Close your eyes for 3 seconds. Imagine a safe person saying your name in a very calm, steady, and low voice. Feel the sound in your chest.",
+        "pillar": ["connection"],
+        "type": "instant",
+        "channel": "auditory-relational",
+        "effort": 1,
+        "physioTip": "Best for: Utilizing auditory memory to prime the social engagement system, pulling the 'seized' brain back into a state of internal co-regulation."
+      }
     },
     "warning": "THE THAW WARNING: Leaving the Purple Zone can feel scary."
   },
@@ -5560,17 +5896,59 @@
     "generalGoal": "Valve release. Directing the 'steam'.",
     "pathA": {
       "title": "Path A: Stuck Inside",
-      "goal": "The internal pressure is at the 'red line'. Goal: The Vocal Vent.",
-      "body": "Exhale through your mouth with a low 'Hummmm' sound until you are completely empty. Repeat 3 times.",
-      "mind": "Visualize a pressure gauge slowly moving out of the red and back into the orange.",
-      "social": "Write one word that describes the 'horror' on a scrap of paper and crumple it up."
+      "goal": "The internal pressure is at the 'red line'. Goal: Pull OUT.",
+      "body": {
+        "text": "The High-Contrast Press. Press your palms together as hard as you can for 5 seconds. Then, suddenly drop your hands and imagine the 'push' leaving your fingertips into the floor.",
+        "pillar": ["movement", "regulation"],
+        "type": "instant",
+        "channel": "proprioceptive-isometric",
+        "effort": 2,
+        "physioTip": "Best for: Discharging high-voltage motor energy into an isometric 'clash,' providing an externalized exit for the gridlocked sympathetic drive."
+      },
+      "mind": {
+        "text": "The Grain Search. Find 5 objects in the room made of wood or stone. Focus entirely on the detail of the grain or the texture of the surface.",
+        "pillar": ["mindset", "environment"],
+        "type": "instant",
+        "channel": "visual",
+        "effort": 1,
+        "physioTip": "Best for: Forcing the brain to process complex, high-detail external data, which pulls focus out of the internal 'vibrating' pressure loop."
+      },
+      "social": {
+        "text": "The Paper Crumple. Write or draw the 'Horror' or the pressure on a scrap of paper. Crumple it into the smallest ball possible and throw it away from you.",
+        "pillar": ["connection", "movement"],
+        "type": "instant",
+        "channel": "relational-proprioceptive",
+        "effort": 1,
+        "physioTip": "Best for: Using a physical metaphor to externalize 'trapped' emotion, providing a safe motor completion for the impulse to 'get it out'."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
-      "goal": "The environment feels like a trigger for explosion. Goal: Mechanical Discharge.",
-      "body": "Press your palms together as hard as you can for 5 seconds, then drop them. Let the 'push' leave your body.",
-      "mind": "Count 5 things in the room that are made of wood. Focus on the 'solid' grain.",
-      "social": "If safe, ask a person or pet for a 'High-Five' or a firm hand-squeeze to discharge the gridlock."
+      "goal": "The environment feels like a trigger for explosion. Goal: Pull IN.",
+      "body": {
+        "text": "The Low Hum Vent. Take a shallow breath. Exhale through your mouth with a low, vibrating 'Hummmm' sound until you are empty. Feel the vibration in your teeth.",
+        "pillar": ["regulation"],
+        "type": "instant",
+        "channel": "auditory-vibrational",
+        "effort": 1,
+        "physioTip": "Best for: Using the 'vibratory valve' of the vocal cords to bleed off high-intensity sympathetic energy while re-occupying the midline."
+      },
+      "mind": {
+        "text": "The Gauge Visualization. Close your eyes for 3 seconds. Imagine an internal pressure gauge. Visualize the needle slowly moving out of the deep Red and back into the Orange.",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "visual-interoceptive",
+        "effort": 1,
+        "physioTip": "Best for: Utilizing 'top-down' cognitive control to re-frame the interoceptive feedback of pressure as a manageable, shifting variable."
+      },
+      "social": {
+        "text": "The Vocal Release. Say one word out loud that represents 'solid' (e.g., 'Stone', 'Wall', 'Here'). Focus on the feeling of the air leaving your throat.",
+        "pillar": ["connection", "regulation"],
+        "type": "instant",
+        "channel": "auditory-relational",
+        "effort": 1,
+        "physioTip": "Best for: Breaking the 'Horrified' silence by reclaiming the voice. It proves to the internal system that the 'lid' can be opened safely."
+      }
     },
     "warning": "THE THAW WARNING: Leaving the Purple Zone can feel scary."
   },
@@ -5589,17 +5967,59 @@
     "generalGoal": "Allowing the flow. Finding the container.",
     "pathA": {
       "title": "Path A: Stuck Inside",
-      "goal": "The shaking feels overwhelming or scary from the inside. Goal: Grounded Vibration.",
-      "body": "Stand against a wall and push with your hands. Let the shaking happen while feeling the solid support of the building.",
-      "mind": "Vocal Matching. Make a low 'Vooooo' sound to match the frequency of the shaking.",
-      "social": "Mirroring. If with a safe person, have them gently shake their hands with you so you aren't 'doing it alone'."
+      "goal": "The shaking feels overwhelming or scary from the inside. Goal: Pull OUT.",
+      "body": {
+        "text": "Structural Anchoring. Stand or sit against a solid wall. Press your hands or back firmly into it. Allow the shaking to happen while focusing entirely on the unmoving support of the building.",
+        "pillar": ["environment", "movement"],
+        "type": "instant",
+        "channel": "proprioceptive-vestibular",
+        "effort": 1,
+        "physioTip": "Best for: Providing an external 'immovable' reference point to prove to the brain that while the body is moving, the world is stable."
+      },
+      "mind": {
+        "text": "Counting the Beats. Observe the rhythm of the tremors for 10 seconds. Try to count them like a musician (1-2-3-4). Is the frequency fast, slow, or uneven?",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "cognitive-interoceptive",
+        "effort": 1,
+        "physioTip": "Best for: Shifting from 'being shaken' to 'observing movement,' which moves the brain from the brainstem back to the analytical prefrontal cortex."
+      },
+      "social": {
+        "text": "Silent Witness. If with a safe person, ask them to just sit nearby and watch. If alone, visualize a kind, steady person watching the process without trying to fix it.",
+        "pillar": ["connection"],
+        "type": "instant",
+        "channel": "relational-visual",
+        "effort": 1,
+        "physioTip": "Best for: Reducing the 'shame-alarm' that often stops a discharge. Knowing there is a 'steady witness' helps the system complete the thaw safely."
+      }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
-      "goal": "You feel detached from the shaking, like it's happening to someone else. Goal: Re-connecting the Edges.",
-      "body": "The Container. Wrap yourself tightly in a blanket or give yourself a very firm 'self-hug' to feel your physical boundaries.",
-      "mind": "Counting the Beats. Try to count the rhythm of the tremors for 10 seconds. Is it fast or slow?",
-      "social": "Silent Witness. Ask a safe person to just sit with you and watch the process without trying to 'fix' it."
+      "goal": "You feel detached from the shaking (Dissociated). Goal: Pull IN.",
+      "body": {
+        "text": "The Blanket Container. Wrap yourself tightly in a blanket or give yourself a very firm 'self-hug' (hands to opposite shoulders). Squeeze until you feel your own ribs.",
+        "pillar": ["regulation"],
+        "type": "instant",
+        "channel": "proprioceptive-tactile",
+        "effort": 1,
+        "physioTip": "Best for: Using deep pressure (DTP) to define the body's 'envelope,' helping the brain re-tether to the physical self during a high-arousal discharge."
+      },
+      "mind": {
+        "text": "Vocal Matching (VOO). Make a low, long 'Vooooo' sound. Try to match the vibration of your voice to the frequency of the shaking in your chest or jaw.",
+        "pillar": ["regulation"],
+        "type": "instant",
+        "channel": "auditory-vibrational",
+        "effort": 1,
+        "physioTip": "Best for: Harmonizing the involuntary discharge with an intentional vocal vibration, signaling the brain that the movement is 'organized' and safe."
+      },
+      "social": {
+        "text": "Mirroring. If with a safe person, ask them to gently shake their own hands along with you. If alone, shake your hands intentionally for 3 seconds, then let the involuntary tremor take over.",
+        "pillar": ["connection", "movement"],
+        "type": "instant",
+        "channel": "relational-proprioceptive",
+        "effort": 1,
+        "physioTip": "Best for: Using social mirroring or intentional motor-mimicry to pull the 'spaced-out' brain back into the rhythm of the body."
+      }
     },
     "warning": "THE THAW WARNING: Leaving the Purple Zone can feel scary."
   }
