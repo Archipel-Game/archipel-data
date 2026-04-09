@@ -389,8 +389,6 @@
         "type": "instant",
         "channel": "tactile",
         "effort": 1,
-        "pillar": "environment",
-        "type": "instant",
         "physioTip": "Best for: Using exteroception to define the physical boundary between 'self' and 'world'."
       },
       "mind": {
