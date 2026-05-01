@@ -602,7 +602,7 @@
         "type": "instant",
         "channel": "proprioceptive",
         "effort": 1,
-        "physioTip": "Best for: Activating the trigeminal nerve and 'midline' receptors to pull a dissociated brain back into the physical structure of the head."
+        "physioTip": "Best for: Activating the trigeminal nerve and 'midline' receptors to pull the brain back into the physical structure of the head."
       },
       "mind": {
         "text": "Thermal Eye-Press. Rub your palms together to create heat, then cup them over your closed eyes. Feel the darkness and the warmth seep in.",
@@ -681,7 +681,7 @@
         "type": "instant",
         "channel": "proprioceptive-interoceptive",
         "effort": 1,
-        "physioTip": "Best for: Utilizing gravity and skeletal loading to 'pull' the dissociated awareness back down into the vertical axis of the body."
+        "physioTip": "Best for: Utilizing gravity and skeletal loading to 'pull' the awareness back down into the vertical axis of the body."
       },
       "social": {
         "text": "Tactile Memory Trace. Close your eyes. Recall exactly how a specific texture feels (e.g., a pet's fur or a favorite sweater). Try to feel it 'internally'.",
@@ -3190,7 +3190,7 @@
         "type": "instant",
         "channel": "auditory-proprioceptive",
         "effort": 1,
-        "physioTip": "Best for: Using your own voice to create an 'auditory boundary' that pulls a dissociated consciousness back into the midline."
+        "physioTip": "Best for: Using your own voice to create an 'auditory boundary' that pulls consciousness back into the midline."
       }
     },
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
@@ -7246,7 +7246,7 @@
   {
     "sensationID": "purple_hi_paralyzed",
     "title": "Paralyzed",
-    "emotion": "Struck",
+    "emotion": "Terrified",
     "intensityID": "purple_intensity_high",
     "vitals": { "safety": "-6 (Frightened)", "energy": "-5 (Trap)"  },
     "validation": "It makes sense that you feel paralyzed. Your system has detected a threat so immense that it has chosen total immobility as your safest survival strategy.",
@@ -7317,7 +7317,7 @@
   {
     "sensationID": "purple_hi_buried",
     "title": "Buried",
-    "emotion": "Oppressed",
+    "emotion": "Invisible",
     "intensityID": "purple_intensity_high",
     "vitals": { "safety": "-6 (Frightened)", "energy": "-4 (Trap)"  },
     "validation": "It makes sense that you feel buried. The weight of your environment feels like it is physically pressing down on you, and your system is huddling underneath it to protect your core.",
@@ -7388,7 +7388,7 @@
   {
     "sensationID": "purple_hi_static",
     "title": "Static",
-    "emotion": "Fragmented",
+    "emotion": "Dissociate",
     "intensityID": "purple_intensity_high",
     "vitals": { "safety": "-6 (Frightened)", "energy": "-3 (Trap)"  },
     "validation": "It makes sense that you feel like static. Your system is receiving too much conflicting 'signal' to process, so it has turned everything into a protective white noise.",
@@ -7743,7 +7743,7 @@
   {
     "sensationID": "purple_hi_seized",
     "title": "Seized",
-    "emotion": "Aghast",
+    "emotion": "Fragmented",
     "intensityID": "purple_intensity_high",
     "vitals": { "safety": "-6 (Frightened)", "energy": "+3 (Trap)"  },
     "validation": "It makes sense that you feel seized. Your system has 'seized the gears' to prevent a catastrophic breakdown. It is a protective emergency halt.",
@@ -7814,7 +7814,7 @@
   {
     "sensationID": "purple_hi_gridlocked",
     "title": "Gridlocked",
-    "emotion": "Horrified",
+    "emotion": "Struck",
     "intensityID": "purple_intensity_high",
     "vitals": { "safety": "-6 (Frightened)", "energy": "+4 (Trap)"  },
     "validation": "It makes sense that you feel gridlocked. You have an enormous amount of energy ready to fight or flee, but the 'gates' are locked tight. You are a volcano with the lid on.",
@@ -7877,7 +7877,7 @@
         "type": "instant",
         "channel": "auditory-relational",
         "effort": 1,
-        "physioTip": "Best for: Breaking the 'Horrified' silence by reclaiming the voice. It proves to the internal system that the 'lid' can be opened safely."
+        "physioTip": "Best for: Breaking the 'Struck' silence by reclaiming the voice. It proves to the internal system that the 'lid' can be opened safely."
       }
     },
     "warning": "THE THAW WARNING: Leaving the Purple Zone can feel scary."
@@ -7925,7 +7925,7 @@
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
-      "goal": "You feel detached from the shaking (Dissociated). Goal: Pull IN.",
+      "goal": "You feel detached (dissociated). Goal: Pull IN.",
       "body": {
         "text": "The Blanket Container. Wrap yourself tightly in a blanket or give yourself a very firm 'self-hug' (hands to opposite shoulders). Squeeze until you feel your own ribs.",
         "pillar": ["regulation"],
@@ -7959,7 +7959,7 @@
     "intensityID": "purple_intensity_high",
     "zoneName": "Tired but Wired (The Freeze / The Trap)",
     "sensations": "Shaking, Gridlocked, Seized, Rigid, Constricted, Compressed, Locked, Static, Buried, Paralyzed",
-    "emotions": "Terrified, Trapped, Fragmented, Invisible, Numb, Dissociated",
+    "emotions": "Terrified, Invisible, Dissociated, Trapped, Stifled, Breathless, Petrified, Fragmented, Struck, Distressed",
     "thinkingBrain": "OFFLINE",
     "vitals": {
       "energy": "-5 to +5 (Gas & Brake)",
@@ -8034,7 +8034,7 @@
     "intensityID": "blue_intensity_high",
     "zoneName": "High-Intensity Blue (Dorsal Vagal Shutdown)",
     "sensations": "Hibernating, Immobilized, Hollow, Empty, Deflated, Frozen, Shutdown, Numb, Drained, Lethargic",
-    "emotions": "Despairing, Hopeless, Desolate, Spent, Drained, Despondent, Depressed, Sullen, Exhausted",
+    "emotions": "Despairing, Hopeless, Desolate, Spent, Drained, Despondent, Depressed, Sullen, Exhausted, Fatigued",
     "thinkingBrain": "OFFLINE",
     "vitals": {
       "energy": "-5 to -4 (Empty)",
