@@ -8705,8 +8705,7 @@
     },
     "warning": "N/A"
   },
-    
-  },
+
   {
     "intensityID": "yellow_intensity_high",
     "zoneName": "High-Intensity Yellow (Safe Mobilization)",
@@ -8728,7 +8727,7 @@
       "title": "Path A: Anchored Inside",
       "goal": "Bubbling internal energy, need to point at a target. Goal: Train OUT.",
       "body": {
-        "text": "Space-Time Bridging (High Intensity). While feeling the 'buzz', open your eyes wide. Look at your own hands for 1 breath. Look at a target 20 feet away. Finally, look at the furthest horizon or sky possible. Do this while shadowboxing or dancing for 30 seconds.",
+        "text": "Space-Time Bridging. Look at your hands for 1 breath. Look at a target 5 meters away. Finally, look at the furthest horizon or sky possible. Do this for 30 seconds.",
         "pillar": ["movement", "regulation"],
         "type": "expansion",
         "channel": "visual-motor",
