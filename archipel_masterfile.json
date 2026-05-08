@@ -8646,22 +8646,66 @@
     "metaphor": "Shifting off a busy highway onto a scenic neighborhood road.",
     "theImpulse": "To look around the room and take a deep clarifying breath.",
     "superpower": "Smooth Transitions. Clarity to purposefully choose your next move.",
-    "generalGoal": "Savoring the Deceleration.",
+    "generalGoal": "Savoring the Deceleration.",    
     "pathA": {
-      "title": "Path A: Stuck Inside",
-      "goal": "Feeling the internal shift of engine slowing. Goal: Deepen the Anchor.",
-      "body": "The Gravity Check. Press your feet into the floor and feel the support.",
-      "mind": "The Transition Label. Tell yourself: 'I am safely shifting gears.'",
-      "social": "The Inner Circle. Spend 30 seconds visualizing the face of a secure person."
+      "title": "Path A: Anchored Inside",
+      "goal": "Enjoying internal calm, want to gently connect. Goal: Train OUT.",
+      "body": {
+        "text": "The Gravity Check. Press your feet into the floor and feel the support.",
+        "pillar": ["regulation", "body-awareness"],
+        "type": "expansion",
+        "channel": "interoceptive",
+        "effort": 1,
+        "physioTip": "Best for: Ending a period of high-focus work without feeling 'spaced out'."
+      },
+      "mind": {
+        "text": "The Transition Label. Tell yourself: 'I am safely shifting gears.'",
+        "pillar": ["mindset"],
+        "type": "expansion",
+        "channel": "cognitive",
+        "effort": 1,
+        "physioTip": "Best for: Closing the cognitive 'tabs' of the day to prevent evening rumination."
+      },
+      "social": {
+        "text": "The Inner Circle. Spend 30 seconds visualizing the face of a secure person.",
+        "pillar": ["connection"],
+        "type": "expansion",
+        "channel": "relational",
+        "effort": 1,
+        "physioTip": "Best for: relational."
+      }
     },
     "pathB": {
-      "title": "Path B: Stuck Outside",
-      "goal": "Highly present in environment. Goal: Active Appreciation.",
-      "body": "Visual Broadening. Let your eyes wander and rest on whatever is naturally pleasing.",
-      "mind": "Micro-Gratitude. Identify one small thing that is working perfectly.",
-      "social": "The Just Because Bid. Send a quick message to a friend requiring no response."
+      "title": "Path B: Anchored Outside",
+      "goal": "Feeling open-hearted and engaged. Goal: Train IN.",
+      "body": {
+        "text": "Visual Broadening. Let your eyes wander and rest on whatever is naturally pleasing.",
+        "pillar": ["regulation", "environment"],
+        "type": "expansion",
+        "channel": "exteroceptive",
+        "effort": 1,
+        "physioTip": "Best for: .Lowering sympathetic tone by breaking a fixed, narrow gaze."
+      },
+      "mind": {
+        "text": "Micro-Gratitude. Identify one small thing that is working perfectly.",
+        "pillar": ["mindset"],
+        "type": "expansion",
+        "channel": "cognitive-relational",
+        "effort": 1,
+        "physioTip": "Best for: Best for: Neuroplasticity training; spotting safety cues in a neutral environment."
+      },
+      "social": {
+        "text": "The Just Because Bid. Send a quick message to a friend requiring no response.",
+        "pillar": ["connection"],
+        "type": "expansion",
+        "channel": "relational",
+        "effort": 1,
+        "physioTip": "Best for: Practicing low-stakes social connection while energy reserves are soft."
+      }
     },
     "warning": "N/A"
+  },
+    
   },
   {
     "intensityID": "yellow_intensity_high",
