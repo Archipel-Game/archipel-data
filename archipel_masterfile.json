@@ -10,13 +10,13 @@
   { "x": -6, "y": 3, "label": "Seized", "sensationID": "purple_hi_seized", "intensityID": "purple_intensity_high" },
   { "x": -6, "y": 4, "label": "Gridlocked", "sensationID": "purple_hi_gridlocked", "intensityID": "purple_intensity_high" },
   { "x": -6, "y": 5, "label": "Shaking", "sensationID": "purple_hi_shaking", "intensityID": "purple_intensity_high" },
-  { "x": -5, "y": -5, "label": "Hibernating", "sensationID": "blue_hi_hibernating", "intensityID": "blue_intensity_high" },
+  { "x": -5, "y": -5, "label": "Shutdown", "sensationID": "blue_hi_shutdown", "intensityID": "blue_intensity_high" },
   { "x": -4, "y": -5, "label": "Immobilized", "sensationID": "blue_hi_immobilized", "intensityID": "blue_intensity_high" },
   { "x": -3, "y": -5, "label": "Hollow", "sensationID": "blue_hi_hollow", "intensityID": "blue_intensity_high" },
   { "x": -2, "y": -5, "label": "Empty", "sensationID": "blue_hi_empty", "intensityID": "blue_intensity_high" },
   { "x": -1, "y": -5, "label": "Deflated", "sensationID": "blue_hi_deflated", "intensityID": "blue_intensity_high" },
   { "x": -5, "y": -4, "label": "Frozen", "sensationID": "blue_hi_frozen", "intensityID": "blue_intensity_high" },
-  { "x": -4, "y": -4, "label": "Shutdown", "sensationID": "blue_hi_shutdown", "intensityID": "blue_intensity_high" },
+  { "x": -4, "y": -4, "label": "Hibernating", "sensationID": "blue_hi_hibernating", "intensityID": "blue_intensity_high" },
   { "x": -3, "y": -4, "label": "Numb", "sensationID": "blue_hi_numb", "intensityID": "blue_intensity_high" },
   { "x": -2, "y": -4, "label": "Drained", "sensationID": "blue_hi_drained", "intensityID": "blue_intensity_high" },
   { "x": -1, "y": -4, "label": "Lethargic", "sensationID": "blue_hi_lethargic", "intensityID": "blue_intensity_high" },
@@ -26,11 +26,11 @@
   { "x": -2, "y": -3, "label": "Sinking", "sensationID": "blue_med_sinking", "intensityID": "blue_intensity_medium" },
   { "x": -1, "y": -3, "label": "Exhausted", "sensationID": "blue_med_exhausted", "intensityID": "blue_intensity_medium" },
   { "x": -5, "y": -2, "label": "Fading", "sensationID": "blue_med_fading", "intensityID": "blue_intensity_medium" },
-  { "x": -4, "y": -2, "label": "Slumped", "sensationID": "blue_med_slumped", "intensityID": "blue_intensity_medium" },
+  { "x": -4, "y": -2, "label": "Low", "sensationID": "blue_med_low", "intensityID": "blue_intensity_medium" },
   { "x": -3, "y": -2, "label": "Shrinking", "sensationID": "blue_med_shrinking", "intensityID": "blue_intensity_medium" },
   { "x": -2, "y": -2, "label": "Heavy", "sensationID": "blue_med_heavy", "intensityID": "blue_intensity_medium" },
   { "x": -1, "y": -2, "label": "Flat", "sensationID": "blue_med_flat", "intensityID": "blue_intensity_medium" },
-  { "x": -5, "y": -1, "label": "Retreating", "sensationID": "blue_lo_retreating", "intensityID": "blue_intensity_low" },
+  { "x": -5, "y": -1, "label": "Closed", "sensationID": "blue_lo_closed", "intensityID": "blue_intensity_low" },
   { "x": -4, "y": -1, "label": "Sagging", "sensationID": "blue_lo_sagging", "intensityID": "blue_intensity_low" },
   { "x": -3, "y": -1, "label": "Dulled", "sensationID": "blue_lo_dulled", "intensityID": "blue_intensity_low" },
   { "x": -2, "y": -1, "label": "Sluggish", "sensationID": "blue_lo_sluggish", "intensityID": "blue_intensity_low" },
@@ -38,22 +38,22 @@
   { "x": -5, "y": 1, "label": "Agitated", "sensationID": "red_lo_agitated", "intensityID": "red_intensity_low" },
   { "x": -4, "y": 1, "label": "Turbulent", "sensationID": "red_lo_turbulent", "intensityID": "red_intensity_low" },
   { "x": -3, "y": 1, "label": "Charged", "sensationID": "red_lo_charged", "intensityID": "red_intensity_low" },
-  { "x": -2, "y": 1, "label": "Unsettled", "sensationID": "red_lo_unsettled", "intensityID": "red_intensity_low" },
-  { "x": -1, "y": 1, "label": "Tense", "sensationID": "red_lo_tense", "intensityID": "red_intensity_low" },
+  { "x": -2, "y": 1, "label": "Scanning", "sensationID": "red_lo_scanning", "intensityID": "red_intensity_low" },
+  { "x": -1, "y": 1, "label": "Unsettled", "sensationID": "red_lo_unsettled", "intensityID": "red_intensity_low" },
   { "x": -5, "y": 2, "label": "Pounding", "sensationID": "red_med_pounding", "intensityID": "red_intensity_medium" },
   { "x": -4, "y": 2, "label": "Guarded", "sensationID": "red_med_guarded", "intensityID": "red_intensity_medium" },
-  { "x": -3, "y": 2, "label": "Scanning", "sensationID": "red_med_scanning", "intensityID": "red_intensity_medium" },
+  { "x": -3, "y": 2, "label": "Braced", "sensationID": "red_med_braced", "intensityID": "red_intensity_medium" },
   { "x": -2, "y": 2, "label": "Flushed", "sensationID": "red_med_flushed", "intensityID": "red_intensity_medium" },
   { "x": -1, "y": 2, "label": "Prickly", "sensationID": "red_med_prickly", "intensityID": "red_intensity_medium" },
-  { "x": -5, "y": 3, "label": "Volatile", "sensationID": "red_med_volatile", "intensityID": "red_intensity_medium" },
+  { "x": -5, "y": 3, "label": "Shaking", "sensationID": "red_med_shaking", "intensityID": "red_intensity_medium" },
   { "x": -4, "y": 3, "label": "Trembling", "sensationID": "red_med_trembling", "intensityID": "red_intensity_medium" },
   { "x": -3, "y": 3, "label": "Pressurized", "sensationID": "red_med_pressurized", "intensityID": "red_intensity_medium" },
   { "x": -2, "y": 3, "label": "Vibrating", "sensationID": "red_med_vibrating", "intensityID": "red_intensity_medium" },
-  { "x": -1, "y": 3, "label": "Fidgety", "sensationID": "red_med_fidgety", "intensityID": "red_intensity_medium" },
+  { "x": -1, "y": 3, "label": "Restless", "sensationID": "red_med_restless", "intensityID": "red_intensity_medium" },
   { "x": -5, "y": 4, "label": "Burning", "sensationID": "red_hi_burning", "intensityID": "red_intensity_high" },
   { "x": -4, "y": 4, "label": "Boiling", "sensationID": "red_hi_boiling", "intensityID": "red_intensity_high" },
   { "x": -3, "y": 4, "label": "Clenched", "sensationID": "red_hi_clenched", "intensityID": "red_intensity_high" },
-  { "x": -2, "y": 4, "label": "Braced", "sensationID": "red_hi_braced", "intensityID": "red_intensity_high" },
+  { "x": -2, "y": 4, "label": "Tense", "sensationID": "red_hi_tense", "intensityID": "red_intensity_high" },
   { "x": -1, "y": 4, "label": "Racing", "sensationID": "red_hi_racing", "intensityID": "red_intensity_high" },
   { "x": -5, "y": 5, "label": "Exploding", "sensationID": "red_hi_exploding", "intensityID": "red_intensity_high" },
   { "x": -4, "y": 5, "label": "Flooded", "sensationID": "red_hi_flooded", "intensityID": "red_intensity_high" },
@@ -61,14 +61,14 @@
   { "x": -2, "y": 5, "label": "Twitchy", "sensationID": "red_hi_twitchy", "intensityID": "red_intensity_high" },
   { "x": -1, "y": 5, "label": "Surging", "sensationID": "red_hi_surging", "intensityID": "red_intensity_high" },
   { "x": 1, "y": 1, "label": "Smooth", "sensationID": "yellow_lo_smooth", "intensityID": "yellow_intensity_low" },
-  { "x": 2, "y": 1, "label": "Brimming", "sensationID": "yellow_lo_brimming", "intensityID": "yellow_intensity_low" },
+  { "x": 2, "y": 1, "label": "Radiant", "sensationID": "yellow_lo_radiant", "intensityID": "yellow_intensity_low" },
   { "x": 3, "y": 1, "label": "Rising", "sensationID": "yellow_lo_rising", "intensityID": "yellow_intensity_low" },
   { "x": 4, "y": 1, "label": "Bouncy", "sensationID": "yellow_lo_bouncy", "intensityID": "yellow_intensity_low" },
   { "x": 5, "y": 1, "label": "Vibrant", "sensationID": "yellow_lo_vibrant", "intensityID": "yellow_intensity_low" },
   { "x": 1, "y": 2, "label": "Engaged", "sensationID": "yellow_med_engaged", "intensityID": "yellow_intensity_medium" },
   { "x": 2, "y": 2, "label": "Locked-In", "sensationID": "yellow_med_locked_in", "intensityID": "yellow_intensity_medium" },
   { "x": 3, "y": 2, "label": "Glowing", "sensationID": "yellow_med_glowing", "intensityID": "yellow_intensity_medium" },
-  { "x": 4, "y": 2, "label": "Elevated", "sensationID": "yellow_med_elevated", "intensityID": "yellow_intensity_medium" },
+  { "x": 4, "y": 2, "label": "Light", "sensationID": "yellow_med_light", "intensityID": "yellow_intensity_medium" },
   { "x": 5, "y": 2, "label": "Tingling", "sensationID": "yellow_med_tingling", "intensityID": "yellow_intensity_medium" },
   { "x": 1, "y": 3, "label": "Awake", "sensationID": "yellow_med_awake", "intensityID": "yellow_intensity_medium" },
   { "x": 2, "y": 3, "label": "Vital", "sensationID": "yellow_med_vital", "intensityID": "yellow_intensity_medium" },
@@ -79,7 +79,7 @@
   { "x": 2, "y": 4, "label": "Bright", "sensationID": "yellow_hi_bright", "intensityID": "yellow_intensity_high" },
   { "x": 3, "y": 4, "label": "Pulsing", "sensationID": "yellow_hi_pulsing", "intensityID": "yellow_intensity_high" },
   { "x": 4, "y": 4, "label": "Flowing", "sensationID": "yellow_hi_flowing", "intensityID": "yellow_intensity_high" },
-  { "x": 5, "y": 4, "label": "Buoyant", "sensationID": "yellow_hi_buoyant", "intensityID": "yellow_intensity_high" },
+  { "x": 5, "y": 4, "label": "Shining", "sensationID": "yellow_hi_shining", "intensityID": "yellow_intensity_high" },
   { "x": 1, "y": 5, "label": "Widening", "sensationID": "yellow_hi_widening", "intensityID": "yellow_intensity_high" },
   { "x": 2, "y": 5, "label": "Lifted", "sensationID": "yellow_hi_lifted", "intensityID": "yellow_intensity_high" },
   { "x": 3, "y": 5, "label": "Bubbling", "sensationID": "yellow_hi_bubbling", "intensityID": "yellow_intensity_high" },
@@ -97,13 +97,13 @@
   { "x": 1, "y": -4, "label": "Loose", "sensationID": "green_hi_loose", "intensityID": "green_intensity_high" },
   { "x": 5, "y": -3, "label": "Balanced", "sensationID": "green_med_balanced", "intensityID": "green_intensity_medium" },
   { "x": 4, "y": -3, "label": "Present", "sensationID": "green_med_present", "intensityID": "green_intensity_medium" },
-  { "x": 3, "y": -3, "label": "Restoring", "sensationID": "green_med_restoring", "intensityID": "green_intensity_medium" },
+  { "x": 3, "y": -3, "label": "Easy", "sensationID": "green_med_easy", "intensityID": "green_intensity_medium" },
   { "x": 2, "y": -3, "label": "Calm", "sensationID": "green_med_calm", "intensityID": "green_intensity_medium" },
   { "x": 1, "y": -3, "label": "Resting", "sensationID": "green_med_resting", "intensityID": "green_intensity_medium" },
-  { "x": 5, "y": -2, "label": "Softening", "sensationID": "green_med_softening", "intensityID": "green_intensity_medium" },
+  { "x": 5, "y": -2, "label": "Soft", "sensationID": "green_med_soft", "intensityID": "green_intensity_medium" },
   { "x": 4, "y": -2, "label": "Expanding", "sensationID": "green_med_expanding", "intensityID": "green_intensity_medium" },
   { "x": 3, "y": -2, "label": "Satisfied", "sensationID": "green_med_satisfied", "intensityID": "green_intensity_medium" },
-  { "x": 2, "y": -2, "label": "Anchored", "sensationID": "green_med_anchored", "intensityID": "green_intensity_medium" },
+  { "x": 2, "y": -2, "label": "Secure", "sensationID": "green_med_secure", "intensityID": "green_intensity_medium" },
   { "x": 1, "y": -2, "label": "Smooth", "sensationID": "green_med_smooth", "intensityID": "green_intensity_medium" },
   { "x": 5, "y": -1, "label": "Abundant", "sensationID": "green_lo_abundant", "intensityID": "green_intensity_low" },
   { "x": 4, "y": -1, "label": "Open", "sensationID": "green_lo_open", "intensityID": "green_intensity_low" },
@@ -127,17 +127,17 @@
   ],
   "sensationData": [
   {
-    "sensationID": "blue_hi_hibernating",
-    "title": "Hibernating",
+    "sensationID": "blue_hi_shutdown",
+    "title": "Shutdown",
     "emotion": "Despairing",
     "intensityID": "blue_intensity_high",
     "vitals": { "energy": "-5 (Empty)", "safety": "-5 (Unsafe)" },
-    "validation": "It makes sense that you feel like hibernating. Your tank is empty and your body has hit the emergency brake. You are safe to pause and thaw at your own pace.",
-    "blueprint": "Metabolic conservation mode. Your heart rate and breathing drop to preserve core vitality.",
-    "physicalSensation": "A profound, immovable heaviness; a drop in body temperature; the feeling of an empty chest cavity.",
-    "metaphor": "A machine cutting power to all non-essential systems to save the last drop of battery.",
-    "theImpulse": "To isolate, lie down, and retreat into a dark, quiet sanctuary.",
-    "superpower": "Biological Shielding. Your system is masterfully powering down to protect you from overwhelming stress.",
+    "validation": "It makes sense that you feel shut down. Numbness isn't a lack of feeling; it’s a high-level protective gear your brain wears to prevent a total system crash. You are not broken; your body is successfully executing an ancient survival protocol.",
+    "blueprint": "The 'Vault' response. Your system has determined the environment is too costly to engage with. It has pulled the emergency brake to protect your vital organs.",
+    "physicalSensation": "A heavy, leaden weight throughout the body. A sense of being 'switched off' or disconnected from the motor controls.",
+    "metaphor": "A deep-sea creature retreating into a dark trench where the pressure is immense, but the world above cannot reach it.",
+    "theImpulse": "To curl into a ball, pull the covers over your head, and completely disappear from view.",
+    "superpower": "Absolute Containment. You are currently a fortress. Your system is prioritizing core survival by cutting off all external noise.",
     "generalGoal": "Gentle thawing. No heavy lifting.",
     "pathA": {
       "title": "Path A: Stuck Inside",
@@ -553,18 +553,18 @@
     "warning": "THE THAW WARNING: Leaving the Blue Zone can feel scary."
   },
   {
-    "sensationID": "blue_hi_shutdown",
-    "title": "Shutdown",
+    "sensationID": "blue_hi_hibernating",
+    "title": "Hibernating",
     "emotion": "Depressed",
     "intensityID": "blue_intensity_high",
     "vitals": { "safety": "-4 (Low)", "energy": "-4 (Depleted)"  },
-    "validation": "It makes sense that you feel shut down. Numbness isn't a lack of feeling; it’s a high-level protective gear your brain wears to prevent a total system crash. You are not broken; your body is successfully executing an ancient survival protocol.",
-    "blueprint": "The 'Vault' response. Your system has determined the environment is too costly to engage with. It has pulled the emergency brake to protect your vital organs.",
-    "physicalSensation": "A heavy, leaden weight throughout the body. A sense of being 'switched off' or disconnected from the motor controls.",
-    "metaphor": "A deep-sea creature retreating into a dark trench where the pressure is immense, but the world above cannot reach it.",
-    "theImpulse": "To curl into a ball, pull the covers over your head, and completely disappear from view.",
-    "superpower": "Absolute Containment. You are currently a fortress. Your system is prioritizing core survival by cutting off all external noise.",
-    "generalGoal": "The 'Thaw'. A tiny pulse of presence.",
+    "validation": "It makes sense that you feel like hibernating. Your tank is empty and your body has hit the emergency brake. You are safe to pause and thaw at your own pace.",
+    "blueprint": "Metabolic conservation mode. Your heart rate and breathing drop to preserve core vitality.",
+    "physicalSensation": "A profound, immovable heaviness; a drop in body temperature; the feeling of an empty chest cavity.",
+    "metaphor": "A machine cutting power to all non-essential systems to save the last drop of battery.",
+    "theImpulse": "To isolate, lie down, and retreat into a dark, quiet sanctuary.",
+    "superpower": "Biological Shielding. Your system is masterfully powering down to protect you from overwhelming stress.",
+    "generalGoal": "Gentle thawing. No heavy lifting.",
     "pathA": {
       "title": "Path A: Stuck Inside",
       "goal": "You feel heavy and trapped in the 'Vault'. Goal: Pull OUT.",
@@ -1279,12 +1279,12 @@
     "warning": "THE THAW WARNING: Leaving the Blue Zone can feel scary."
   },
   {
-    "sensationID": "blue_med_slumped",
-    "title": "Slumped",
+    "sensationID": "blue_med_low",
+    "title": "Low",
     "emotion": "Morose",
     "intensityID": "blue_intensity_medium",
     "vitals": { "safety": "-4 (Low)", "energy": "-2 (Low)"  },
-    "validation": "It makes sense that you feel slumped. Your system has stopped 'holding' you upright against a world that feels heavy and discouraging.",
+    "validation": "It makes sense that you feel low. Your system has stopped 'holding' you upright against a world that feels heavy and discouraging.",
     "blueprint": "Postural deflation. The sympathetic 'tone' that keeps our spine erect has been turned down by the dorsal vagus, allowing gravity to take the lead.",
     "physicalSensation": "Curved shoulders, a drooping head, and a heavy pelvis. It feels like your muscles have lost their 'spring' and are just hanging off your bones.",
     "metaphor": "A sunflower at the end of a long, rain-heavy day—bowing its head because the weight of the water is more than it can carry.",
@@ -1563,12 +1563,12 @@
     "warning": "THE THAW WARNING: Leaving the Blue Zone can feel scary."
   },
   {
-    "sensationID": "blue_lo_retreating",
-    "title": "Retreating",
+    "sensationID": "blue_lo_closed",
+    "title": "Closed",
     "emotion": "Disgusted",
     "intensityID": "blue_intensity_low",
     "vitals": { "safety": "-5 (Unsafe)", "energy": "-1 (Weighted)"  },
-    "validation": "It makes sense that you feel like retreating. Your system is identifying a lack of safety and is proactively pulling back to prevent further exposure. You are not being 'difficult'; you are being protective.",
+    "validation": "It makes sense that you feel closed. Your system is identifying a lack of safety and is proactively pulling back to prevent further exposure. You are not being 'difficult'; you are being protective.",
     "blueprint": "Proactive withdrawal. A mild dorsal vagal shift where the body prepares to shut the gates before a full drain occurs.",
     "physicalSensation": "A subtle pulling back in the chest, shoulders turning away from the center, and a desire to look at the exit.",
     "metaphor": "The tide pulling away from the shore, leaving the sand exposed and quiet.",
@@ -2486,18 +2486,18 @@
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
   },
   {
-    "sensationID": "red_hi_braced",
-    "title": "Braced",
+    "sensationID": "red_hi_tense",
+    "title": "Tense",
     "emotion": "Tense",
     "intensityID": "red_intensity_high",
     "vitals": { "safety": "-2 (Guarded)", "energy": "+4 (Thriving)"  },
-    "validation": "It makes sense that you feel braced. You are expecting an impact, so your system is pre-loading your muscles to absorb the blow.",
-    "blueprint": "Preparatory Sympathetic Load. Your brain is anticipating a challenge and has 'tightened the strings' of your system to ensure stability.",
-    "physicalSensation": "Lower back tension; knees locked; holding the breath; and a feeling of 'readiness' that is starting to ache.",
-    "metaphor": "A bridge under a heavy load—straining against the weight, but holding firm.",
-    "theImpulse": "To stay in one position, to monitor every sound, and to prepare for the worst.",
-    "superpower": "Durability. You are built to endure. Your system is currently maximizing its defensive architecture to keep you upright.",
-    "generalGoal": "Yielding to support. Proving safety.",
+    "validation": "It makes sense that you feel tense. You’ve encountered a small 'knot' in your day, and your muscles are tightening to help you pull through it.",
+    "blueprint": "Mild Sympathetic Tone. A slight increase in muscle spindles' sensitivity, preparing your body to exert force if the 'peeved' feeling escalates.",
+    "physicalSensation": "A tight jaw; a 'string' pulling between the shoulder blades; and a feeling of being 'wound up' like a spring.",
+    "metaphor": "A guitar string that has been tuned just a half-note too sharp. The sound is clear, but it feels like it might snap if pulled harder.",
+    "theImpulse": "To sigh with frustration, to move with 'sharp' gestures, and to be short with your answers.",
+    "superpower": "Ready-to-Act. This tension is 'work-ready' energy. It is the beginning of the focus needed to solve a problem or set a boundary.",
+    "generalGoal": "Subtle uncoiling. Releasing the spring.",
     "pathA": {
       "title": "Path A: Stuck Inside",
       "goal": "Your internal structure is under strain. Goal: Pull OUT.",
@@ -2628,12 +2628,12 @@
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
   },
   {
-    "sensationID": "red_med_volatile",
-    "title": "Volatile",
+    "sensationID": "red_med_shaking",
+    "title": "Shaking",
     "emotion": "Fuming",
     "intensityID": "red_intensity_medium",
     "vitals": { "safety": "-5 (Unsafe)", "energy": "+3 (Humming)"  },
-    "validation": "It makes sense that you feel volatile. Your system is highly reactive because it detects a lack of safety. You are like a sensitive alarm system currently set to its highest trigger level.",
+    "validation": "It makes sense that you feel shaky. Your system is highly reactive because it detects a lack of safety. You are like a sensitive alarm system currently set to its highest trigger level.",
     "blueprint": "Sympathetic Hyper-reactivity. Your nervous system is primed for a 'snap' response. The brain is scanning for any further threat to justify an immediate explosion.",
     "physicalSensation": "Hot, shallow breathing; a tight, restless feeling in the chest; and eyes that feel like they are darting or scanning the room rapidly.",
     "metaphor": "Dry brush in a drought. One small spark could start a fire, so your system is bracing for the flame.",
@@ -2912,12 +2912,12 @@
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
   },
   {
-    "sensationID": "red_med_fidgety",
-    "title": "Fidgety",
+    "sensationID": "red_med_restless",
+    "title": "Restless",
     "emotion": "Restless",
     "intensityID": "red_intensity_medium",
     "vitals": { "safety": "-1 (Vulnerable)", "energy": "+3 (Humming)"  },
-    "validation": "It makes sense that you feel fidgety. You have a surplus of 'mobilization' energy and your system is trying to find a productive way to use it.",
+    "validation": "It makes sense that you feel restless. You have a surplus of 'mobilization' energy and your system is trying to find a productive way to use it.",
     "blueprint": "Low-level Sympathetic Discharge. Your body is using 'micro-movements' (fidgeting) to bleed off excess adrenaline and keep the system from becoming overloaded.",
     "physicalSensation": "Bouncing legs; tapping fingers; playing with hair or jewelry; and a constant need to shift your posture.",
     "metaphor": "A puppy waiting by the door with a leash in its mouth. Ready to go, eager, and full of undirected movement.",
@@ -3125,72 +3125,72 @@
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
   },
   {
-    "sensationID": "red_med_scanning",
-    "title": "Scanning",
+    "sensationID": "red_med_braced",
+    "title": "Braced",
     "emotion": "Worried",
     "intensityID": "red_intensity_medium",
     "vitals": { "safety": "-3 (Shielded)", "energy": "+2 (Glowing)"  },
-    "validation": "It makes sense that you are scanning. Your brain is trying to predict and prevent problems by looking for any small cue of trouble. Your 'radar' is just working overtime.",
-    "blueprint": "Hyper-Vigilant Orienting. The nervous system has narrowed your visual and auditory focus to detect threats, often leading to 'tunnel vision' or an inability to rest the eyes.",
-    "physicalSensation": "Eyes darting from object to object; a feeling of 'lightness' in the head; and a neck that feels slightly stiff from constant movement.",
-    "metaphor": "A lighthouse beam swinging rapidly across the water, searching for a rock that might not even be there.",
-    "theImpulse": "To check your phone, to look at the door, and to mentally rehearse 'what-if' scenarios over and over.",
-    "superpower": "High-Speed Pattern Recognition. You are currently a genius at noticing details. Your system is protecting your future by analyzing the present.",
-    "generalGoal": "Grounding the gaze. Broadening the view.",
+    "validation": "It makes sense that you feel braced. You are expecting an impact, so your system is pre-loading your muscles to absorb the blow.",
+    "blueprint": "Preparatory Sympathetic Load. Your brain is anticipating a challenge and has 'tightened the strings' of your system to ensure stability.",
+    "physicalSensation": "Lower back tension; knees locked; holding the breath; and a feeling of 'readiness' that is starting to ache.",
+    "metaphor": "A bridge under a heavy load—straining against the weight, but holding firm.",
+    "theImpulse": "To stay in one position, to monitor every sound, and to prepare for the worst.",
+    "superpower": "Durability. You are built to endure. Your system is currently maximizing its defensive architecture to keep you upright.",
+    "generalGoal": "Yielding to support. Proving safety.",
     "pathA": {
       "title": "Path A: Stuck Inside",
-      "goal": "Your thoughts are scanning for 'what-ifs'. Goal: Pull OUT.",
+      "goal": "You feel the 'knot' and frustration internally. Goal: Pull OUT.",
       "body": {
-        "text": "Panoramic Vision. Soften your gaze until you can see the far-left and far-right edges of the room at the same time without moving your head.",
-        "pillar": ["regulation", "environment"],
+        "text": "The Foveal Break. Look at the furthest point possible—out a window or down a long hallway. Soften your gaze until the edges of the room feel slightly blurry for 15 seconds.",
+        "pillar": ["environment", "regulation"],
         "type": "instant",
-        "channel": "visual-vestibular",
+        "channel": "visual",
         "effort": 1,
-        "physioTip": "Best for: Switching from foveal vision (sympathetic) to peripheral vision (parasympathetic), which sends a hardware signal to the brainstem to inhibit the 'threat-scan' and startle response."
+        "physioTip": "Best for: Inhibiting narrow foveal vision to shift the brain from a 'threat-fixated' sympathetic state to a 'global-scanning' parasympathetic state, pulling awareness out of the internal knot."
       },
       "mind": {
-        "text": "Targeted Categorization. Find 3 green things, 3 red things, and 3 yellow things in the room. Say their names silently as you find them.",
+        "text": "Relaxation Mirroring. Identify one object in your environment that is 'limp' or 'draped' (e.g., a scarf on a chair, a hanging plant leaf, a sleeping pet). Look at it and imagine having its weight.",
         "pillar": ["mindset", "environment"],
         "type": "instant",
         "channel": "visual-cognitive",
         "effort": 1,
-        "physioTip": "Best for: Giving the 'scanning' reflex a specific, non-threatening analytical job to do, which re-engages the prefrontal cortex and anchors awareness in the room."
+        "physioTip": "Best for: Using external visual 'anchors' of low-tone objects to prime the brain for its own muscular down-regulation by looking 'at' relaxation in the world."
       },
       "social": {
-        "text": "Neutral Fixation. Pick one non-human, neutral object (like a light switch or door handle). Look at it steadily for 10 seconds without letting your eyes jump.",
-        "pillar": ["environment"],
+        "text": "Pharyngeal Reset. Perform a wide, exaggerated 'fake' yawn. Stretch the back of your throat and open your mouth as wide as possible, exhaling with a soft sound.",
+        "pillar": ["regulation"],
         "type": "instant",
-        "channel": "visual",
+        "channel": "proprioceptive-auditory",
         "effort": 1,
-        "physioTip": "Best for: Practicing 'visual stillness' to prove to the nervous system that you can stop the environmental scan safely, breaking the worry-loop."
+        "physioTip": "Best for: Mechanically stretching the muscles of the jaw and pharynx to stimulate the glossopharyngeal nerve, triggering a reset that opens the internal 'clench' to the outside."
       }
     },
     "pathB": {
       "title": "Path B: Stuck Outside",
-      "goal": "Your eyes can't stop moving around the room. Goal: Pull IN.",
+      "goal": "The world feels annoying or high-pressure. Goal: Pull IN.",
       "body": {
-        "text": "Hallux Grounding. Press your big toes (hallux) firmly into the floor. Feel the solid, undeniable resistance of the ground beneath your feet.",
+        "text": "The Scapular Drop. Inhale deeply while pulling your shoulders toward your ears. Hold for 2 seconds, then exhale sharply and let your shoulders drop like heavy weights.",
         "pillar": ["movement", "regulation"],
         "type": "instant",
-        "channel": "proprioceptive-tactile",
+        "channel": "proprioceptive",
         "effort": 1,
-        "physioTip": "Best for: Using a distal, high-contrast pressure point to pull a 'light-headed' or spaced-out brain back down into the somatic container."
+        "physioTip": "Best for: Using brief, high-intensity contraction followed by a gravity-assisted release to reset the tone of the upper trapezius, pulling focus back to the physical midline."
       },
       "mind": {
-        "text": "The Evidence Check. Take one specific 'what-if' and ask: 'Is there physical, sensory proof for this in my body or this room right now?'",
-        "pillar": ["mindset"],
+        "text": "The Micro-Softening. Close your eyes. Focus only on the corners of your mouth. Soften them by 10% and imagine the space between your upper and lower molars widening.",
+        "pillar": ["mindset", "regulation"],
         "type": "instant",
-        "channel": "cognitive-interoceptive",
+        "channel": "proprioceptive-interoceptive",
         "effort": 1,
-        "physioTip": "Best for: Breaking the 'predictive coding' loop by demanding real-time interoceptive data over future-based simulations, pulling focus back to the self."
+        "physioTip": "Best for: Utilizing the facial feedback loop to send a 'low-threat' signal to the brainstem, reducing secondary jaw tension and anchoring you back in your skin."
       },
       "social": {
-        "text": "The Verbal Anchor. Say out loud in a clear whisper: 'I am here, and I am currently [state your action, e.g., sitting]'. Feel the vibration in your throat.",
-        "pillar": ["connection", "regulation"],
+        "text": "The Sigh Signal. Text a 'sigh' emoji 😮‍💨 to a trusted friend or say 'sigh' out loud to yourself. Acknowledge your state without starting a complex conversation.",
+        "pillar": ["connection"],
         "type": "instant",
-        "channel": "auditory-proprioceptive",
+        "channel": "relational-auditory",
         "effort": 1,
-        "physioTip": "Best for: Using your own voice to create an 'auditory boundary' that pulls consciousness back into the midline."
+        "physioTip": "Best for: Externalizing minor irritation to prevent it from 'stewing', using a simple social anchor to reclaim your internal space from environmental annoyance."
       }
     },
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
@@ -3551,11 +3551,82 @@
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
   },
   {
-    "sensationID": "red_lo_unsettled",
-    "title": "Unsettled",
+    "sensationID": "red_lo_scanning",
+    "title": "Scanning",
     "emotion": "Uneasy",
     "intensityID": "red_intensity_low",
     "vitals": { "safety": "-2 (Guarded)", "energy": "+1 (Smooth)"  },
+    "validation": "It makes sense that you are scanning. Your brain is trying to predict and prevent problems by looking for any small cue of trouble. Your 'radar' is just working overtime.",
+    "blueprint": "Hyper-Vigilant Orienting. The nervous system has narrowed your visual and auditory focus to detect threats, often leading to 'tunnel vision' or an inability to rest the eyes.",
+    "physicalSensation": "Eyes darting from object to object; a feeling of 'lightness' in the head; and a neck that feels slightly stiff from constant movement.",
+    "metaphor": "A lighthouse beam swinging rapidly across the water, searching for a rock that might not even be there.",
+    "theImpulse": "To check your phone, to look at the door, and to mentally rehearse 'what-if' scenarios over and over.",
+    "superpower": "High-Speed Pattern Recognition. You are currently a genius at noticing details. Your system is protecting your future by analyzing the present.",
+    "generalGoal": "Grounding the gaze. Broadening the view.",
+    "pathA": {
+      "title": "Path A: Stuck Inside",
+      "goal": "Your thoughts are scanning for 'what-ifs'. Goal: Pull OUT.",
+      "body": {
+        "text": "Panoramic Vision. Soften your gaze until you can see the far-left and far-right edges of the room at the same time without moving your head.",
+        "pillar": ["regulation", "environment"],
+        "type": "instant",
+        "channel": "visual-vestibular",
+        "effort": 1,
+        "physioTip": "Best for: Switching from foveal vision (sympathetic) to peripheral vision (parasympathetic), which sends a hardware signal to the brainstem to inhibit the 'threat-scan' and startle response."
+      },
+      "mind": {
+        "text": "Targeted Categorization. Find 3 green things, 3 red things, and 3 yellow things in the room. Say their names silently as you find them.",
+        "pillar": ["mindset", "environment"],
+        "type": "instant",
+        "channel": "visual-cognitive",
+        "effort": 1,
+        "physioTip": "Best for: Giving the 'scanning' reflex a specific, non-threatening analytical job to do, which re-engages the prefrontal cortex and anchors awareness in the room."
+      },
+      "social": {
+        "text": "Neutral Fixation. Pick one non-human, neutral object (like a light switch or door handle). Look at it steadily for 10 seconds without letting your eyes jump.",
+        "pillar": ["environment"],
+        "type": "instant",
+        "channel": "visual",
+        "effort": 1,
+        "physioTip": "Best for: Practicing 'visual stillness' to prove to the nervous system that you can stop the environmental scan safely, breaking the worry-loop."
+      }
+    },
+    "pathB": {
+      "title": "Path B: Stuck Outside",
+      "goal": "Your eyes can't stop moving around the room. Goal: Pull IN.",
+      "body": {
+        "text": "Hallux Grounding. Press your big toes (hallux) firmly into the floor. Feel the solid, undeniable resistance of the ground beneath your feet.",
+        "pillar": ["movement", "regulation"],
+        "type": "instant",
+        "channel": "proprioceptive-tactile",
+        "effort": 1,
+        "physioTip": "Best for: Using a distal, high-contrast pressure point to pull a 'light-headed' or spaced-out brain back down into the somatic container."
+      },
+      "mind": {
+        "text": "The Evidence Check. Take one specific 'what-if' and ask: 'Is there physical, sensory proof for this in my body or this room right now?'",
+        "pillar": ["mindset"],
+        "type": "instant",
+        "channel": "cognitive-interoceptive",
+        "effort": 1,
+        "physioTip": "Best for: Breaking the 'predictive coding' loop by demanding real-time interoceptive data over future-based simulations, pulling focus back to the self."
+      },
+      "social": {
+        "text": "The Verbal Anchor. Say out loud in a clear whisper: 'I am here, and I am currently [state your action, e.g., sitting]'. Feel the vibration in your throat.",
+        "pillar": ["connection", "regulation"],
+        "type": "instant",
+        "channel": "auditory-proprioceptive",
+        "effort": 1,
+        "physioTip": "Best for: Using your own voice to create an 'auditory boundary' that pulls consciousness back into the midline."
+      }
+    },
+    "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
+  },
+  {
+    "sensationID": "red_lo_unsettled",
+    "title": "Unsettled",
+    "emotion": "Peeved",
+    "intensityID": "red_intensity_low",
+    "vitals": { "safety": "-1 (Vulnerable)", "energy": "+1 (Smooth)"  },
     "validation": "It makes sense that you feel unsettled. Your system is in a 'wait and see' mode, sensing that things aren't quite aligned, which creates a mild internal friction.",
     "blueprint": "Low-grade Orienting Tension. Your nervous system is scanning for a missing piece of safety or information, keeping you in a state of 'unguarded' readiness.",
     "physicalSensation": "A 'shifting' feeling in the chest; a need to move your feet; and eyes that won't settle on one point for very long.",
@@ -3622,89 +3693,18 @@
     "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
   },
   {
-    "sensationID": "red_lo_tense",
-    "title": "Tense",
-    "emotion": "Peeved",
-    "intensityID": "red_intensity_low",
-    "vitals": { "safety": "-1 (Vulnerable)", "energy": "+1 (Smooth)"  },
-    "validation": "It makes sense that you feel tense. You’ve encountered a small 'knot' in your day, and your muscles are tightening to help you pull through it.",
-    "blueprint": "Mild Sympathetic Tone. A slight increase in muscle spindles' sensitivity, preparing your body to exert force if the 'peeved' feeling escalates.",
-    "physicalSensation": "A tight jaw; a 'string' pulling between the shoulder blades; and a feeling of being 'wound up' like a spring.",
-    "metaphor": "A guitar string that has been tuned just a half-note too sharp. The sound is clear, but it feels like it might snap if pulled harder.",
-    "theImpulse": "To sigh with frustration, to move with 'sharp' gestures, and to be short with your answers.",
-    "superpower": "Ready-to-Act. This tension is 'work-ready' energy. It is the beginning of the focus needed to solve a problem or set a boundary.",
-    "generalGoal": "Subtle uncoiling. Releasing the spring.",
-    "pathA": {
-      "title": "Path A: Stuck Inside",
-      "goal": "You feel the 'knot' and frustration internally. Goal: Pull OUT.",
-      "body": {
-        "text": "The Foveal Break. Look at the furthest point possible—out a window or down a long hallway. Soften your gaze until the edges of the room feel slightly blurry for 15 seconds.",
-        "pillar": ["environment", "regulation"],
-        "type": "instant",
-        "channel": "visual",
-        "effort": 1,
-        "physioTip": "Best for: Inhibiting narrow foveal vision to shift the brain from a 'threat-fixated' sympathetic state to a 'global-scanning' parasympathetic state, pulling awareness out of the internal knot."
-      },
-      "mind": {
-        "text": "Relaxation Mirroring. Identify one object in your environment that is 'limp' or 'draped' (e.g., a scarf on a chair, a hanging plant leaf, a sleeping pet). Look at it and imagine having its weight.",
-        "pillar": ["mindset", "environment"],
-        "type": "instant",
-        "channel": "visual-cognitive",
-        "effort": 1,
-        "physioTip": "Best for: Using external visual 'anchors' of low-tone objects to prime the brain for its own muscular down-regulation by looking 'at' relaxation in the world."
-      },
-      "social": {
-        "text": "Pharyngeal Reset. Perform a wide, exaggerated 'fake' yawn. Stretch the back of your throat and open your mouth as wide as possible, exhaling with a soft sound.",
-        "pillar": ["regulation"],
-        "type": "instant",
-        "channel": "proprioceptive-auditory",
-        "effort": 1,
-        "physioTip": "Best for: Mechanically stretching the muscles of the jaw and pharynx to stimulate the glossopharyngeal nerve, triggering a reset that opens the internal 'clench' to the outside."
-      }
-    },
-    "pathB": {
-      "title": "Path B: Stuck Outside",
-      "goal": "The world feels annoying or high-pressure. Goal: Pull IN.",
-      "body": {
-        "text": "The Scapular Drop. Inhale deeply while pulling your shoulders toward your ears. Hold for 2 seconds, then exhale sharply and let your shoulders drop like heavy weights.",
-        "pillar": ["movement", "regulation"],
-        "type": "instant",
-        "channel": "proprioceptive",
-        "effort": 1,
-        "physioTip": "Best for: Using brief, high-intensity contraction followed by a gravity-assisted release to reset the tone of the upper trapezius, pulling focus back to the physical midline."
-      },
-      "mind": {
-        "text": "The Micro-Softening. Close your eyes. Focus only on the corners of your mouth. Soften them by 10% and imagine the space between your upper and lower molars widening.",
-        "pillar": ["mindset", "regulation"],
-        "type": "instant",
-        "channel": "proprioceptive-interoceptive",
-        "effort": 1,
-        "physioTip": "Best for: Utilizing the facial feedback loop to send a 'low-threat' signal to the brainstem, reducing secondary jaw tension and anchoring you back in your skin."
-      },
-      "social": {
-        "text": "The Sigh Signal. Text a 'sigh' emoji 😮‍💨 to a trusted friend or say 'sigh' out loud to yourself. Acknowledge your state without starting a complex conversation.",
-        "pillar": ["connection"],
-        "type": "instant",
-        "channel": "relational-auditory",
-        "effort": 1,
-        "physioTip": "Best for: Externalizing minor irritation to prevent it from 'stewing', using a simple social anchor to reclaim your internal space from environmental annoyance."
-      }
-    },
-    "warning": "What do you want to achieve? Do you want to use the energy? Then steer to yellow. Do you want to relax? Calm down into green."
-  },
-  {
-    "sensationID": "green_hi_still",
-    "title": "Still",
+    "sensationID": "green_hi_safe",
+    "title": "Safe",
     "emotion": "Serene",
     "intensityID": "green_intensity_high",
     "vitals": {  "safety": "+5 (Carefree)", "energy": "-5 (Drained)"  },
-    "validation": "It makes sense that you feel still. Your system has reached a rare point of total equilibrium where no effort is required. You are safely anchored in the present moment.",
-    "blueprint": "Ventral Vagal dominance. Your parasympathetic system is in its most restorative 'rest and digest' mode. Heart rate and breathing are at their most efficient, rhythmic baseline.",
-    "physicalSensation": "A feeling of weightlessness or 'soft' boundaries; muscles are completely devoid of holding-tension; breath is deep, slow, and effortless.",
-    "metaphor": "A mountain lake at dawn—the water is so flat it acts as a perfect mirror, undisturbed by even a single ripple.",
-    "theImpulse": "To remain exactly as you are, to breathe deeply, and to simply 'be' without any need to do.",
-    "superpower": "Deep Restoration. In this state of total stillness, your body is performing its most vital cellular and emotional repair work.",
-    "generalGoal": "Expanding the perimeter. Capacity building.",
+    "validation": "It makes sense that you feel safe. You are connected to something solid—whether it’s your values, a person, or the literal ground. You aren't drifting; you are 'held'.",
+    "blueprint": "Safety. Your nervous system is receiving 'safety signals' (internal or external) that confirm you are not in dangour, providing a deep emotional ease.",
+    "physicalSensation": "A feeling of weightlessness or softness; muscles are completely relaxed; breath is deep, slow, and effortless.",
+    "metaphor": "A ship in a calm harbor. The anchor is down, the ropes are secure, and though the water may move, the ship stays exactly where it belongs.",
+    "theImpulse": "To speak with a clear voice, to make steady eye contact, and to offer help or support to others.",
+    "superpower": "Protective Presence. Because you are anchored, you can hold space for others who are drifting. You are the 'safe base' in the storm.",
+    "generalGoal": "Deepening the security. Validating the support.",
     "pathA": {
       "title": "Path A: Anchored Inside",
       "goal": "You are deeply submerged in internal peace. Goal: Train OUT.",
@@ -3835,18 +3835,18 @@
     "warning": "N/A"
   },
   {
-    "sensationID": "green_hi_quiet",
-    "title": "Quiet",
+    "sensationID": "green_hi_open",
+    "title": "Open",
     "emotion": "Tranquil",
     "intensityID": "green_intensity_high",
     "vitals": { "safety": "+3 (Peaceful)", "energy": "-5 (Drained)"  },
-    "validation": "It makes sense that you feel quiet. Your internal 'noise' has settled, and your system is no longer scanning for problems. You are in a state of tranquil observation.",
-    "blueprint": "Reduced Auditory Vigilance. Your nervous system has tuned out the 'high-frequency' scanning for danger, allowing you to hear the subtle, rhythmic sounds of life and safety.",
-    "physicalSensation": "A lack of 'buzzing' in the head; relaxed ears; and a sense of space behind the forehead. The world feels 'muffled' in a pleasant, soft way.",
-    "metaphor": "A library in the middle of a forest; the only sounds are the turning of pages and the rustle of leaves.",
-    "theImpulse": "To whisper, to move slowly, and to listen to the silence between sounds.",
-    "superpower": "Clarity of Mind. In this quiet, you can perceive the most subtle details and truths that are usually drowned out by the noise of survival.",
-    "generalGoal": "Honoring the silence. Capacity building.",
+    "validation": "It makes sense that you feel open. You have no need for armor right now. Your system has decided that the environment and the people in it are worthy of your trust and vulnerability.",
+    "blueprint": "Uninhibited Social Engagement. The nerves controlling your facial expressions and middle ear are perfectly tuned for connection, allowing for deep emotional exchange and soft receptivity.",
+    "physicalSensation": "A relaxed throat and chest; soft, 'receptive' eyes; and a feeling that your skin is a bridge rather than a barrier.",
+    "metaphor": "An open window on a perfect spring day—allowing the fresh air to flow in and the sounds of the house to flow out.",
+    "theImpulse": "To make eye contact, to listen without judgment, to hug, and to move toward others.",
+    "superpower": "Deep Vulnerability. In this state, you can form bonds that are unbreakable. Your openness is the doorway to true intimacy and belonging.",
+    "generalGoal": "Nurturing the connection. Capacity building.",
     "pathA": {
       "title": "Path A: Anchored Inside",
       "goal": "You feel a deep, hushed internal space. Goal: Train OUT.",
@@ -4545,12 +4545,12 @@
     "warning": "N/A"
   },
   {
-    "sensationID": "green_med_restoring",
-    "title": "Restoring",
+    "sensationID": "green_med_easy",
+    "title": "Easy",
     "emotion": "Restful",
     "intensityID": "green_intensity_medium",
     "vitals": { "safety": "+3 (Peaceful)", "energy": "-3 (Relaxed)"  },
-    "validation": "It makes sense that you feel like you are restoring. Your system has recognized a safe window to perform 'preventative maintenance'. You are refilling your tank in real-time.",
+    "validation": "It makes sense that things feel easy. Your system has recognized a safe window to perform 'preventative maintenance'. You are refilling your tank in real-time.",
     "blueprint": "Active Metabolic Recovery. Your body is prioritizing anabolism (building and repairing) over catabolism (breaking down energy for action). You are in 'Tune-Up' mode.",
     "physicalSensation": "A tingling or 'effervescent' feeling in the muscles; a soft, easy depth to your breath; and a sense of 'replenishment' in your mind.",
     "metaphor": "A phone plugged into a fast-charger. The screen is off, but the percentage is climbing steadily with every passing minute.",
@@ -4566,7 +4566,7 @@
         "type": "expansion",
         "channel": "visual-interoceptive",
         "effort": 2,
-        "physioTip": "Best for: Exercising neural flexibility. It prevents 'Restoring' from turning into 'Withdrawal' by tethering your internal recharge to the full volume of the room."
+        "physioTip": "Best for: Exercising neural flexibility. It prevents 'Ease' from turning into 'Withdrawal' by tethering your internal recharge to the full volume of the room."
       },
       "mind": {
         "text": "Single-Instrument Tracking. Listen to the room or a piece of music. Try to follow only one specific layer (e.g., just the low hum of the fridge, or just the bass line of a song) for 15 seconds.",
@@ -4758,8 +4758,8 @@
     "warning": "N/A"
   },
   {
-    "sensationID": "green_med_softening",
-    "title": "Softening",
+    "sensationID": "green_med_soft",
+    "title": "Soft",
     "emotion": "Touched",
     "intensityID": "green_intensity_medium",
     "vitals": { "safety": "+5 (Carefree)", "energy": "-2 (Smooth)"  },
@@ -4972,12 +4972,12 @@
     "warning": "N/A"
   },
   {
-    "sensationID": "green_med_anchored",
-    "title": "Anchored",
+    "sensationID": "green_med_secure",
+    "title": "Secure",
     "emotion": "Secure",
     "intensityID": "green_intensity_medium",
     "vitals": { "safety": "+2 (Secure)", "energy": "-2 (Smooth)"  },
-    "validation": "It makes sense that you feel anchored. You are connected to something solid—whether it’s your values, a person, or the literal ground. You aren't drifting; you are 'held'.",
+    "validation": "It makes sense that you feel secure. You are connected to something solid—whether it’s your values, a person, or the literal ground. You aren't drifting; you are 'held'.",
     "blueprint": "Relational Safety. Your nervous system is receiving 'attachment signals' (internal or external) that confirm you are not alone, providing a deep emotional ballast.",
     "physicalSensation": "A heaviness in the heels and sit-bones; a feeling of 'downward' strength in the spine; and a steady, confident breath.",
     "metaphor": "A ship in a calm harbor. The anchor is down, the ropes are secure, and though the water may move, the ship stays exactly where it belongs.",
@@ -4993,7 +4993,7 @@
         "type": "expansion",
         "channel": "visual-interoceptive",
         "effort": 2,
-        "physioTip": "Best for: Exercising neural flexibility. It prevents 'Anchored' from turning into 'Isolated' by forcing the brain to map external distance while staying internally secure."
+        "physioTip": "Best for: Exercising neural flexibility. It prevents 'Secure' from turning into 'Isolated' by forcing the brain to map external distance while staying internally secure."
       },
       "mind": {
         "text": "The Solidity Audit. Identify the most 'solid' thing in the room (a wall, a heavy desk, a pillar). Mentally trace its contact with the floor, acknowledging its unmoving permanence.",
@@ -5185,18 +5185,18 @@
     "warning": "N/A"
   },
   {
-    "sensationID": "green_lo_open",
-    "title": "Open",
+    "sensationID": "green_lo_centered",
+    "title": "Centered",
     "emotion": "Loving",
     "intensityID": "green_intensity_low",
     "vitals": { "safety": "+4 (Cozy)", "energy": "-1 (Fluid)"  },
-    "validation": "It makes sense that you feel open. You have no need for armor right now. Your system has decided that the environment and the people in it are worthy of your trust and vulnerability.",
-    "blueprint": "Uninhibited Social Engagement. The nerves controlling your facial expressions and middle ear are perfectly tuned for connection, allowing for deep emotional exchange and soft receptivity.",
-    "physicalSensation": "A relaxed throat and chest; soft, 'receptive' eyes; and a feeling that your skin is a bridge rather than a barrier.",
-    "metaphor": "An open window on a perfect spring day—allowing the fresh air to flow in and the sounds of the house to flow out.",
-    "theImpulse": "To make eye contact, to listen without judgment, to hug, and to move toward others.",
-    "superpower": "Deep Vulnerability. In this state, you can form bonds that are unbreakable. Your openness is the doorway to true intimacy and belonging.",
-    "generalGoal": "Nurturing the connection. Capacity building.",
+    "validation": "It makes sense that you feel centered. You have found your 'home base' internally. No matter what is happening around you, you feel aligned with your own core.",
+    "blueprint": "Autonomic Homeostasis. Your heart rate variability (HRV) is high and healthy, meaning your system is resilient and perfectly balanced between rest and readiness.",
+    "physicalSensation": "A sense of 'verticality' in the spine; a calm, cool feeling in the forehead; and a breath that feels like it starts and ends at your center.",
+    "metaphor": "The eye of a storm—the world around you may be spinning, but you are in the one spot that is perfectly quiet and still.",
+    "theImpulse": "To move with intention, to speak your truth clearly, and to handle challenges with a 'no-drama' focus.",
+    "superpower": "Integrity. When you are centered, your actions match your values. You are difficult to manipulate or distract because you know exactly where you stand.",
+    "generalGoal": "Anchoring the core. Capacity building.",
     "pathA": {
       "title": "Path A: Anchored Inside",
       "goal": "You feel a tender internal spaciousness. Goal: Train OUT.",
@@ -5256,18 +5256,18 @@
     "warning": "N/A"
   },
   {
-    "sensationID": "green_lo_centered",
-    "title": "Centered",
+    "sensationID": "green_lo_quiet",
+    "title": "Quiet",
     "emotion": "Content",
     "intensityID": "green_intensity_low",
     "vitals": { "safety": "+3 (Peaceful)", "energy": "-1 (Fluid)"  },
-    "validation": "It makes sense that you feel centered. You have found your 'home base' internally. No matter what is happening around you, you feel aligned with your own core.",
-    "blueprint": "Autonomic Homeostasis. Your heart rate variability (HRV) is high and healthy, meaning your system is resilient and perfectly balanced between rest and readiness.",
-    "physicalSensation": "A sense of 'verticality' in the spine; a calm, cool feeling in the forehead; and a breath that feels like it starts and ends at your center.",
-    "metaphor": "The eye of a storm—the world around you may be spinning, but you are in the one spot that is perfectly quiet and still.",
-    "theImpulse": "To move with intention, to speak your truth clearly, and to handle challenges with a 'no-drama' focus.",
-    "superpower": "Integrity. When you are centered, your actions match your values. You are difficult to manipulate or distract because you know exactly where you stand.",
-    "generalGoal": "Anchoring the core. Capacity building.",
+    "validation": "It makes sense that you feel quiet. Your internal 'noise' has settled, and your system is no longer scanning for problems. You are in a state of tranquil observation.",
+    "blueprint": "Reduced Auditory Vigilance. Your nervous system has tuned out the 'high-frequency' scanning for danger, allowing you to hear the subtle, rhythmic sounds of life and safety.",
+    "physicalSensation": "A lack of 'buzzing' in the head; relaxed ears; and a sense of space behind the forehead. The world feels 'muffled' in a pleasant, soft way.",
+    "metaphor": "A library in the middle of a forest; the only sounds are the turning of pages and the rustle of leaves.",
+    "theImpulse": "To whisper, to move slowly, and to listen to the silence between sounds.",
+    "superpower": "Clarity of Mind. In this quiet, you can perceive the most subtle details and truths that are usually drowned out by the noise of survival.",
+    "generalGoal": "Honoring the silence. Capacity building.",
     "pathA": {
       "title": "Path A: Anchored Inside",
       "goal": "You are enjoying a clear internal alignment. Goal: Train OUT.",
@@ -5398,18 +5398,18 @@
     "warning": "N/A"
   },
   {
-    "sensationID": "green_lo_secure",
-    "title": "Secure",
+    "sensationID": "green_lo_still",
+    "title": "Still",
     "emotion": "At Ease",
     "intensityID": "green_intensity_low",
     "vitals": { "safety": "+1 (Calm)", "energy": "-1 (Fluid)"  },
-    "validation": "It makes sense that you feel secure. Your basic needs for safety and belonging are being met, allowing your system to relax into a state of 'quiet okayness'.",
-    "blueprint": "Low Autonomic Arousal. Your amygdala is quiet, and your prefrontal cortex is fully 'in charge,' giving you a sense of quiet confidence and predictability.",
-    "physicalSensation": "A lack of 'scanning' in the eyes; a steady, effortless posture; and a feeling of 'safety in the skin'.",
-    "metaphor": "A sturdy house with the doors locked and a warm fire inside—the weather outside doesn't matter because you are protected.",
-    "theImpulse": "To breathe, to rest, to plan for tomorrow, and to enjoy the simple fact of being alive.",
-    "superpower": "Confident Baseline. Secure is the foundation from which all other 'high' states (like Joy or Inspiration) are built. You are standing on solid ground.",
-    "generalGoal": "Stabilizing the floor. Capacity building.",
+    "validation": "It makes sense that you feel still. Your system has reached a rare point of total equilibrium where no effort is required. You are safely anchored in the present moment.",
+    "blueprint": "Ventral Vagal dominance. Your parasympathetic system is in its most restorative 'rest and digest' mode. Heart rate and breathing are at their most efficient, rhythmic baseline.",
+    "physicalSensation": "A feeling of weightlessness or 'soft' boundaries; muscles are completely devoid of holding-tension; breath is deep, slow, and effortless.",
+    "metaphor": "A mountain lake at dawn—the water is so flat it acts as a perfect mirror, undisturbed by even a single ripple.",
+    "theImpulse": "To remain exactly as you are, to breathe deeply, and to simply 'be' without any need to do.",
+    "superpower": "Deep Restoration. In this state of total stillness, your body is performing its most vital cellular and emotional repair work.",
+    "generalGoal": "Expanding the perimeter. Capacity building.",
     "pathA": {
       "title": "Path A: Anchored Inside",
       "goal": "You feel a quiet internal 'bolted-down' safety. Goal: Train OUT.",
@@ -5824,12 +5824,12 @@
     "warning": "N/A"
   },
   {
-    "sensationID": "yellow_hi_buoyant",
-    "title": "Buoyant",
+    "sensationID": "yellow_hi_shining",
+    "title": "Shining",
     "emotion": "Elated",
     "intensityID": "yellow_intensity_high",
     "vitals": { "safety": "+5 (Carefree)", "energy": "+4 (Thriving)"  },
-    "validation": "It makes sense that you feel buoyant. Your system is riding a wave of high safety and high energy, allowing you to bounce back effortlessly from any minor ripples in your day.",
+    "validation": "It makes sense that you feel shining. Your system is riding a wave of high safety and high energy, allowing you to bounce back effortlessly from any minor ripples in your day.",
     "blueprint": "Ventral-Sympathetic Integration. You have enough 'lift' from your sympathetic system to feel energized, but your Vagal brake is perfectly tuned to keep that energy light and carefree.",
     "physicalSensation": "A springy feeling in the legs; a light, open chest; and a sense that your body is naturally 'floating' upward with every breath.",
     "metaphor": "A cork in a sparkling sea—constantly bobbing back to the surface, bright and resilient, no matter how much the water moves.",
@@ -6605,17 +6605,17 @@
     "warning": "N/A"
   },
   {
-    "sensationID": "yellow_med_elevated",
-    "title": "Elevated",
+    "sensationID": "yellow_med_light",
+    "title": "Light",
     "emotion": "Proud",
     "intensityID": "yellow_intensity_medium",
     "vitals": { "safety": "+4 (Cozy)", "energy": "+2 (Glowing)"  },
-    "validation": "It makes sense that you feel elevated. You have accomplished something or realized your worth, and your system has 'raised its floor' to match your success.",
+    "validation": "It makes sense that you feel light. You have accomplished something or realized your worth, and your system has 'raised its floor' to match your success.",
     "blueprint": "Postural Pride Response. Your sympathetic system is providing the 'upward' tone for your spine and chest, while your Ventral system keeps you safe and connected to your value.",
     "physicalSensation": "A tall, easy spine; an open chest; a chin that naturally lifts; and a feeling of 'solid' lightness in the core.",
     "metaphor": "Standing on a podium or a high step; you are slightly above the previous moment, seeing the world from a place of earned height.",
     "theImpulse": "To stand tall, to breathe deeply, to make direct eye contact, and to speak with a clear, resonant voice.",
-    "superpower": "Self-Assurance. When you are elevated, you don't need external validation. You are your own source of 'high quality' energy and confidence.",
+    "superpower": "Self-Assurance. When you are light, you don't need external validation. You are your own source of 'high quality' energy and confidence.",
     "generalGoal": "Savoring the spark. Mastering the Flow.",
     "pathA": {
       "title": "Path A: Anchored Inside",
@@ -7102,17 +7102,17 @@
     "warning": "N/A"
   },
   {
-    "sensationID": "yellow_lo_brimming",
-    "title": "Brimming",
+    "sensationID": "yellow_lo_radiant",
+    "title": "Radiant",
     "emotion": "Joyful",
     "intensityID": "yellow_intensity_low",
     "vitals": { "safety": "+2 (Secure)", "energy": "+1 (Smooth)"  },
-    "validation": "It makes sense that you feel brimming. You are full to the edge with quiet joy. Your 'cup' isn't just full; it’s about to overflow in the best possible way.",
+    "validation": "It makes sense that you feel radiant. You are full to the edge with quiet joy. Your 'cup' isn't just full; it’s about to overflow in the best possible way.",
     "blueprint": "Saturated Ventral State. Your body budget is completely balanced and there is a surplus of 'safety' neurochemicals (oxytocin and serotonin) creating a feeling of emotional wealth.",
     "physicalSensation": "A 'full' feeling in the heart area; a constant, easy half-smile; and a sense that you are 'radiating' warmth from your core.",
     "metaphor": "A fountain just as the water reaches the very top edge of the basin—perfectly still for a second, then beginning to trickle over the side.",
     "theImpulse": "To share a kind word, to be generous with your time, and to linger in the presence of others.",
-    "superpower": "Abundance. When you are brimming, you have so much 'good' inside that it naturally spills over into your actions. You are a source of effortless kindness.",
+    "superpower": "Abundance. When you are radiant, you have so much 'good' inside that it naturally spills over into your actions. You are a source of effortless kindness.",
     "generalGoal": "Holding the fullness. Mastering the Flow.",
     "pathA": {
       "title": "Path A: Anchored Inside",
@@ -7123,7 +7123,7 @@
         "type": "expansion",
         "channel": "visual-interoceptive",
         "effort": 2,
-        "physioTip": "Best for: Exercising neural flexibility. It prevents 'Brimming' from turning into internal 'Nostalgia' by tethering your emotional wealth to the actual physical volume of the room."
+        "physioTip": "Best for: Exercising neural flexibility. It prevents 'Radiant' from turning into internal 'Nostalgia' by tethering your emotional wealth to the actual physical volume of the room."
       },
       "mind": {
         "text": "The Perfection Scan. Look around the room and find one detail that looks 'perfect' or 'complete' just as it is. Notice its exact position and how it fits into the space.",
@@ -8033,7 +8033,7 @@
   {
     "intensityID": "blue_intensity_high",
     "zoneName": "High-Intensity Blue (Dorsal Vagal Shutdown)",
-    "sensations": "Hibernating, Immobilized, Hollow, Empty, Deflated, Frozen, Shutdown, Numb, Drained, Lethargic",
+    "sensations": "Shutdown, Immobilized, Hollow, Empty, Deflated, Frozen, Hibernating, Numb, Drained, Lethargic",
     "emotions": "Despairing, Hopeless, Desolate, Spent, Drained, Despondent, Depressed, Sullen, Exhausted, Fatigued",
     "thinkingBrain": "OFFLINE",
     "vitals": {
@@ -8108,7 +8108,7 @@
   {
     "intensityID": "blue_intensity_medium",
     "zoneName": "Medium-Intensity Blue (Dorsal Vagal Retreat)",
-    "sensations": "Disconnected, Collapsed, Withdrawn, Sinking, Exhausted, Fading, Slumped, Shrinking, Heavy, Flat",
+    "sensations": "Disconnected, Collapsed, Withdrawn, Sinking, Exhausted, Fading, Low, Shrinking, Heavy, Flat",
     "emotions": "Alienated, Miserable, Lonely, Disheartened, Tired, Pessimistic, Morose, Discouraged, Sad, Bored",
     "thinkingBrain": "FLICKERING",
     "vitals": {
@@ -8183,7 +8183,7 @@
   {
     "intensityID": "blue_intensity_low",
     "zoneName": "Low-Intensity Blue (Dorsal Vagal Retreat)",
-    "sensations": "Retreating, Sagging, Dulled, Sluggish, Foggy",
+    "sensations": "Closed, Sagging, Dulled, Sluggish, Foggy",
     "emotions": "Disgusted, Glum, Disappointed, Down, Apathetic",
     "thinkingBrain": "ONLINE",
     "vitals": {
@@ -8258,7 +8258,7 @@
   {
     "intensityID": "red_intensity_high",
     "zoneName": "High-Intensity Red (Sympathetic Overload)",
-    "sensations": "Exploding, Flooded, Overloaded, Twitchy, Surging, Burning, Boiling, Clenched, Braced, Racing",
+    "sensations": "Exploding, Flooded, Overloaded, Twitchy, Surging, Burning, Boiling, Clenched, Tense, Racing",
     "emotions": "Enraged, Panicked, Stressed, Jittery, Shocked, Livid, Furious, Frustrated, Tense, Stunned",
     "thinkingBrain": "OFFLINE",
     "vitals": {
@@ -8333,7 +8333,7 @@
   {
     "intensityID": "red_intensity_medium",
     "zoneName": "Medium-Intensity Red (Sympathetic Activation)",
-    "sensations": "Volatile, Trembling, Pressurized, Vibrating, Fidgety, Pounding, Guarded, Scanning, Flushed, Prickly",
+    "sensations": "Shaking, Trembling, Pressurized, Vibrating, Restless, Pounding, Guarded, Braced, Flushed, Prickly",
     "emotions": "Fuming, Frightened, Angry, Nervous, Restless, Anxious, Apprehensive, Worried, Irritated, Annoyed",
     "thinkingBrain": "FLICKERING",
     "vitals": {
@@ -8408,7 +8408,7 @@
   {
     "intensityID": "red_intensity_low",
     "zoneName": "Low-Intensity Red (Sympathetic Activation)",
-    "sensations": "Agitated, Turbulent, Charged, Unsettled, Tense",
+    "sensations": "Agitated, Turbulent, Charged, Scanning, Unsettled",
     "emotions": "Repulsed, Troubled, Concerned, Uneasy, Peeved",
     "thinkingBrain": "ONLINE",
     "vitals": {
@@ -8483,7 +8483,7 @@
   {
     "intensityID": "green_intensity_high",
     "zoneName": "Deep-Intensity Green (Ventral Vagal Restoration)",
-    "sensations": "Slowing, Grounded, Quiet, Warm, Still, Loose, Steady, Stable, Settled, Light",
+    "sensations": "Slowing, Grounded, Open, Warm, Safe, Loose, Steady, Stable, Settled, Light",
     "emotions": "Sleepy, Complacent, Tranquil, Cozy, Serene, Mellow, Thoughtful, Peaceful, Comfortable, Carefree",
     "thinkingBrain": "ONLINE",
     "vitals": {
@@ -8558,7 +8558,7 @@
   {
     "intensityID": "green_intensity_medium",
     "zoneName": "Medium-Intensity Green (Ventral Vagal Restoration)",
-    "sensations": "Resting, Calm, Restoring, Present, Balanced, Smooth, Anchored, Satisfied, Expanding, Softening",
+    "sensations": "Resting, Calm, Easy, Present, Balanced, Smooth, Secure, Satisfied, Expanding, Soft",
     "emotions": "Relaxed, Chill, Restful, Blessed, Balanced, Calm, Secure, Satisfied, Grateful, Touched",
     "thinkingBrain": "ONLINE",
     "vitals": {
@@ -8633,7 +8633,7 @@
   {
     "intensityID": "green_intensity_low",
     "zoneName": "Low-Intensity Green (Ventral Vagal Restoration)",
-    "sensations": "Secure, Fluid, Centered, Open, Abundant",
+    "sensations": "Still, Fluid, Quiet, Centered, Abundant",
     "emotions": "At Ease, Easygoing, Content, Loving, Fulfilled",
     "thinkingBrain": "ONLINE",
     "vitals": {
@@ -8709,7 +8709,7 @@
   {
     "intensityID": "yellow_intensity_high",
     "zoneName": "High-Intensity Yellow (Safe Mobilization)",
-    "sensations": "Widening, Lifted, Bubbling, Electric, Soaring, Buzzing, Bright, Pulsing, Flowing, Buoyant",
+    "sensations": "Widening, Lifted, Bubbling, Electric, Soaring, Buzzing, Bright, Pulsing, Flowing, Shining",
     "emotions": "Surprised, Upbeat, Festive, Exhilarated, Ecstatic, Hyper, Cheerful, Motivated, Inspired, Elated",
     "thinkingBrain": "ONLINE",
     "vitals": {
@@ -8784,7 +8784,7 @@
   {
     "intensityID": "yellow_intensity_medium",
     "zoneName": "Medium-Intensity Yellow (Safe Mobilization)",
-    "sensations": "Awake, Vital, Eager, Expansive, Humming, Engaged, Locked In, Glowing, Elevated, Tingling",
+    "sensations": "Awake, Vital, Eager, Expansive, Humming, Engaged, Locked In, Glowing, Light, Tingling",
     "emotions": "Energized, Lively, Excited, Optimistic, Enthusiastic, Pleased, Focused, Happy, Proud, Thrilled",
     "thinkingBrain": "ONLINE",
     "vitals": {
@@ -8859,7 +8859,7 @@
   {
     "intensityID": "yellow_intensity_low",
     "zoneName": "Low-Intensity Yellow (Safe Mobilization)",
-    "sensations": "Smooth, Brimming, Rising, Bouncy, Vibrant",
+    "sensations": "Smooth, Radiant, Rising, Bouncy, Vibrant",
     "emotions": "Pleasant, Joyful, Hopeful, Playful, Blissful",
     "thinkingBrain": "ONLINE",
     "vitals": {
@@ -8898,7 +8898,7 @@
         "type": "expansion",
         "channel": "relational-verbal",
         "effort": 1,
-        "physioTip": "Best for: Using the Social Lever to expand the perimeter. It trains the brain to use its 'Brimming' energy for social co-regulation and rhythmic bonding."
+        "physioTip": "Best for: Using the Social Lever to expand the perimeter. It trains the brain to use its 'Radiant' energy for social co-regulation and rhythmic bonding."
       }
     },
     "pathB": {
