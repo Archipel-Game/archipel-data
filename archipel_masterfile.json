@@ -85,9 +85,9 @@
   { "x": 3, "y": 5, "label": "Bubbling", "sensationID": "yellow_hi_bubbling", "intensityID": "yellow_intensity_high" },
   { "x": 4, "y": 5, "label": "Electric", "sensationID": "yellow_hi_electric", "intensityID": "yellow_intensity_high" },
   { "x": 5, "y": 5, "label": "Soaring", "sensationID": "yellow_hi_soaring", "intensityID": "yellow_intensity_high" },
-  { "x": 5, "y": -5, "label": "Still", "sensationID": "green_hi_still", "intensityID": "green_intensity_high" },
+  { "x": 5, "y": -5, "label": "Safe", "sensationID": "green_hi_safe", "intensityID": "green_intensity_high" },
   { "x": 4, "y": -5, "label": "Warm", "sensationID": "green_hi_warm", "intensityID": "green_intensity_high" },
-  { "x": 3, "y": -5, "label": "Quiet", "sensationID": "green_hi_quiet", "intensityID": "green_intensity_high" },
+  { "x": 3, "y": -5, "label": "Open", "sensationID": "green_hi_open", "intensityID": "green_intensity_high" },
   { "x": 2, "y": -5, "label": "Grounded", "sensationID": "green_hi_grounded", "intensityID": "green_intensity_high" },
   { "x": 1, "y": -5, "label": "Slowing", "sensationID": "green_hi_slowing", "intensityID": "green_intensity_high" },
   { "x": 5, "y": -4, "label": "Light", "sensationID": "green_hi_light", "intensityID": "green_intensity_high" },
@@ -106,10 +106,10 @@
   { "x": 2, "y": -2, "label": "Secure", "sensationID": "green_med_secure", "intensityID": "green_intensity_medium" },
   { "x": 1, "y": -2, "label": "Smooth", "sensationID": "green_med_smooth", "intensityID": "green_intensity_medium" },
   { "x": 5, "y": -1, "label": "Abundant", "sensationID": "green_lo_abundant", "intensityID": "green_intensity_low" },
-  { "x": 4, "y": -1, "label": "Open", "sensationID": "green_lo_open", "intensityID": "green_intensity_low" },
-  { "x": 3, "y": -1, "label": "Centered", "sensationID": "green_lo_centered", "intensityID": "green_intensity_low" },
+  { "x": 4, "y": -1, "label": "Centered", "sensationID": "green_lo_centered", "intensityID": "green_intensity_low" },
+  { "x": 3, "y": -1, "label": "Quiet", "sensationID": "green_lo_quiet", "intensityID": "green_intensity_low" },
   { "x": 2, "y": -1, "label": "Fluid", "sensationID": "green_lo_fluid", "intensityID": "green_intensity_low" },
-  { "x": 1, "y": -1, "label": "Secure", "sensationID": "green_lo_secure", "intensityID": "green_intensity_low" }
+  { "x": 1, "y": -1, "label": "Still", "sensationID": "green_lo_still", "intensityID": "green_intensity_low" }
   ],
     "matchData": [
   {
