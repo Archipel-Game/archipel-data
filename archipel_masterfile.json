@@ -2,7 +2,7 @@
   "mapLayout": [
   { "x": -6, "y": -5, "label": "Paralyzed", "sensationID": "purple_hi_paralyzed", "intensityID": "purple_intensity_high" },
   { "x": -6, "y": -4, "label": "Buried", "sensationID": "purple_hi_buried", "intensityID": "purple_intensity_high" },
-  { "x": -6, "y": -3, "label": "Static", "sensationID": "purple_hi_static", "intensityID": "purple_intensity_high" },
+  { "x": -6, "y": -3, "label": "Stuck", "sensationID": "purple_hi_stuck", "intensityID": "purple_intensity_high" },
   { "x": -6, "y": -2, "label": "Locked", "sensationID": "purple_hi_locked", "intensityID": "purple_intensity_high" },
   { "x": -6, "y": -1, "label": "Compressed", "sensationID": "purple_hi_compressed", "intensityID": "purple_intensity_high" },
   { "x": -6, "y": 1, "label": "Constricted", "sensationID": "purple_hi_constricted", "intensityID": "purple_intensity_high" },
@@ -7386,12 +7386,12 @@
     "warning": "THE THAW WARNING: Leaving the Purple Zone can feel scary."
   },
   {
-    "sensationID": "purple_hi_static",
-    "title": "Static",
+    "sensationID": "purple_hi_stuck",
+    "title": "Stuck",
     "emotion": "Dissociate",
     "intensityID": "purple_intensity_high",
     "vitals": { "safety": "-6 (Frightened)", "energy": "-3 (Trap)"  },
-    "validation": "It makes sense that you feel like static. Your system is receiving too much conflicting 'signal' to process, so it has turned everything into a protective white noise.",
+    "validation": "It makes sense that you feel stuck. Your system is receiving too much conflicting 'signal' to process, so it has turned everything into a protective white noise.",
     "blueprint": "Neural Interference. Your sympathetic (Red) and dorsal (Blue) systems are firing so rapidly that they are cancelling each other out, leaving you in a buzzing haze.",
     "physicalSensation": "A 'fuzzy' or vibrating feeling in the brain and skin; pixelated vision; and a sense that your focus is constantly jumping.",
     "metaphor": "An old television tuned to a dead channel. A screen full of buzzing black-and-white dots—lots of energy, but no clear picture.",
@@ -7407,7 +7407,7 @@
         "type": "instant",
         "channel": "tactile-proprioceptive",
         "effort": 1,
-        "physioTip": "Best for: Using high-contrast tactile feedback to 'tune' the brain's processing away from internal static and toward a specific external coordinate."
+        "physioTip": "Best for: Using high-contrast tactile feedback to 'tune' the brain's processing away from felling stuck and toward a specific external coordinate."
       },
       "mind": {
         "text": "The Detail Hunt. Find the smallest piece of text in your view (on a book spine, a label, or a screen). Try to read the letters one by one silently.",
@@ -7451,7 +7451,7 @@
         "type": "instant",
         "channel": "auditory-relational",
         "effort": 1,
-        "physioTip": "Best for: Utilizing familiar auditory memory to create a sense of internal 'order' and sequence, helping the 'static' brain find a coherent narrative."
+        "physioTip": "Best for: Utilizing familiar auditory memory to create a sense of internal 'order' and sequence, helping the 'stuck' brain find a coherent narrative."
       }
     },
     "warning": "THE THAW WARNING: Leaving the Purple Zone can feel scary."
@@ -7958,7 +7958,7 @@
   {
     "intensityID": "purple_intensity_high",
     "zoneName": "Tired but Wired (The Freeze / The Trap)",
-    "sensations": "Shaking, Gridlocked, Seized, Rigid, Constricted, Compressed, Locked, Static, Buried, Paralyzed",
+    "sensations": "Shaking, Gridlocked, Seized, Rigid, Constricted, Compressed, Locked, Stuck, Buried, Paralyzed",
     "emotions": "Terrified, Invisible, Dissociated, Trapped, Stifled, Breathless, Petrified, Fragmented, Struck, Distressed",
     "thinkingBrain": "OFFLINE",
     "vitals": {
