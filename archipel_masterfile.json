@@ -5,7 +5,7 @@
   { "x": -6, "y": -3, "label": "Stuck", "sensationID": "purple_hi_stuck", "intensityID": "purple_intensity_high" },
   { "x": -6, "y": -2, "label": "Locked", "sensationID": "purple_hi_locked", "intensityID": "purple_intensity_high" },
   { "x": -6, "y": -1, "label": "Compressed", "sensationID": "purple_hi_compressed", "intensityID": "purple_intensity_high" },
-  { "x": -6, "y": 1, "label": "Constricted", "sensationID": "purple_hi_constricted", "intensityID": "purple_intensity_high" },
+  { "x": -6, "y": 1, "label": "Squeezed", "sensationID": "purple_hi_squeezed", "intensityID": "purple_intensity_high" },
   { "x": -6, "y": 2, "label": "Rigid", "sensationID": "purple_hi_rigid", "intensityID": "purple_intensity_high" },
   { "x": -6, "y": 3, "label": "Seized", "sensationID": "purple_hi_seized", "intensityID": "purple_intensity_high" },
   { "x": -6, "y": 4, "label": "Gridlocked", "sensationID": "purple_hi_gridlocked", "intensityID": "purple_intensity_high" },
@@ -80,7 +80,7 @@
   { "x": 3, "y": 4, "label": "Pulsing", "sensationID": "yellow_hi_pulsing", "intensityID": "yellow_intensity_high" },
   { "x": 4, "y": 4, "label": "Flowing", "sensationID": "yellow_hi_flowing", "intensityID": "yellow_intensity_high" },
   { "x": 5, "y": 4, "label": "Shining", "sensationID": "yellow_hi_shining", "intensityID": "yellow_intensity_high" },
-  { "x": 1, "y": 5, "label": "Widening", "sensationID": "yellow_hi_widening", "intensityID": "yellow_intensity_high" },
+  { "x": 1, "y": 5, "label": "Sparked", "sensationID": "yellow_hi_sparked", "intensityID": "yellow_intensity_high" },
   { "x": 2, "y": 5, "label": "Lifted", "sensationID": "yellow_hi_lifted", "intensityID": "yellow_intensity_high" },
   { "x": 3, "y": 5, "label": "Bubbling", "sensationID": "yellow_hi_bubbling", "intensityID": "yellow_intensity_high" },
   { "x": 4, "y": 5, "label": "Electric", "sensationID": "yellow_hi_electric", "intensityID": "yellow_intensity_high" },
@@ -96,7 +96,7 @@
   { "x": 2, "y": -4, "label": "Steady", "sensationID": "green_hi_steady", "intensityID": "green_intensity_high" },
   { "x": 1, "y": -4, "label": "Loose", "sensationID": "green_hi_loose", "intensityID": "green_intensity_high" },
   { "x": 5, "y": -3, "label": "Balanced", "sensationID": "green_med_balanced", "intensityID": "green_intensity_medium" },
-  { "x": 4, "y": -3, "label": "Present", "sensationID": "green_med_present", "intensityID": "green_intensity_medium" },
+  { "x": 4, "y": -3, "label": "Connected", "sensationID": "green_med_connected", "intensityID": "green_intensity_medium" },
   { "x": 3, "y": -3, "label": "Easy", "sensationID": "green_med_easy", "intensityID": "green_intensity_medium" },
   { "x": 2, "y": -3, "label": "Calm", "sensationID": "green_med_calm", "intensityID": "green_intensity_medium" },
   { "x": 1, "y": -3, "label": "Resting", "sensationID": "green_med_resting", "intensityID": "green_intensity_medium" },
@@ -108,7 +108,7 @@
   { "x": 5, "y": -1, "label": "Abundant", "sensationID": "green_lo_abundant", "intensityID": "green_intensity_low" },
   { "x": 4, "y": -1, "label": "Centered", "sensationID": "green_lo_centered", "intensityID": "green_intensity_low" },
   { "x": 3, "y": -1, "label": "Quiet", "sensationID": "green_lo_quiet", "intensityID": "green_intensity_low" },
-  { "x": 2, "y": -1, "label": "Fluid", "sensationID": "green_lo_fluid", "intensityID": "green_intensity_low" },
+  { "x": 2, "y": -1, "label": "Flexible", "sensationID": "green_lo_flexible", "intensityID": "green_intensity_low" },
   { "x": 1, "y": -1, "label": "Still", "sensationID": "green_lo_still", "intensityID": "green_intensity_low" }
   ],
     "matchData": [
@@ -4474,12 +4474,12 @@
     "warning": "N/A"
   },
   {
-    "sensationID": "green_med_present",
-    "title": "Present",
+    "sensationID": "green_med_connected",
+    "title": "Connected",
     "emotion": "Blessed",
     "intensityID": "green_intensity_medium",
     "vitals": { "safety": "+4 (Cozy)", "energy": "-3 (Relaxed)"  },
-    "validation": "It makes sense that you feel present. Your 'thinking brain' and 'feeling body' are in the same room at the same time. You aren't stuck in the past or racing toward the future.",
+    "validation": "It makes sense that you feel connected. Your 'thinking brain' and 'feeling body' are in the same room at the same time. You aren't stuck in the past or racing toward the future.",
     "blueprint": "Social Engagement System Online. Your cranial nerves (especially those controlling the eyes and ears) are fully tuned to your immediate surroundings, fostering a sense of 'here-ness'.",
     "physicalSensation": "Bright, clear vision; an openness in the chest and throat; and a feeling of 'sharpness' in your senses that feels pleasant rather than overwhelming.",
     "metaphor": "A high-definition camera that has finally clicked into perfect focus. Everything is crisp, clear, and right in front of you.",
@@ -5327,17 +5327,17 @@
     "warning": "N/A"
   },
   {
-    "sensationID": "green_lo_fluid",
-    "title": "Fluid",
+    "sensationID": "green_lo_flexible",
+    "title": "Flexible",
     "emotion": "Easygoing",
     "intensityID": "green_intensity_low",
     "vitals": { "safety": "+2 (Secure)", "energy": "-1 (Fluid)"  },
-    "validation": "It makes sense that you feel fluid. You are moving with the 'current' of your day rather than fighting against it. You are adaptable, graceful, and at ease.",
+    "validation": "It makes sense that you feel flexible. You are moving with the 'current' of your day rather than fighting against it. You are adaptable, graceful, and at ease.",
     "blueprint": "Neural Plasticity in Action. Your system is in a 'flexible' state, easily switching between different tasks and emotional states without getting stuck or jarring.",
     "physicalSensation": "Loose joints; a light, easy gait; and a sense that your thoughts are 'sliding' effortlessly from one topic to the next.",
     "metaphor": "Water in a stream—flowing around rocks, filling every gap, and moving forward without ever losing its essential nature.",
     "theImpulse": "To dance, to improvise, to say 'yes' to a new idea, and to let things happen as they will.",
-    "superpower": "Adaptability. In a fluid state, nothing can 'break' you. You simply change shape to fit the new situation. You are the master of 'going with the flow'.",
+    "superpower": "Adaptability. In a fllexible state, nothing can 'break' you. You simply change shape to fit the new situation. You are the master of 'going with the flow'.",
     "generalGoal": "Maintaining the flow. Capacity building.",
     "pathA": {
       "title": "Path A: Anchored Inside",
@@ -5364,7 +5364,7 @@
         "type": "expansion",
         "channel": "relational-verbal",
         "effort": 1,
-        "physioTip": "Best for: Using the Social Lever to discharge 'flow' energy. It trains the brain to remain fluid and secure while navigating the unpredictability of others."
+        "physioTip": "Best for: Using the Social Lever to discharge 'flow' energy. It trains the brain to remain flexible and secure while navigating the unpredictability of others."
       }
     },
     "pathB": {
@@ -5392,7 +5392,7 @@
         "type": "expansion",
         "channel": "visual-interoceptive",
         "effort": 1,
-        "physioTip": "Best for: Interoceptive Integration. It uses 'visceral imagery' to ground the external harmony into an internal biological baseline, cementing the Fluid state."
+        "physioTip": "Best for: Interoceptive Integration. It uses 'visceral imagery' to ground the external harmony into an internal biological baseline, cementing the Flexible state."
       }
     },
     "warning": "N/A"
@@ -5753,17 +5753,17 @@
     "warning": "N/A"
   },
   {
-    "sensationID": "yellow_hi_widening",
-    "title": "Widening",
+    "sensationID": "yellow_hi_sparked",
+    "title": "Sparked",
     "emotion": "Surprised",
     "intensityID": "yellow_intensity_high",
     "vitals": { "safety": "+1 (Calm)", "energy": "+5 (Bursting)"  },
-    "validation": "It makes sense that you feel a widening. You’ve just encountered something wonderful or novel, and your system is 'opening the gates' to take it all in.",
+    "validation": "It makes sense that you feel sparked. You’ve just encountered something wonderful or novel, and your system is 'opening the gates' to take it all in.",
     "blueprint": "The 'Awe' Response. A high-energy state where the brain rapidly expands its world-model to accommodate a new, positive experience, resulting in wide eyes and an open posture.",
     "physicalSensation": "Wide, bright eyes; a slight gasp of air; and a feeling of 'bigness' in the chest and forehead.",
     "metaphor": "A telescope lens opening up to its widest setting to capture the light of a thousand stars at once.",
     "theImpulse": "To say 'Wow!', to stare with wonder, and to move closer to the source of the surprise.",
-    "superpower": "Awe. When you are in a widening state, your ego shrinks and your connection to the world grows. You are experiencing the magic of the 'Infinite'.",
+    "superpower": "Awe. When you are in a sparking state, your ego shrinks and your connection to the world grows. You are experiencing the magic of the 'Infinite'.",
     "generalGoal": "Holding the wonder. Mastering the Flow.",
     "pathA": {
       "title": "Path A: Anchored Inside",
@@ -7599,12 +7599,12 @@
     "warning": "THE THAW WARNING: Leaving the Purple Zone can feel scary."
   },
   {
-    "sensationID": "purple_hi_constricted",
-    "title": "Constricted",
+    "sensationID": "purple_hi_squeezed",
+    "title": "Squeezed",
     "emotion": "Breathless",
     "intensityID": "purple_intensity_high",
     "vitals": { "safety": "-6 (Frightened)", "energy": "+1 (Trap)"  },
-    "validation": "It makes sense that you feel constricted. Your system is tightening its grip to prevent any 'leakage' of energy that might be detected. You are a biological fortress holding its breath.",
+    "validation": "It makes sense that you feel squeezed. Your system is tightening its grip to prevent any 'leakage' of energy that might be detected. You are a biological fortress holding its breath.",
     "blueprint": "Vaso-constrictive Freeze. A low-mobilization trap where the body narrows its focus and physical presence to the absolute minimum to survive a perceived threat.",
     "physicalSensation": "A tight band around the chest; a 'closed' throat; and a feeling of being squeezed from all sides by an invisible force.",
     "metaphor": "An airlock that has been sealed shut. There is just enough air to survive, but no room for anything else to enter or leave.",
@@ -7958,7 +7958,7 @@
   {
     "intensityID": "purple_intensity_high",
     "zoneName": "Tired but Wired (The Freeze / The Trap)",
-    "sensations": "Shaking, Gridlocked, Seized, Rigid, Constricted, Compressed, Locked, Stuck, Buried, Paralyzed",
+    "sensations": "Shaking, Gridlocked, Seized, Rigid, Squeezed, Compressed, Locked, Stuck, Buried, Paralyzed",
     "emotions": "Terrified, Invisible, Dissociated, Trapped, Stifled, Breathless, Petrified, Fragmented, Struck, Distressed",
     "thinkingBrain": "OFFLINE",
     "vitals": {
@@ -8558,7 +8558,7 @@
   {
     "intensityID": "green_intensity_medium",
     "zoneName": "Medium-Intensity Green (Ventral Vagal Restoration)",
-    "sensations": "Resting, Calm, Easy, Present, Balanced, Smooth, Secure, Satisfied, Expanding, Soft",
+    "sensations": "Resting, Calm, Easy, Connected, Balanced, Smooth, Secure, Satisfied, Expanding, Soft",
     "emotions": "Relaxed, Chill, Restful, Blessed, Balanced, Calm, Secure, Satisfied, Grateful, Touched",
     "thinkingBrain": "ONLINE",
     "vitals": {
@@ -8633,7 +8633,7 @@
   {
     "intensityID": "green_intensity_low",
     "zoneName": "Low-Intensity Green (Ventral Vagal Restoration)",
-    "sensations": "Still, Fluid, Quiet, Centered, Abundant",
+    "sensations": "Still, Flexible, Quiet, Centered, Abundant",
     "emotions": "At Ease, Easygoing, Content, Loving, Fulfilled",
     "thinkingBrain": "ONLINE",
     "vitals": {
@@ -8709,7 +8709,7 @@
   {
     "intensityID": "yellow_intensity_high",
     "zoneName": "High-Intensity Yellow (Safe Mobilization)",
-    "sensations": "Widening, Lifted, Bubbling, Electric, Soaring, Buzzing, Bright, Pulsing, Flowing, Shining",
+    "sensations": "Sparked, Lifted, Bubbling, Electric, Soaring, Buzzing, Bright, Pulsing, Flowing, Shining",
     "emotions": "Surprised, Upbeat, Festive, Exhilarated, Ecstatic, Hyper, Cheerful, Motivated, Inspired, Elated",
     "thinkingBrain": "ONLINE",
     "vitals": {
